@@ -1,4 +1,5 @@
 #+TITLE: Collection of info regarding security-related info.
+#+STARTUP: indent
 * Security stuff
 ** Scanning
 + http://shodan.io
@@ -17,3 +18,14 @@
 *** OpenSSL
 + https://www.madboa.com/geek/openssl/
 + https://letsencrypt.org/
+** Logging
++ https://www.graylog.org/
++ https://www.elastic.co/products/beats/packetbeat
+** Network
++ https://nmap.org/
++ https://www.bro.org/
++ https://github.com/aol/moloch
+** Crypto
++ https://keybase.io/
+** Incident
++ https://thehive-project.org/
