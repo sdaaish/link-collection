@@ -27,5 +27,16 @@
 + https://github.com/aol/moloch
 ** Crypto
 + https://keybase.io/
++ https://kryptera.se/
 ** Incident
 + https://thehive-project.org/
+** Ransomware 
++ https://www.nomoreransom.org/
+** Detection Tools
+- Loki https://github.com/Neo23x0/Loki
+* Other
+** Social
++ https://mastodon.social/about
+** Info
+- https://www.malwaretech.com/ 
+- https://sans.org/
