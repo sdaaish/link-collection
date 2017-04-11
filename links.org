@@ -30,8 +30,6 @@
 + https://kryptera.se/
 ** Incident
 + https://thehive-project.org/
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 ** Ransomware 
 + https://www.nomoreransom.org/
 ** Detection Tools
@@ -42,14 +40,8 @@
 ** Info
 - https://www.malwaretech.com/ 
 - https://sans.org/
-=======
-=======
->>>>>>> Stashed changes
 * Dev
 ** Sharing
 + https://transfer.sh/
 * Network
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
