@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Collection of info regarding security-related info.</title>
+<!-- 2017-04-12 ons 10:57 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="Stig Dahl" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/readtheorg/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/readtheorg/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/readtheorg/js/readtheorg.js"></script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Collection of info regarding security-related info.</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. Security stuff</a>
+<ul>
+<li><a href="#sec-1-1">1.1. Scanning</a></li>
+<li><a href="#sec-1-2">1.2. Info about vulnerabilities</a></li>
+<li><a href="#sec-1-3">1.3. Security Guides</a>
+<ul>
+<li><a href="#sec-1-3-1">1.3.1. SSH</a></li>
+<li><a href="#sec-1-3-2">1.3.2. GnuPG (GPG/PGP)</a></li>
+<li><a href="#sec-1-3-3">1.3.3. OpenSSL</a></li>
+</ul>
+</li>
+<li><a href="#sec-1-4">1.4. Logging</a></li>
+<li><a href="#sec-1-5">1.5. Network</a></li>
+<li><a href="#sec-1-6">1.6. Crypto</a></li>
+<li><a href="#sec-1-7">1.7. Incident</a></li>
+<li><a href="#sec-1-8">1.8. Ransomware</a></li>
+<li><a href="#sec-1-9">1.9. Detection Tools</a></li>
+<li><a href="#sec-1-10">1.10. Threat Intelligence</a></li>
+</ul>
+</li>
+<li><a href="#sec-2">2. Other</a>
+<ul>
+<li><a href="#sec-2-1">2.1. Social</a></li>
+<li><a href="#sec-2-2">2.2. Info</a></li>
+</ul>
+</li>
+<li><a href="#sec-3">3. Dev</a>
+<ul>
+<li><a href="#sec-3-1">3.1. Sharing</a></li>
+</ul>
+</li>
+<li><a href="#sec-4">4. Network</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Security stuff</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1"><span class="section-number-3">1.1</span> Scanning</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li><a href="http://shodan.io">http://shodan.io</a>
+</li>
+<li><a href="http://censys.io">http://censys.io</a>
+</li>
+<li><a href="https://www.zoomeye.org/">https://www.zoomeye.org/</a>
+</li>
+<li><a href="https://observatory.mozilla.org/">https://observatory.mozilla.org/</a>
+</li>
+<li><a href="http://retire.insecurity.today/">http://retire.insecurity.today/</a> Scan for outdated libraries
+</li>
+<li><a href="https://www.ssllabs.com/ssltest/">https://www.ssllabs.com/ssltest/</a> Test server for bad SSL
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-2" class="outline-3">
+<h3 id="sec-1-2"><span class="section-number-3">1.2</span> Info about vulnerabilities</h3>
+<div class="outline-text-3" id="text-1-2">
+<ul class="org-ul">
+<li><a href="https://www.cvedetails.com/">https://www.cvedetails.com/</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-3" class="outline-3">
+<h3 id="sec-1-3"><span class="section-number-3">1.3</span> Security Guides</h3>
+<div class="outline-text-3" id="text-1-3">
+</div><div id="outline-container-sec-1-3-1" class="outline-4">
+<h4 id="sec-1-3-1"><span class="section-number-4">1.3.1</span> SSH</h4>
+<div class="outline-text-4" id="text-1-3-1">
+<ul class="org-ul">
+<li><a href="https://www.google.se/search?q=mozilla+ssh&ie=utf-8&oe=utf-8&client=firefox-b-ab&gfe_rd=cr&ei=2WrGWMHGC8iq8wesn5nIAw">https://www.google.se/search?q=mozilla+ssh&ie=utf-8&oe=utf-8&client=firefox-b-ab&gfe_rd=cr&ei=2WrGWMHGC8iq8wesn5nIAw</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-3-2" class="outline-4">
+<h4 id="sec-1-3-2"><span class="section-number-4">1.3.2</span> GnuPG (GPG/PGP)</h4>
+<div class="outline-text-4" id="text-1-3-2">
+<ul class="org-ul">
+<li><a href="https://riseup.net/ru/security/message-security/openpgp/best-practices">https://riseup.net/ru/security/message-security/openpgp/best-practices</a>
+</li>
+<li><a href="https://alexcabal.com/creating-the-perfect-gpg-keypair/">https://alexcabal.com/creating-the-perfect-gpg-keypair/</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-3-3" class="outline-4">
+<h4 id="sec-1-3-3"><span class="section-number-4">1.3.3</span> OpenSSL</h4>
+<div class="outline-text-4" id="text-1-3-3">
+<ul class="org-ul">
+<li><a href="https://www.madboa.com/geek/openssl/">https://www.madboa.com/geek/openssl/</a>
+</li>
+<li><a href="https://letsencrypt.org/">https://letsencrypt.org/</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-1-4" class="outline-3">
+<h3 id="sec-1-4"><span class="section-number-3">1.4</span> Logging</h3>
+<div class="outline-text-3" id="text-1-4">
+<ul class="org-ul">
+<li><a href="https://www.graylog.org/">https://www.graylog.org/</a>
+</li>
+<li><a href="https://www.elastic.co/products/beats/packetbeat">https://www.elastic.co/products/beats/packetbeat</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-5" class="outline-3">
+<h3 id="sec-1-5"><span class="section-number-3">1.5</span> Network</h3>
+<div class="outline-text-3" id="text-1-5">
+<ul class="org-ul">
+<li><a href="https://nmap.org/">https://nmap.org/</a>
+</li>
+<li><a href="https://www.bro.org/">https://www.bro.org/</a>
+</li>
+<li><a href="https://github.com/aol/moloch">https://github.com/aol/moloch</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-6" class="outline-3">
+<h3 id="sec-1-6"><span class="section-number-3">1.6</span> Crypto</h3>
+<div class="outline-text-3" id="text-1-6">
+<ul class="org-ul">
+<li><a href="https://keybase.io/">https://keybase.io/</a>
+</li>
+<li><a href="https://kryptera.se/">https://kryptera.se/</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-7" class="outline-3">
+<h3 id="sec-1-7"><span class="section-number-3">1.7</span> Incident</h3>
+<div class="outline-text-3" id="text-1-7">
+<ul class="org-ul">
+<li><a href="https://thehive-project.org/">https://thehive-project.org/</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-8" class="outline-3">
+<h3 id="sec-1-8"><span class="section-number-3">1.8</span> Ransomware</h3>
+<div class="outline-text-3" id="text-1-8">
+<ul class="org-ul">
+<li><a href="https://www.nomoreransom.org/">https://www.nomoreransom.org/</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-9" class="outline-3">
+<h3 id="sec-1-9"><span class="section-number-3">1.9</span> Detection Tools</h3>
+<div class="outline-text-3" id="text-1-9">
+<ul class="org-ul">
+<li>Loki <a href="https://github.com/Neo23x0/Loki">https://github.com/Neo23x0/Loki</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-10" class="outline-3">
+<h3 id="sec-1-10"><span class="section-number-3">1.10</span> Threat Intelligence</h3>
+<div class="outline-text-3" id="text-1-10">
+<ul class="org-ul">
+<li>Yara <a href="https://securityintelligence.com/signature-based-detection-with-yara/">https://securityintelligence.com/signature-based-detection-with-yara/</a>
+</li>
+<li>STIX
+</li>
+<li>TAXII
+</li>
+<li>CYBOX
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> Other</h2>
+<div class="outline-text-2" id="text-2">
+</div><div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> Social</h3>
+<div class="outline-text-3" id="text-2-1">
+<ul class="org-ul">
+<li><a href="https://mastodon.social/about">https://mastodon.social/about</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-2-2" class="outline-3">
+<h3 id="sec-2-2"><span class="section-number-3">2.2</span> Info</h3>
+<div class="outline-text-3" id="text-2-2">
+<ul class="org-ul">
+<li><a href="https://www.malwaretech.com/">https://www.malwaretech.com/</a> 
+</li>
+<li><a href="https://sans.org/">https://sans.org/</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> Dev</h2>
+<div class="outline-text-2" id="text-3">
+</div><div id="outline-container-sec-3-1" class="outline-3">
+<h3 id="sec-3-1"><span class="section-number-3">3.1</span> Sharing</h3>
+<div class="outline-text-3" id="text-3-1">
+<ul class="org-ul">
+<li><a href="https://transfer.sh/">https://transfer.sh/</a>
+</li>
+<li><a href="https://sprend.com/">https://sprend.com/</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> Network</h2>
+<div class="outline-text-2" id="text-4">
+<ul class="org-ul">
+<li><a href="https://www.bleepingcomputer.com/">https://www.bleepingcomputer.com/</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Stig Dahl</p>
+<p class="date">Created: 2017-04-12 ons 10:57</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.1.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

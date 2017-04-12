@@ -1,5 +1,7 @@
 #+TITLE: Collection of info regarding security-related info.
 #+STARTUP: indent
+#+SETUPFILE: theme-readtheorg.setup
+
 * Security stuff
 ** Scanning
 + http://shodan.io
@@ -12,7 +14,7 @@
 + https://www.cvedetails.com/
 ** Security Guides
 *** SSH
-+ https://www.google.se/search?q=mozilla+ssh&ie=utf-8&oe=utf-8&client=firefox-b-ab&gfe_rd=cr&ei=2WrGWMHGC8iq8wesn5nIAw
++ [[https://wiki.mozilla.org/Security/Guidelines/OpenSSH][Mozilla Wiki about SSH]]
 *** GnuPG (GPG/PGP)
 + https://riseup.net/ru/security/message-security/openpgp/best-practices
 + https://alexcabal.com/creating-the-perfect-gpg-keypair/
