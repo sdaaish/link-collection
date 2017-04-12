@@ -4,6 +4,7 @@
 ** Scanning
 + http://shodan.io
 + http://censys.io
++ https://www.zoomeye.org/
 + https://observatory.mozilla.org/
 + http://retire.insecurity.today/ Scan for outdated libraries
 + https://www.ssllabs.com/ssltest/ Test server for bad SSL
@@ -34,6 +35,11 @@
 + https://www.nomoreransom.org/
 ** Detection Tools
 - Loki https://github.com/Neo23x0/Loki
+** Threat Intelligence
+- Yara https://securityintelligence.com/signature-based-detection-with-yara/
+- STIX
+- TAXII
+- CYBOX
 * Other
 ** Social
 + https://mastodon.social/about
@@ -45,4 +51,4 @@
 + https://transfer.sh/
 + https://sprend.com/
 * Network
-
+- https://www.bleepingcomputer.com/
