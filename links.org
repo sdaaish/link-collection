@@ -46,11 +46,11 @@
 ** Social
 + https://mastodon.social/about
 ** Info
-- https://www.malwaretech.com/ 
-- https://sans.org/
++ https://www.malwaretech.com/ 
++ https://sans.org/
 * Dev
 ** Sharing
 + https://transfer.sh/
 + https://sprend.com/
 * Network
-- https://www.bleepingcomputer.com/
++ https://www.bleepingcomputer.com/
