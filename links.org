@@ -33,15 +33,16 @@
 + https://kryptera.se/
 ** Incident
 + https://thehive-project.org/
-** Ransomware 
+** Malware 
 + https://www.nomoreransom.org/
++ [[https://malware-hunter.shodan.io/][Malwares on Shodan]]
 ** Detection Tools
 - Loki https://github.com/Neo23x0/Loki
 ** Threat Intelligence
-- Yara https://securityintelligence.com/signature-based-detection-with-yara/
-- STIX
-- TAXII
-- CYBOX
++ Yara https://securityintelligence.com/signature-based-detection-with-yara/
++ STIX
++ TAXII
++ CYBOX
 * Other
 ** Social
 + https://mastodon.social/about
@@ -56,4 +57,4 @@
 + https://www.bleepingcomputer.com/
 * Collections
 ** Network security
-- [[https://www.wordfence.com/blog/2017/04/tools-for-security-analysts/][Wordfence sec-tools]]
++ [[https://www.wordfence.com/blog/2017/04/tools-for-security-analysts/][Wordfence sec-tools]]
