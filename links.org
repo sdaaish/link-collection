@@ -58,3 +58,6 @@
 * Collections
 ** Network security
 + [[https://www.wordfence.com/blog/2017/04/tools-for-security-analysts/][Wordfence sec-tools]]
+* Reading
+** OS
+- [[http://pages.cs.wisc.edu/~remzi/OSTEP/][Ostep.org]]
