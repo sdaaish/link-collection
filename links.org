@@ -59,6 +59,12 @@
 + https://sprend.com/
 * Network
 + https://www.bleepingcomputer.com/
+** Addressing stuff
+Including LIR and IPv4, IPv6 addressing.
+[[https://www.ripe.net/support/training/material/ripe-ncc-training-material#LIR][RIPE NCC Training Course Material — RIPE Network Coordination Centre - www.ripe.net]]
+** IPAM
+- [[https://github.com/digitalocean/netbox][digitalocean/netbox: IP address management (IPAM) and data center infrastructure management (DCIM) tool. - github.com]]
+- [[https://phpipam.net/][phpIPAM IPAM IP address management software - phpipam.net]]
 * Collections
 ** Network security
 + [[https://www.wordfence.com/blog/2017/04/tools-for-security-analysts/][Wordfence sec-tools]]
