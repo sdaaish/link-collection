@@ -3,23 +3,30 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
+<!-- 2017-06-22 tor 12:20 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Collection of info regarding security-related info.</title>
-<!-- 2017-04-12 ons 10:57 -->
-<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta  name="generator" content="Org-mode" />
-<meta  name="author" content="Stig Dahl" />
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Stig Dahl" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
-  .title  { text-align: center; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
   .todo   { font-family: monospace; color: red; }
-  .done   { color: green; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
   .tag    { background-color: #eee; font-family: monospace;
             padding: 2px; font-size: 80%; font-weight: normal; }
   .timestamp { color: #bebebe; }
   .timestamp-kwd { color: #5f9ea0; }
-  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
-  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
-  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
   .underline { text-decoration: underline; }
   #postamble p, #preamble p { font-size: 90%; margin: .2em; }
   p.verse { margin-left: 3%; }
@@ -46,27 +53,110 @@
     border: 1px solid black;
   }
   pre.src:hover:before { display: inline;}
-  pre.src-sh:before    { content: 'sh'; }
-  pre.src-bash:before  { content: 'sh'; }
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
   pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
-  pre.src-R:before     { content: 'R'; }
-  pre.src-perl:before  { content: 'Perl'; }
-  pre.src-java:before  { content: 'Java'; }
-  pre.src-sql:before   { content: 'SQL'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
 
   table { border-collapse:collapse; }
   caption.t-above { caption-side: top; }
   caption.t-bottom { caption-side: bottom; }
   td, th { vertical-align:top;  }
-  th.right  { text-align: center;  }
-  th.left   { text-align: center;   }
-  th.center { text-align: center; }
-  td.right  { text-align: right;  }
-  td.left   { text-align: left;   }
-  td.center { text-align: center; }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
   dt { font-weight: bold; }
-  .footpara:nth-child(2) { display: inline; }
-  .footpara { display: block; }
+  .footpara { display: inline; }
   .footdef  { margin-bottom: 1em; }
   .figure { padding: 1em; }
   .figure p { text-align: center; }
@@ -86,6 +176,7 @@
     { font-size: 10px; font-weight: bold; white-space: nowrap; }
   .org-info-js_search-highlight
     { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
 <link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/readtheorg/css/htmlize.css"/>
@@ -99,7 +190,7 @@
 @licstart  The following is the entire license notice for the
 JavaScript code in this tag.
 
-Copyright (C) 2012-2013 Free Software Foundation, Inc.
+Copyright (C) 2012-2017 Free Software Foundation, Inc.
 
 The JavaScript code in this tag is free software: you can
 redistribute it and/or modify it under the terms of the GNU
@@ -148,239 +239,270 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#sec-1">1. Security stuff</a>
+<li><a href="#org5b0ae89">1. Security stuff</a>
 <ul>
-<li><a href="#sec-1-1">1.1. Scanning</a></li>
-<li><a href="#sec-1-2">1.2. Info about vulnerabilities</a></li>
-<li><a href="#sec-1-3">1.3. Security Guides</a>
+<li><a href="#org0eb4d81">1.1. Scanning</a></li>
+<li><a href="#org074d313">1.2. Info about vulnerabilities</a></li>
+<li><a href="#org50b2363">1.3. Security Guides</a>
 <ul>
-<li><a href="#sec-1-3-1">1.3.1. SSH</a></li>
-<li><a href="#sec-1-3-2">1.3.2. GnuPG (GPG/PGP)</a></li>
-<li><a href="#sec-1-3-3">1.3.3. OpenSSL</a></li>
+<li><a href="#org57e5281">1.3.1. SSH</a></li>
+<li><a href="#org4126355">1.3.2. GnuPG (GPG/PGP)</a></li>
+<li><a href="#org16224a3">1.3.3. OpenSSL</a></li>
 </ul>
 </li>
-<li><a href="#sec-1-4">1.4. Logging</a></li>
-<li><a href="#sec-1-5">1.5. Network</a></li>
-<li><a href="#sec-1-6">1.6. Crypto</a></li>
-<li><a href="#sec-1-7">1.7. Incident</a></li>
-<li><a href="#sec-1-8">1.8. Ransomware</a></li>
-<li><a href="#sec-1-9">1.9. Detection Tools</a></li>
-<li><a href="#sec-1-10">1.10. Threat Intelligence</a></li>
+<li><a href="#org17e2549">1.4. Logging</a></li>
+<li><a href="#org0d07bab">1.5. Network</a></li>
+<li><a href="#org01458a4">1.6. Crypto</a></li>
+<li><a href="#org6af757a">1.7. Incident</a></li>
+<li><a href="#orgfb1d996">1.8. Malware</a></li>
+<li><a href="#org00f16f7">1.9. Detection Tools</a></li>
+<li><a href="#org2f1fbca">1.10. Threat Intelligence</a></li>
 </ul>
 </li>
-<li><a href="#sec-2">2. Other</a>
+<li><a href="#orge5917ed">2. Other</a>
 <ul>
-<li><a href="#sec-2-1">2.1. Social</a></li>
-<li><a href="#sec-2-2">2.2. Info</a></li>
+<li><a href="#orgd394a7f">2.1. Social</a></li>
+<li><a href="#orge61755c">2.2. Info</a></li>
 </ul>
 </li>
-<li><a href="#sec-3">3. Dev</a>
+<li><a href="#org887da9d">3. Dev</a>
 <ul>
-<li><a href="#sec-3-1">3.1. Sharing</a></li>
+<li><a href="#org04f5d03">3.1. Sharing</a></li>
 </ul>
 </li>
-<li><a href="#sec-4">4. Network</a></li>
+<li><a href="#org3c0380d">4. Network</a>
+<ul>
+<li><a href="#org8c6d3b2">4.1. Addressing stuff</a></li>
+<li><a href="#org54bb30c">4.2. IPAM</a></li>
+</ul>
+</li>
+<li><a href="#orgb413826">5. Collections</a>
+<ul>
+<li><a href="#orgd38e0c0">5.1. Network security</a></li>
+</ul>
+</li>
+<li><a href="#orgeafd767">6. Reading</a>
+<ul>
+<li><a href="#orgb1b6591">6.1. OS</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1"><span class="section-number-2">1</span> Security stuff</h2>
+<div id="outline-container-org5b0ae89" class="outline-2">
+<h2 id="org5b0ae89"><span class="section-number-2">1</span> Security stuff</h2>
 <div class="outline-text-2" id="text-1">
-</div><div id="outline-container-sec-1-1" class="outline-3">
-<h3 id="sec-1-1"><span class="section-number-3">1.1</span> Scanning</h3>
+</div><div id="outline-container-org0eb4d81" class="outline-3">
+<h3 id="org0eb4d81"><span class="section-number-3">1.1</span> Scanning</h3>
 <div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
-<li><a href="http://shodan.io">http://shodan.io</a>
-</li>
-<li><a href="http://censys.io">http://censys.io</a>
-</li>
-<li><a href="https://www.zoomeye.org/">https://www.zoomeye.org/</a>
-</li>
-<li><a href="https://observatory.mozilla.org/">https://observatory.mozilla.org/</a>
-</li>
-<li><a href="http://retire.insecurity.today/">http://retire.insecurity.today/</a> Scan for outdated libraries
-</li>
-<li><a href="https://www.ssllabs.com/ssltest/">https://www.ssllabs.com/ssltest/</a> Test server for bad SSL
-</li>
+<li><a href="http://shodan.io">http://shodan.io</a></li>
+<li><a href="http://censys.io">http://censys.io</a></li>
+<li><a href="https://www.zoomeye.org/">https://www.zoomeye.org/</a></li>
+<li><a href="https://observatory.mozilla.org/">https://observatory.mozilla.org/</a></li>
+<li><a href="http://retire.insecurity.today/">http://retire.insecurity.today/</a> Scan for outdated libraries</li>
+<li><a href="https://www.ssllabs.com/ssltest/">https://www.ssllabs.com/ssltest/</a> Test server for bad SSL</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-2" class="outline-3">
-<h3 id="sec-1-2"><span class="section-number-3">1.2</span> Info about vulnerabilities</h3>
+<div id="outline-container-org074d313" class="outline-3">
+<h3 id="org074d313"><span class="section-number-3">1.2</span> Info about vulnerabilities</h3>
 <div class="outline-text-3" id="text-1-2">
 <ul class="org-ul">
-<li><a href="https://www.cvedetails.com/">https://www.cvedetails.com/</a>
-</li>
+<li><a href="https://www.cvedetails.com/">https://www.cvedetails.com/</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-3" class="outline-3">
-<h3 id="sec-1-3"><span class="section-number-3">1.3</span> Security Guides</h3>
+<div id="outline-container-org50b2363" class="outline-3">
+<h3 id="org50b2363"><span class="section-number-3">1.3</span> Security Guides</h3>
 <div class="outline-text-3" id="text-1-3">
-</div><div id="outline-container-sec-1-3-1" class="outline-4">
-<h4 id="sec-1-3-1"><span class="section-number-4">1.3.1</span> SSH</h4>
+</div><div id="outline-container-org57e5281" class="outline-4">
+<h4 id="org57e5281"><span class="section-number-4">1.3.1</span> SSH</h4>
 <div class="outline-text-4" id="text-1-3-1">
 <ul class="org-ul">
-<li><a href="https://www.google.se/search?q=mozilla+ssh&ie=utf-8&oe=utf-8&client=firefox-b-ab&gfe_rd=cr&ei=2WrGWMHGC8iq8wesn5nIAw">https://www.google.se/search?q=mozilla+ssh&ie=utf-8&oe=utf-8&client=firefox-b-ab&gfe_rd=cr&ei=2WrGWMHGC8iq8wesn5nIAw</a>
-</li>
+<li><a href="https://wiki.mozilla.org/Security/Guidelines/OpenSSH">Mozilla Wiki about SSH</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-3-2" class="outline-4">
-<h4 id="sec-1-3-2"><span class="section-number-4">1.3.2</span> GnuPG (GPG/PGP)</h4>
+<div id="outline-container-org4126355" class="outline-4">
+<h4 id="org4126355"><span class="section-number-4">1.3.2</span> GnuPG (GPG/PGP)</h4>
 <div class="outline-text-4" id="text-1-3-2">
 <ul class="org-ul">
-<li><a href="https://riseup.net/ru/security/message-security/openpgp/best-practices">https://riseup.net/ru/security/message-security/openpgp/best-practices</a>
-</li>
-<li><a href="https://alexcabal.com/creating-the-perfect-gpg-keypair/">https://alexcabal.com/creating-the-perfect-gpg-keypair/</a>
-</li>
+<li><a href="https://riseup.net/ru/security/message-security/openpgp/best-practices">https://riseup.net/ru/security/message-security/openpgp/best-practices</a></li>
+<li><a href="https://alexcabal.com/creating-the-perfect-gpg-keypair/">https://alexcabal.com/creating-the-perfect-gpg-keypair/</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-3-3" class="outline-4">
-<h4 id="sec-1-3-3"><span class="section-number-4">1.3.3</span> OpenSSL</h4>
+<div id="outline-container-org16224a3" class="outline-4">
+<h4 id="org16224a3"><span class="section-number-4">1.3.3</span> OpenSSL</h4>
 <div class="outline-text-4" id="text-1-3-3">
 <ul class="org-ul">
-<li><a href="https://www.madboa.com/geek/openssl/">https://www.madboa.com/geek/openssl/</a>
-</li>
-<li><a href="https://letsencrypt.org/">https://letsencrypt.org/</a>
-</li>
+<li><a href="https://www.madboa.com/geek/openssl/">https://www.madboa.com/geek/openssl/</a></li>
+<li><a href="https://letsencrypt.org/">https://letsencrypt.org/</a></li>
 </ul>
 </div>
 </div>
 </div>
-<div id="outline-container-sec-1-4" class="outline-3">
-<h3 id="sec-1-4"><span class="section-number-3">1.4</span> Logging</h3>
+<div id="outline-container-org17e2549" class="outline-3">
+<h3 id="org17e2549"><span class="section-number-3">1.4</span> Logging</h3>
 <div class="outline-text-3" id="text-1-4">
 <ul class="org-ul">
-<li><a href="https://www.graylog.org/">https://www.graylog.org/</a>
-</li>
-<li><a href="https://www.elastic.co/products/beats/packetbeat">https://www.elastic.co/products/beats/packetbeat</a>
-</li>
+<li><a href="https://www.graylog.org/">https://www.graylog.org/</a></li>
+<li><a href="https://www.elastic.co/products/beats/packetbeat">https://www.elastic.co/products/beats/packetbeat</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-5" class="outline-3">
-<h3 id="sec-1-5"><span class="section-number-3">1.5</span> Network</h3>
+<div id="outline-container-org0d07bab" class="outline-3">
+<h3 id="org0d07bab"><span class="section-number-3">1.5</span> Network</h3>
 <div class="outline-text-3" id="text-1-5">
 <ul class="org-ul">
-<li><a href="https://nmap.org/">https://nmap.org/</a>
-</li>
-<li><a href="https://www.bro.org/">https://www.bro.org/</a>
-</li>
-<li><a href="https://github.com/aol/moloch">https://github.com/aol/moloch</a>
-</li>
+<li><a href="https://nmap.org/">https://nmap.org/</a></li>
+<li><a href="https://www.bro.org/">https://www.bro.org/</a></li>
+<li><a href="https://github.com/aol/moloch">https://github.com/aol/moloch</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-6" class="outline-3">
-<h3 id="sec-1-6"><span class="section-number-3">1.6</span> Crypto</h3>
+<div id="outline-container-org01458a4" class="outline-3">
+<h3 id="org01458a4"><span class="section-number-3">1.6</span> Crypto</h3>
 <div class="outline-text-3" id="text-1-6">
 <ul class="org-ul">
-<li><a href="https://keybase.io/">https://keybase.io/</a>
-</li>
-<li><a href="https://kryptera.se/">https://kryptera.se/</a>
-</li>
+<li><a href="https://keybase.io/">https://keybase.io/</a></li>
+<li><a href="https://kryptera.se/">https://kryptera.se/</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-7" class="outline-3">
-<h3 id="sec-1-7"><span class="section-number-3">1.7</span> Incident</h3>
+<div id="outline-container-org6af757a" class="outline-3">
+<h3 id="org6af757a"><span class="section-number-3">1.7</span> Incident</h3>
 <div class="outline-text-3" id="text-1-7">
 <ul class="org-ul">
-<li><a href="https://thehive-project.org/">https://thehive-project.org/</a>
-</li>
+<li><a href="https://thehive-project.org/">https://thehive-project.org/</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-8" class="outline-3">
-<h3 id="sec-1-8"><span class="section-number-3">1.8</span> Ransomware</h3>
+<div id="outline-container-orgfb1d996" class="outline-3">
+<h3 id="orgfb1d996"><span class="section-number-3">1.8</span> Malware</h3>
 <div class="outline-text-3" id="text-1-8">
 <ul class="org-ul">
-<li><a href="https://www.nomoreransom.org/">https://www.nomoreransom.org/</a>
-</li>
+<li><a href="https://www.nomoreransom.org/">https://www.nomoreransom.org/</a></li>
+<li><a href="https://malware-hunter.shodan.io/">Malwares on Shodan</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-9" class="outline-3">
-<h3 id="sec-1-9"><span class="section-number-3">1.9</span> Detection Tools</h3>
+<div id="outline-container-org00f16f7" class="outline-3">
+<h3 id="org00f16f7"><span class="section-number-3">1.9</span> Detection Tools</h3>
 <div class="outline-text-3" id="text-1-9">
 <ul class="org-ul">
-<li>Loki <a href="https://github.com/Neo23x0/Loki">https://github.com/Neo23x0/Loki</a>
-</li>
+<li>Loki <a href="https://github.com/Neo23x0/Loki">https://github.com/Neo23x0/Loki</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-10" class="outline-3">
-<h3 id="sec-1-10"><span class="section-number-3">1.10</span> Threat Intelligence</h3>
+<div id="outline-container-org2f1fbca" class="outline-3">
+<h3 id="org2f1fbca"><span class="section-number-3">1.10</span> Threat Intelligence</h3>
 <div class="outline-text-3" id="text-1-10">
 <ul class="org-ul">
-<li>Yara <a href="https://securityintelligence.com/signature-based-detection-with-yara/">https://securityintelligence.com/signature-based-detection-with-yara/</a>
-</li>
-<li>STIX
-</li>
-<li>TAXII
-</li>
-<li>CYBOX
-</li>
+<li>Yara <a href="https://securityintelligence.com/signature-based-detection-with-yara/">https://securityintelligence.com/signature-based-detection-with-yara/</a></li>
+<li>STIX</li>
+<li>TAXII</li>
+<li>CYBOX</li>
+<li><a href="https://app.cymon.io/">Cymon beta</a></li>
+<li><a href="https://cymon.io/">Open Threat Intelligence - cymon.io</a></li>
+<li><a href="https://ransomwaretracker.abuse.ch/">https://ransomwaretracker.abuse.ch/</a></li>
+<li><a href="https://www.virustotal.com/">https://www.virustotal.com/</a></li>
 </ul>
 </div>
 </div>
 </div>
-<div id="outline-container-sec-2" class="outline-2">
-<h2 id="sec-2"><span class="section-number-2">2</span> Other</h2>
+<div id="outline-container-orge5917ed" class="outline-2">
+<h2 id="orge5917ed"><span class="section-number-2">2</span> Other</h2>
 <div class="outline-text-2" id="text-2">
-</div><div id="outline-container-sec-2-1" class="outline-3">
-<h3 id="sec-2-1"><span class="section-number-3">2.1</span> Social</h3>
+</div><div id="outline-container-orgd394a7f" class="outline-3">
+<h3 id="orgd394a7f"><span class="section-number-3">2.1</span> Social</h3>
 <div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
-<li><a href="https://mastodon.social/about">https://mastodon.social/about</a>
-</li>
+<li><a href="https://mastodon.social/about">https://mastodon.social/about</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-2-2" class="outline-3">
-<h3 id="sec-2-2"><span class="section-number-3">2.2</span> Info</h3>
+<div id="outline-container-orge61755c" class="outline-3">
+<h3 id="orge61755c"><span class="section-number-3">2.2</span> Info</h3>
 <div class="outline-text-3" id="text-2-2">
 <ul class="org-ul">
-<li><a href="https://www.malwaretech.com/">https://www.malwaretech.com/</a> 
-</li>
-<li><a href="https://sans.org/">https://sans.org/</a>
-</li>
+<li><a href="https://www.malwaretech.com/">https://www.malwaretech.com/</a></li>
+<li><a href="https://sans.org/">https://sans.org/</a></li>
 </ul>
 </div>
 </div>
 </div>
-<div id="outline-container-sec-3" class="outline-2">
-<h2 id="sec-3"><span class="section-number-2">3</span> Dev</h2>
+<div id="outline-container-org887da9d" class="outline-2">
+<h2 id="org887da9d"><span class="section-number-2">3</span> Dev</h2>
 <div class="outline-text-2" id="text-3">
-</div><div id="outline-container-sec-3-1" class="outline-3">
-<h3 id="sec-3-1"><span class="section-number-3">3.1</span> Sharing</h3>
+</div><div id="outline-container-org04f5d03" class="outline-3">
+<h3 id="org04f5d03"><span class="section-number-3">3.1</span> Sharing</h3>
 <div class="outline-text-3" id="text-3-1">
 <ul class="org-ul">
-<li><a href="https://transfer.sh/">https://transfer.sh/</a>
-</li>
-<li><a href="https://sprend.com/">https://sprend.com/</a>
-</li>
+<li><a href="https://transfer.sh/">https://transfer.sh/</a></li>
+<li><a href="https://sprend.com/">https://sprend.com/</a></li>
 </ul>
 </div>
 </div>
 </div>
-<div id="outline-container-sec-4" class="outline-2">
-<h2 id="sec-4"><span class="section-number-2">4</span> Network</h2>
+<div id="outline-container-org3c0380d" class="outline-2">
+<h2 id="org3c0380d"><span class="section-number-2">4</span> Network</h2>
 <div class="outline-text-2" id="text-4">
 <ul class="org-ul">
-<li><a href="https://www.bleepingcomputer.com/">https://www.bleepingcomputer.com/</a>
-</li>
+<li><a href="https://www.bleepingcomputer.com/">https://www.bleepingcomputer.com/</a></li>
 </ul>
+</div>
+<div id="outline-container-org8c6d3b2" class="outline-3">
+<h3 id="org8c6d3b2"><span class="section-number-3">4.1</span> Addressing stuff</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+Including LIR and IPv4, IPv6 addressing.
+<a href="https://www.ripe.net/support/training/material/ripe-ncc-training-material#LIR">RIPE NCC Training Course Material — RIPE Network Coordination Centre - www.ripe.net</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org54bb30c" class="outline-3">
+<h3 id="org54bb30c"><span class="section-number-3">4.2</span> IPAM</h3>
+<div class="outline-text-3" id="text-4-2">
+<ul class="org-ul">
+<li><a href="https://github.com/digitalocean/netbox">digitalocean/netbox: IP address management (IPAM) and data center infrastructure management (DCIM) tool. - github.com</a></li>
+<li><a href="https://phpipam.net/">phpIPAM IPAM IP address management software - phpipam.net</a></li>
+<li><a href="https://spritelink.github.io/NIPAP/">NIPAP - the best open source IP address management (IPAM) in the known universe - spritelink.github.io</a></li>
+<li><a href="http://www.linuxscrew.com/2012/04/04/ip-address-management-software/">Top Open Source IP Address Management Software - LinuxScrew: Linux Blog - www.linuxscrew.com</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb413826" class="outline-2">
+<h2 id="orgb413826"><span class="section-number-2">5</span> Collections</h2>
+<div class="outline-text-2" id="text-5">
+</div><div id="outline-container-orgd38e0c0" class="outline-3">
+<h3 id="orgd38e0c0"><span class="section-number-3">5.1</span> Network security</h3>
+<div class="outline-text-3" id="text-5-1">
+<ul class="org-ul">
+<li><a href="https://www.wordfence.com/blog/2017/04/tools-for-security-analysts/">Wordfence sec-tools</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgeafd767" class="outline-2">
+<h2 id="orgeafd767"><span class="section-number-2">6</span> Reading</h2>
+<div class="outline-text-2" id="text-6">
+</div><div id="outline-container-orgb1b6591" class="outline-3">
+<h3 id="orgb1b6591"><span class="section-number-3">6.1</span> OS</h3>
+<div class="outline-text-3" id="text-6-1">
+<ul class="org-ul">
+<li><a href="http://pages.cs.wisc.edu/~remzi/OSTEP/">Ostep.org</a></li>
+</ul>
+</div>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Stig Dahl</p>
-<p class="date">Created: 2017-04-12 ons 10:57</p>
-<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.1.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
+<p class="date">Created: 2017-06-22 tor 12:20</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
