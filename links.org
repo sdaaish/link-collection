@@ -58,6 +58,8 @@
 ** Sharing
 + https://transfer.sh/
 + https://sprend.com/
+** Powershell
+[[https://peter.hahndorf.eu/blog/WindowsFeatureViaCmd.html][Different ways for installing Windows features on the command line - Peter Hahndorf - peter.hahndorf.eu]]
 * Network
 + https://www.bleepingcomputer.com/
 ** Addressing stuff
