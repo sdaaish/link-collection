@@ -48,6 +48,7 @@
 + [[https://cymon.io/][Open Threat Intelligence - cymon.io]]
 + https://ransomwaretracker.abuse.ch/
 + https://www.virustotal.com/
++ [[ttps://www.abuseipdb.com/][Abuse IP DB]]
 * Other
 ** Social
 + https://mastodon.social/about
@@ -71,6 +72,8 @@ Including LIR and IPv4, IPv6 addressing.
 - [[https://phpipam.net/][phpIPAM IPAM IP address management software - phpipam.net]]
 - [[https://spritelink.github.io/NIPAP/][NIPAP - the best open source IP address management (IPAM) in the known universe - spritelink.github.io]]
 - [[http://www.linuxscrew.com/2012/04/04/ip-address-management-software/][Top Open Source IP Address Management Software - LinuxScrew: Linux Blog - www.linuxscrew.com]]
+** Devices
+- [[http://www.midbittech.com/][Shark tap: midBit Technologies]]
 * Collections
 ** Network security
 + [[https://www.wordfence.com/blog/2017/04/tools-for-security-analysts/][Wordfence sec-tools]]
