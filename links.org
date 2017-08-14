@@ -60,8 +60,10 @@
 + https://transfer.sh/
 + https://sprend.com/
 ** Powershell
-[[https://peter.hahndorf.eu/blog/WindowsFeatureViaCmd.html][Different ways for installing Windows features on the command line - Peter Hahndorf - peter.hahndorf.eu]]
-[[https://ss64.com/links/pslinks.html][Windows PowerShell Books Software and Websites - SS64.com]]
++ [[https://peter.hahndorf.eu/blog/WindowsFeatureViaCmd.html][Different ways for installing Windows features on the command line - Peter Hahndorf - peter.hahndorf.eu]]
++ [[https://ss64.com/links/pslinks.html][Windows PowerShell Books Software and Websites - SS64.com]]
++ [[https://www.gitbook.com/@devops-collective-inc][Gitbooks, Powershell]]
++ [[http://powershell.org][Powershell.Org]]
 * Network
 + https://www.bleepingcomputer.com/
 ** Addressing stuff
