@@ -1,7 +1,7 @@
 #+TITLE: Collection of info regarding security-related info.
 #+BEGIN_OPTIONS
 #+STARTUP: indent
-#+OPTIONS: toc:2
+#+OPTIONS: toc:3
 #+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
 #+OPTIONS: html-preamble:t html-scripts:t html-style:t
 #+HTML_DOCTYPE: xhtml-strict
