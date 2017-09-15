@@ -1,40 +1,40 @@
-- [Security stuff](#org4c9b6b4)
-  - [Scanning](#org5d654bf)
-  - [Info about vulnerabilities](#org249b2a9)
-  - [Security Guides](#org0a51ecd)
-  - [Logging](#org16271ea)
-  - [Network](#orgb8924b3)
-  - [Crypto](#orgf1a5aad)
-  - [Incident](#org71d5041)
-  - [Malware](#org18dd26d)
-  - [Detection Tools](#orgc971213)
-  - [Threat Intelligence](#org75eaba4)
-- [Other](#org10386aa)
-  - [Social](#org3befc02)
-  - [Info](#org4d3be64)
-- [Dev](#org981491e)
-  - [Sharing](#org15fee67)
-  - [Powershell](#org4341429)
-- [Network](#org7fe52e0)
-  - [Addressing stuff](#orgaf545e8)
-  - [IPAM](#org04cb4a2)
-  - [Devices](#orge32c695)
-- [Collections](#org55670b1)
-  - [Network security](#org6fb5a6e)
-- [Reading](#orgcf4d9be)
-  - [OS](#orgc2d9235)
+- [Security stuff](#orgd509c0c)
+  - [Scanning](#orgabc396d)
+  - [Info about vulnerabilities](#orgb7f3f3e)
+  - [Security Guides](#org9b8a0c4)
+  - [Logging](#org078cab9)
+  - [Network](#orgf28bf95)
+  - [Crypto](#org894dea1)
+  - [Incident](#org466f413)
+  - [Malware](#org7acd430)
+  - [Detection Tools](#org1d66135)
+  - [Threat Intelligence](#org76bc866)
+- [Other](#org956c353)
+  - [Social](#orgdb5fddf)
+  - [Info](#org99cabf3)
+- [Dev](#org99b1626)
+  - [Sharing](#org9142538)
+  - [Powershell](#org5463822)
+- [Network](#org78ca6d6)
+  - [Addressing stuff](#orgfd8595c)
+  - [IPAM](#orgeb65f69)
+  - [Devices](#orge87dfd7)
+- [Collections](#orge20bb20)
+  - [Network security](#orgb3e45fa)
+- [Reading](#org418c36e)
+  - [OS](#orgc46ecef)
 
 <div class="OPTIONS">
 
 </div>
 
 
-<a id="org4c9b6b4"></a>
+<a id="orgd509c0c"></a>
 
 # Security stuff
 
 
-<a id="org5d654bf"></a>
+<a id="orgabc396d"></a>
 
 ## Scanning
 
@@ -55,14 +55,14 @@
 -   <https://ichidanv34wrx7m7.onion/> [Ichidan search engine](https://www.bleepingcomputer.com/news/security/ichidan-is-a-shodan-like-search-engine-for-the-dark-web/)
 
 
-<a id="org249b2a9"></a>
+<a id="orgb7f3f3e"></a>
 
 ## Info about vulnerabilities
 
 -   <https://www.cvedetails.com/>
 
 
-<a id="org0a51ecd"></a>
+<a id="org9b8a0c4"></a>
 
 ## Security Guides
 
@@ -84,7 +84,7 @@
 -   <https://letsencrypt.org/>
 
 
-<a id="org16271ea"></a>
+<a id="org078cab9"></a>
 
 ## Logging
 
@@ -92,7 +92,7 @@
 -   <https://www.elastic.co/products/beats/packetbeat>
 
 
-<a id="orgb8924b3"></a>
+<a id="orgf28bf95"></a>
 
 ## Network
 
@@ -100,9 +100,10 @@
 -   <https://www.bro.org/>
 -   <https://github.com/aol/moloch>
 -   [Argus scanner](http://www.qosient.com/argus/index.shtml)
+-   <http://ipv4info.com/>
 
 
-<a id="orgf1a5aad"></a>
+<a id="org894dea1"></a>
 
 ## Crypto
 
@@ -110,14 +111,14 @@
 -   <https://kryptera.se/>
 
 
-<a id="org71d5041"></a>
+<a id="org466f413"></a>
 
 ## Incident
 
 -   <https://thehive-project.org/>
 
 
-<a id="org18dd26d"></a>
+<a id="org7acd430"></a>
 
 ## Malware
 
@@ -125,14 +126,14 @@
 -   [Malwares on Shodan](https://malware-hunter.shodan.io/)
 
 
-<a id="orgc971213"></a>
+<a id="org1d66135"></a>
 
 ## Detection Tools
 
 -   Loki <https://github.com/Neo23x0/Loki>
 
 
-<a id="org75eaba4"></a>
+<a id="org76bc866"></a>
 
 ## Threat Intelligence
 
@@ -148,19 +149,19 @@
 -   [DNSDB or FarSight](https://www.dnsdb.info/)
 
 
-<a id="org10386aa"></a>
+<a id="org956c353"></a>
 
 # Other
 
 
-<a id="org3befc02"></a>
+<a id="orgdb5fddf"></a>
 
 ## Social
 
 -   <https://mastodon.social/about>
 
 
-<a id="org4d3be64"></a>
+<a id="org99cabf3"></a>
 
 ## Info
 
@@ -168,12 +169,12 @@
 -   <https://sans.org/>
 
 
-<a id="org981491e"></a>
+<a id="org99b1626"></a>
 
 # Dev
 
 
-<a id="org15fee67"></a>
+<a id="org9142538"></a>
 
 ## Sharing
 
@@ -181,7 +182,7 @@
 -   <https://sprend.com/>
 
 
-<a id="org4341429"></a>
+<a id="org5463822"></a>
 
 ## Powershell
 
@@ -191,21 +192,21 @@
 -   [Powershell.Org](http://powershell.org)
 
 
-<a id="org7fe52e0"></a>
+<a id="org78ca6d6"></a>
 
 # Network
 
 -   <https://www.bleepingcomputer.com/>
 
 
-<a id="orgaf545e8"></a>
+<a id="orgfd8595c"></a>
 
 ## Addressing stuff
 
 Including LIR and IPv4, IPv6 addressing. [RIPE NCC Training Course Material — RIPE Network Coordination Centre - www.ripe.net](https://www.ripe.net/support/training/material/ripe-ncc-training-material#LIR)
 
 
-<a id="org04cb4a2"></a>
+<a id="orgeb65f69"></a>
 
 ## IPAM
 
@@ -215,31 +216,31 @@ Including LIR and IPv4, IPv6 addressing. [RIPE NCC Training Course Material — 
 -   [Top Open Source IP Address Management Software - LinuxScrew: Linux Blog - www.linuxscrew.com](http://www.linuxscrew.com/2012/04/04/ip-address-management-software/)
 
 
-<a id="orge32c695"></a>
+<a id="orge87dfd7"></a>
 
 ## Devices
 
 -   [Shark tap: midBit Technologies](http://www.midbittech.com/)
 
 
-<a id="org55670b1"></a>
+<a id="orge20bb20"></a>
 
 # Collections
 
 
-<a id="org6fb5a6e"></a>
+<a id="orgb3e45fa"></a>
 
 ## Network security
 
 -   [Wordfence sec-tools](https://www.wordfence.com/blog/2017/04/tools-for-security-analysts/)
 
 
-<a id="orgcf4d9be"></a>
+<a id="org418c36e"></a>
 
 # Reading
 
 
-<a id="orgc2d9235"></a>
+<a id="orgc46ecef"></a>
 
 ## OS
 

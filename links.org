@@ -1,12 +1,11 @@
 #+TITLE: Collection of info regarding security-related info.
 #+BEGIN_OPTIONS
 #+STARTUP: indent
-#+SETUPFILE: theme-readtheorg.setup
 #+OPTIONS: toc:2
 #+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
 #+OPTIONS: html-preamble:t html-scripts:t html-style:t
-#+OPTIONS: html5-fancy:nil tex:t
 #+HTML_DOCTYPE: xhtml-strict
+#+OPTIONS: html5-fancy:nil tex:t
 #+HTML_CONTAINER: div
 #+DESCRIPTION: A collection of security and network related links.
 #+KEYWORDS: security network hacking
@@ -62,6 +61,7 @@
 + https://www.bro.org/
 + https://github.com/aol/moloch
 + [[http://www.qosient.com/argus/index.shtml][Argus scanner]]
++ http://ipv4info.com/
 ** Crypto
 + https://keybase.io/
 + https://kryptera.se/
