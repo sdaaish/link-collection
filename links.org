@@ -1,15 +1,42 @@
 #+TITLE: Collection of info regarding security-related info.
+#+BEGIN_OPTIONS
 #+STARTUP: indent
 #+SETUPFILE: theme-readtheorg.setup
+#+OPTIONS: toc:2
+#+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
+#+OPTIONS: html-preamble:t html-scripts:t html-style:t
+#+OPTIONS: html5-fancy:nil tex:t
+#+HTML_DOCTYPE: xhtml-strict
+#+HTML_CONTAINER: div
+#+DESCRIPTION: A collection of security and network related links.
+#+KEYWORDS: security network hacking
+#+HTML_LINK_HOME:
+#+HTML_LINK_UP:
+#+HTML_MATHJAX:
+#+HTML_HEAD:
+#+HTML_HEAD_EXTRA:
+#+SUBTITLE:
+#+INFOJS_OPT:
+#+CREATOR: <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.2.1 (<a href="http://orgmode.org">Org</a> mode 9.1)
+#+LATEX_HEADER:
+#+END_OPTIONS
 
 * Security stuff
 ** Scanning
 + http://shodan.io
 + http://censys.io
++ https://scans.io
 + https://www.zoomeye.org/
 + https://observatory.mozilla.org/
 + http://retire.insecurity.today/ Scan for outdated libraries
 + https://www.ssllabs.com/ssltest/ Test server for bad SSL
++ https://dnsdumpster.com/#section3 DNS lookups
++ http://dnscheck.iis.se/ DNS checker
++ http://dnscheck.pingdom.com/ DNS checker
++ https://dnscheck.ripe.net/ Reverse check for domain
++ https://intodns.com/ Test DNS and mail
++ https://dnschecker.org/ DNS propagation test
++ http://www.dnssy.com/ DNS checker
 + https://ichidanv34wrx7m7.onion/ [[https://www.bleepingcomputer.com/news/security/ichidan-is-a-shodan-like-search-engine-for-the-dark-web/][Ichidan search engine]]
 ** Info about vulnerabilities
 + https://www.cvedetails.com/
@@ -49,7 +76,7 @@
 + [[https://cymon.io/][Open Threat Intelligence - cymon.io]]
 + https://ransomwaretracker.abuse.ch/
 + https://www.virustotal.com/
-+ [[ttps://www.abuseipdb.com/][Abuse IP DB]]
++ [[https://www.abuseipdb.com/][Abuse IP DB]]
 + [[https://www.dnsdb.info/][DNSDB or FarSight]]
 * Other
 ** Social
