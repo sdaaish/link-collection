@@ -10,6 +10,7 @@
 + https://observatory.mozilla.org/
 + http://retire.insecurity.today/ Scan for outdated libraries
 + https://www.ssllabs.com/ssltest/ Test server for bad SSL
++ https://ichidanv34wrx7m7.onion/ [[https://www.bleepingcomputer.com/news/security/ichidan-is-a-shodan-like-search-engine-for-the-dark-web/][Ichidan search engine]]
 ** Info about vulnerabilities
 + https://www.cvedetails.com/
 ** Security Guides
@@ -49,6 +50,7 @@
 + https://ransomwaretracker.abuse.ch/
 + https://www.virustotal.com/
 + [[ttps://www.abuseipdb.com/][Abuse IP DB]]
++ [[https://www.dnsdb.info/][DNSDB or FarSight]]
 * Other
 ** Social
 + https://mastodon.social/about
