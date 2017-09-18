@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2017-09-15 fre 23:33 -->
+<!-- 2017-09-18 mån 22:54 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Collection of info regarding security-related info.</title>
+<title>Collection of links regarding security-related info.</title>
 <meta name="generator" content="Org mode" />
 <meta name="author" content="Stig Dahl" />
 <meta name="description" content="A collection of security and network related links."
@@ -238,58 +238,59 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<h1 class="title">Collection of info regarding security-related info.</h1>
+<h1 class="title">Collection of links regarding security-related info.</h1>
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org0765c81">1. Security stuff</a>
+<li><a href="#orgc5f2d2e">1. Introduction</a></li>
+<li><a href="#org1206f2a">2. Security stuff</a>
 <ul>
-<li><a href="#org7b44c8c">1.1. Scanning</a></li>
-<li><a href="#org8815a22">1.2. Info about vulnerabilities</a></li>
-<li><a href="#org4812143">1.3. Security Guides</a>
+<li><a href="#org4ece86f">2.1. Scanning</a></li>
+<li><a href="#org4d07453">2.2. Info about vulnerabilities</a></li>
+<li><a href="#org7793364">2.3. Security Guides</a>
 <ul>
-<li><a href="#org38a3805">1.3.1. SSH</a></li>
-<li><a href="#org3121321">1.3.2. GnuPG (GPG/PGP)</a></li>
-<li><a href="#orgb5d1316">1.3.3. OpenSSL</a></li>
+<li><a href="#org86fe7ec">2.3.1. SSH</a></li>
+<li><a href="#orgf28ffa0">2.3.2. GnuPG (GPG/PGP)</a></li>
+<li><a href="#org9642e13">2.3.3. OpenSSL</a></li>
 </ul>
 </li>
-<li><a href="#orgebc53a1">1.4. Logging</a></li>
-<li><a href="#org686e342">1.5. Network</a></li>
-<li><a href="#org914c9db">1.6. Crypto</a></li>
-<li><a href="#orgc9e8eb1">1.7. Incident</a></li>
-<li><a href="#org2a53a71">1.8. Malware</a></li>
-<li><a href="#org4bc1c35">1.9. Detection Tools</a></li>
-<li><a href="#org884c1c6">1.10. Threat Intelligence</a></li>
+<li><a href="#orge97c210">2.4. Logging</a></li>
+<li><a href="#orgd393c47">2.5. Network</a></li>
+<li><a href="#org55b9bd8">2.6. Crypto</a></li>
+<li><a href="#org54ae970">2.7. Incident</a></li>
+<li><a href="#org29bb9f4">2.8. Malware</a></li>
+<li><a href="#orgcbf0cad">2.9. Detection Tools</a></li>
+<li><a href="#org9fe6269">2.10. Threat Intelligence</a></li>
 </ul>
 </li>
-<li><a href="#orge7fdf64">2. Other</a>
+<li><a href="#org00d9e98">3. Other</a>
 <ul>
-<li><a href="#org818797d">2.1. Social</a></li>
-<li><a href="#org74d4879">2.2. Info</a></li>
+<li><a href="#org202e1cc">3.1. Social</a></li>
+<li><a href="#org9db282a">3.2. Info</a></li>
 </ul>
 </li>
-<li><a href="#org54e8736">3. Dev</a>
+<li><a href="#org3c05cfb">4. Dev</a>
 <ul>
-<li><a href="#orge803e30">3.1. Sharing</a></li>
-<li><a href="#orga64ef76">3.2. Powershell</a></li>
+<li><a href="#org1f9f644">4.1. Sharing</a></li>
+<li><a href="#org622c466">4.2. Powershell</a></li>
 </ul>
 </li>
-<li><a href="#org1aafaa3">4. Network</a>
+<li><a href="#org9b76c7e">5. Network</a>
 <ul>
-<li><a href="#org8e2c748">4.1. Addressing stuff</a></li>
-<li><a href="#org78ca8dd">4.2. IPAM</a></li>
-<li><a href="#org63919ca">4.3. Devices</a></li>
+<li><a href="#org6f4a9b9">5.1. Addressing stuff</a></li>
+<li><a href="#orga77947e">5.2. IPAM</a></li>
+<li><a href="#org04ff79e">5.3. Devices</a></li>
 </ul>
 </li>
-<li><a href="#orgf6ba0ff">5. Collections</a>
+<li><a href="#org1626549">6. Collections</a>
 <ul>
-<li><a href="#orgf97bb2b">5.1. Network security</a></li>
+<li><a href="#orge3a36f6">6.1. Network security</a></li>
 </ul>
 </li>
-<li><a href="#org9539eeb">6. Reading</a>
+<li><a href="#org21218dd">7. Reading</a>
 <ul>
-<li><a href="#org50dd2e9">6.1. OS</a></li>
+<li><a href="#org8d23e28">7.1. OS</a></li>
 </ul>
 </li>
 </ul>
@@ -298,14 +299,23 @@ for the JavaScript code in this tag.
 <div class="OPTIONS">
 
 </div>
-
-<div id="outline-container-org0765c81" class="outline-2">
-<h2 id="org0765c81"><span class="section-number-2">1</span> Security stuff</h2>
+<div id="outline-container-orgc5f2d2e" class="outline-2">
+<h2 id="orgc5f2d2e"><span class="section-number-2">1</span> Introduction</h2>
 <div class="outline-text-2" id="text-1">
+<p>
+This is my collection of links that are useful in gathering security or network information. The main purpose is just to keep track of all info I runs into when reading stuff on the net. And the sorting could be better&#x2026;
+This page is created in org-mode and then exported to html with the settings from <a href="https://github.com/fniessen/org-html-themes">org-html-themes</a>.
+The repo is obviously on <a href="https://github.com/sdaaish/link-collection">GitHub</a>.
+</p>
 </div>
-<div id="outline-container-org7b44c8c" class="outline-3">
-<h3 id="org7b44c8c"><span class="section-number-3">1.1</span> Scanning</h3>
-<div class="outline-text-3" id="text-1-1">
+</div>
+<div id="outline-container-org1206f2a" class="outline-2">
+<h2 id="org1206f2a"><span class="section-number-2">2</span> Security stuff</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org4ece86f" class="outline-3">
+<h3 id="org4ece86f"><span class="section-number-3">2.1</span> Scanning</h3>
+<div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
 <li><a href="http://shodan.io">http://shodan.io</a></li>
 <li><a href="http://censys.io">http://censys.io</a></li>
@@ -325,38 +335,38 @@ for the JavaScript code in this tag.
 </ul>
 </div>
 </div>
-<div id="outline-container-org8815a22" class="outline-3">
-<h3 id="org8815a22"><span class="section-number-3">1.2</span> Info about vulnerabilities</h3>
-<div class="outline-text-3" id="text-1-2">
+<div id="outline-container-org4d07453" class="outline-3">
+<h3 id="org4d07453"><span class="section-number-3">2.2</span> Info about vulnerabilities</h3>
+<div class="outline-text-3" id="text-2-2">
 <ul class="org-ul">
 <li><a href="https://www.cvedetails.com/">https://www.cvedetails.com/</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org4812143" class="outline-3">
-<h3 id="org4812143"><span class="section-number-3">1.3</span> Security Guides</h3>
-<div class="outline-text-3" id="text-1-3">
+<div id="outline-container-org7793364" class="outline-3">
+<h3 id="org7793364"><span class="section-number-3">2.3</span> Security Guides</h3>
+<div class="outline-text-3" id="text-2-3">
 </div>
-<div id="outline-container-org38a3805" class="outline-4">
-<h4 id="org38a3805"><span class="section-number-4">1.3.1</span> SSH</h4>
-<div class="outline-text-4" id="text-1-3-1">
+<div id="outline-container-org86fe7ec" class="outline-4">
+<h4 id="org86fe7ec"><span class="section-number-4">2.3.1</span> SSH</h4>
+<div class="outline-text-4" id="text-2-3-1">
 <ul class="org-ul">
 <li><a href="https://wiki.mozilla.org/Security/Guidelines/OpenSSH">Mozilla Wiki about SSH</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org3121321" class="outline-4">
-<h4 id="org3121321"><span class="section-number-4">1.3.2</span> GnuPG (GPG/PGP)</h4>
-<div class="outline-text-4" id="text-1-3-2">
+<div id="outline-container-orgf28ffa0" class="outline-4">
+<h4 id="orgf28ffa0"><span class="section-number-4">2.3.2</span> GnuPG (GPG/PGP)</h4>
+<div class="outline-text-4" id="text-2-3-2">
 <ul class="org-ul">
 <li><a href="https://riseup.net/ru/security/message-security/openpgp/best-practices">https://riseup.net/ru/security/message-security/openpgp/best-practices</a></li>
 <li><a href="https://alexcabal.com/creating-the-perfect-gpg-keypair/">https://alexcabal.com/creating-the-perfect-gpg-keypair/</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb5d1316" class="outline-4">
-<h4 id="orgb5d1316"><span class="section-number-4">1.3.3</span> OpenSSL</h4>
-<div class="outline-text-4" id="text-1-3-3">
+<div id="outline-container-org9642e13" class="outline-4">
+<h4 id="org9642e13"><span class="section-number-4">2.3.3</span> OpenSSL</h4>
+<div class="outline-text-4" id="text-2-3-3">
 <ul class="org-ul">
 <li><a href="https://www.madboa.com/geek/openssl/">https://www.madboa.com/geek/openssl/</a></li>
 <li><a href="https://letsencrypt.org/">https://letsencrypt.org/</a></li>
@@ -364,18 +374,18 @@ for the JavaScript code in this tag.
 </div>
 </div>
 </div>
-<div id="outline-container-orgebc53a1" class="outline-3">
-<h3 id="orgebc53a1"><span class="section-number-3">1.4</span> Logging</h3>
-<div class="outline-text-3" id="text-1-4">
+<div id="outline-container-orge97c210" class="outline-3">
+<h3 id="orge97c210"><span class="section-number-3">2.4</span> Logging</h3>
+<div class="outline-text-3" id="text-2-4">
 <ul class="org-ul">
 <li><a href="https://www.graylog.org/">https://www.graylog.org/</a></li>
 <li><a href="https://www.elastic.co/products/beats/packetbeat">https://www.elastic.co/products/beats/packetbeat</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org686e342" class="outline-3">
-<h3 id="org686e342"><span class="section-number-3">1.5</span> Network</h3>
-<div class="outline-text-3" id="text-1-5">
+<div id="outline-container-orgd393c47" class="outline-3">
+<h3 id="orgd393c47"><span class="section-number-3">2.5</span> Network</h3>
+<div class="outline-text-3" id="text-2-5">
 <ul class="org-ul">
 <li><a href="https://nmap.org/">https://nmap.org/</a></li>
 <li><a href="https://www.bro.org/">https://www.bro.org/</a></li>
@@ -385,43 +395,43 @@ for the JavaScript code in this tag.
 </ul>
 </div>
 </div>
-<div id="outline-container-org914c9db" class="outline-3">
-<h3 id="org914c9db"><span class="section-number-3">1.6</span> Crypto</h3>
-<div class="outline-text-3" id="text-1-6">
+<div id="outline-container-org55b9bd8" class="outline-3">
+<h3 id="org55b9bd8"><span class="section-number-3">2.6</span> Crypto</h3>
+<div class="outline-text-3" id="text-2-6">
 <ul class="org-ul">
 <li><a href="https://keybase.io/">https://keybase.io/</a></li>
 <li><a href="https://kryptera.se/">https://kryptera.se/</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgc9e8eb1" class="outline-3">
-<h3 id="orgc9e8eb1"><span class="section-number-3">1.7</span> Incident</h3>
-<div class="outline-text-3" id="text-1-7">
+<div id="outline-container-org54ae970" class="outline-3">
+<h3 id="org54ae970"><span class="section-number-3">2.7</span> Incident</h3>
+<div class="outline-text-3" id="text-2-7">
 <ul class="org-ul">
 <li><a href="https://thehive-project.org/">https://thehive-project.org/</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org2a53a71" class="outline-3">
-<h3 id="org2a53a71"><span class="section-number-3">1.8</span> Malware</h3>
-<div class="outline-text-3" id="text-1-8">
+<div id="outline-container-org29bb9f4" class="outline-3">
+<h3 id="org29bb9f4"><span class="section-number-3">2.8</span> Malware</h3>
+<div class="outline-text-3" id="text-2-8">
 <ul class="org-ul">
 <li><a href="https://www.nomoreransom.org/">https://www.nomoreransom.org/</a></li>
 <li><a href="https://malware-hunter.shodan.io/">Malwares on Shodan</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org4bc1c35" class="outline-3">
-<h3 id="org4bc1c35"><span class="section-number-3">1.9</span> Detection Tools</h3>
-<div class="outline-text-3" id="text-1-9">
+<div id="outline-container-orgcbf0cad" class="outline-3">
+<h3 id="orgcbf0cad"><span class="section-number-3">2.9</span> Detection Tools</h3>
+<div class="outline-text-3" id="text-2-9">
 <ul class="org-ul">
 <li>Loki <a href="https://github.com/Neo23x0/Loki">https://github.com/Neo23x0/Loki</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org884c1c6" class="outline-3">
-<h3 id="org884c1c6"><span class="section-number-3">1.10</span> Threat Intelligence</h3>
-<div class="outline-text-3" id="text-1-10">
+<div id="outline-container-org9fe6269" class="outline-3">
+<h3 id="org9fe6269"><span class="section-number-3">2.10</span> Threat Intelligence</h3>
+<div class="outline-text-3" id="text-2-10">
 <ul class="org-ul">
 <li>Yara <a href="https://securityintelligence.com/signature-based-detection-with-yara/">https://securityintelligence.com/signature-based-detection-with-yara/</a></li>
 <li>STIX</li>
@@ -437,21 +447,21 @@ for the JavaScript code in this tag.
 </div>
 </div>
 </div>
-<div id="outline-container-orge7fdf64" class="outline-2">
-<h2 id="orge7fdf64"><span class="section-number-2">2</span> Other</h2>
-<div class="outline-text-2" id="text-2">
+<div id="outline-container-org00d9e98" class="outline-2">
+<h2 id="org00d9e98"><span class="section-number-2">3</span> Other</h2>
+<div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-org818797d" class="outline-3">
-<h3 id="org818797d"><span class="section-number-3">2.1</span> Social</h3>
-<div class="outline-text-3" id="text-2-1">
+<div id="outline-container-org202e1cc" class="outline-3">
+<h3 id="org202e1cc"><span class="section-number-3">3.1</span> Social</h3>
+<div class="outline-text-3" id="text-3-1">
 <ul class="org-ul">
 <li><a href="https://mastodon.social/about">https://mastodon.social/about</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org74d4879" class="outline-3">
-<h3 id="org74d4879"><span class="section-number-3">2.2</span> Info</h3>
-<div class="outline-text-3" id="text-2-2">
+<div id="outline-container-org9db282a" class="outline-3">
+<h3 id="org9db282a"><span class="section-number-3">3.2</span> Info</h3>
+<div class="outline-text-3" id="text-3-2">
 <ul class="org-ul">
 <li><a href="https://www.malwaretech.com/">https://www.malwaretech.com/</a></li>
 <li><a href="https://sans.org/">https://sans.org/</a></li>
@@ -459,22 +469,22 @@ for the JavaScript code in this tag.
 </div>
 </div>
 </div>
-<div id="outline-container-org54e8736" class="outline-2">
-<h2 id="org54e8736"><span class="section-number-2">3</span> Dev</h2>
-<div class="outline-text-2" id="text-3">
+<div id="outline-container-org3c05cfb" class="outline-2">
+<h2 id="org3c05cfb"><span class="section-number-2">4</span> Dev</h2>
+<div class="outline-text-2" id="text-4">
 </div>
-<div id="outline-container-orge803e30" class="outline-3">
-<h3 id="orge803e30"><span class="section-number-3">3.1</span> Sharing</h3>
-<div class="outline-text-3" id="text-3-1">
+<div id="outline-container-org1f9f644" class="outline-3">
+<h3 id="org1f9f644"><span class="section-number-3">4.1</span> Sharing</h3>
+<div class="outline-text-3" id="text-4-1">
 <ul class="org-ul">
 <li><a href="https://transfer.sh/">https://transfer.sh/</a></li>
 <li><a href="https://sprend.com/">https://sprend.com/</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orga64ef76" class="outline-3">
-<h3 id="orga64ef76"><span class="section-number-3">3.2</span> Powershell</h3>
-<div class="outline-text-3" id="text-3-2">
+<div id="outline-container-org622c466" class="outline-3">
+<h3 id="org622c466"><span class="section-number-3">4.2</span> Powershell</h3>
+<div class="outline-text-3" id="text-4-2">
 <ul class="org-ul">
 <li><a href="https://peter.hahndorf.eu/blog/WindowsFeatureViaCmd.html">Different ways for installing Windows features on the command line - Peter Hahndorf - peter.hahndorf.eu</a></li>
 <li><a href="https://ss64.com/links/pslinks.html">Windows PowerShell Books Software and Websites - SS64.com</a></li>
@@ -484,62 +494,63 @@ for the JavaScript code in this tag.
 </div>
 </div>
 </div>
-<div id="outline-container-org1aafaa3" class="outline-2">
-<h2 id="org1aafaa3"><span class="section-number-2">4</span> Network</h2>
-<div class="outline-text-2" id="text-4">
+<div id="outline-container-org9b76c7e" class="outline-2">
+<h2 id="org9b76c7e"><span class="section-number-2">5</span> Network</h2>
+<div class="outline-text-2" id="text-5">
 <ul class="org-ul">
 <li><a href="https://www.bleepingcomputer.com/">https://www.bleepingcomputer.com/</a></li>
 </ul>
 </div>
-<div id="outline-container-org8e2c748" class="outline-3">
-<h3 id="org8e2c748"><span class="section-number-3">4.1</span> Addressing stuff</h3>
-<div class="outline-text-3" id="text-4-1">
+<div id="outline-container-org6f4a9b9" class="outline-3">
+<h3 id="org6f4a9b9"><span class="section-number-3">5.1</span> Addressing stuff</h3>
+<div class="outline-text-3" id="text-5-1">
 <p>
 Including LIR and IPv4, IPv6 addressing.
 <a href="https://www.ripe.net/support/training/material/ripe-ncc-training-material#LIR">RIPE NCC Training Course Material — RIPE Network Coordination Centre - www.ripe.net</a>
 </p>
 </div>
 </div>
-<div id="outline-container-org78ca8dd" class="outline-3">
-<h3 id="org78ca8dd"><span class="section-number-3">4.2</span> IPAM</h3>
-<div class="outline-text-3" id="text-4-2">
+<div id="outline-container-orga77947e" class="outline-3">
+<h3 id="orga77947e"><span class="section-number-3">5.2</span> IPAM</h3>
+<div class="outline-text-3" id="text-5-2">
 <ul class="org-ul">
 <li><a href="https://github.com/digitalocean/netbox">digitalocean/netbox: IP address management (IPAM) and data center infrastructure management (DCIM) tool. - github.com</a></li>
 <li><a href="https://phpipam.net/">phpIPAM IPAM IP address management software - phpipam.net</a></li>
 <li><a href="https://spritelink.github.io/NIPAP/">NIPAP - the best open source IP address management (IPAM) in the known universe - spritelink.github.io</a></li>
 <li><a href="http://www.linuxscrew.com/2012/04/04/ip-address-management-software/">Top Open Source IP Address Management Software - LinuxScrew: Linux Blog - www.linuxscrew.com</a></li>
+<li><a href="http://opennetadmin.com/">OpenNetAdmin</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org63919ca" class="outline-3">
-<h3 id="org63919ca"><span class="section-number-3">4.3</span> Devices</h3>
-<div class="outline-text-3" id="text-4-3">
+<div id="outline-container-org04ff79e" class="outline-3">
+<h3 id="org04ff79e"><span class="section-number-3">5.3</span> Devices</h3>
+<div class="outline-text-3" id="text-5-3">
 <ul class="org-ul">
 <li><a href="http://www.midbittech.com/">Shark tap: midBit Technologies</a></li>
 </ul>
 </div>
 </div>
 </div>
-<div id="outline-container-orgf6ba0ff" class="outline-2">
-<h2 id="orgf6ba0ff"><span class="section-number-2">5</span> Collections</h2>
-<div class="outline-text-2" id="text-5">
+<div id="outline-container-org1626549" class="outline-2">
+<h2 id="org1626549"><span class="section-number-2">6</span> Collections</h2>
+<div class="outline-text-2" id="text-6">
 </div>
-<div id="outline-container-orgf97bb2b" class="outline-3">
-<h3 id="orgf97bb2b"><span class="section-number-3">5.1</span> Network security</h3>
-<div class="outline-text-3" id="text-5-1">
+<div id="outline-container-orge3a36f6" class="outline-3">
+<h3 id="orge3a36f6"><span class="section-number-3">6.1</span> Network security</h3>
+<div class="outline-text-3" id="text-6-1">
 <ul class="org-ul">
 <li><a href="https://www.wordfence.com/blog/2017/04/tools-for-security-analysts/">Wordfence sec-tools</a></li>
 </ul>
 </div>
 </div>
 </div>
-<div id="outline-container-org9539eeb" class="outline-2">
-<h2 id="org9539eeb"><span class="section-number-2">6</span> Reading</h2>
-<div class="outline-text-2" id="text-6">
+<div id="outline-container-org21218dd" class="outline-2">
+<h2 id="org21218dd"><span class="section-number-2">7</span> Reading</h2>
+<div class="outline-text-2" id="text-7">
 </div>
-<div id="outline-container-org50dd2e9" class="outline-3">
-<h3 id="org50dd2e9"><span class="section-number-3">6.1</span> OS</h3>
-<div class="outline-text-3" id="text-6-1">
+<div id="outline-container-org8d23e28" class="outline-3">
+<h3 id="org8d23e28"><span class="section-number-3">7.1</span> OS</h3>
+<div class="outline-text-3" id="text-7-1">
 <ul class="org-ul">
 <li><a href="http://pages.cs.wisc.edu/~remzi/OSTEP/">Ostep.org</a></li>
 </ul>
@@ -549,7 +560,7 @@ Including LIR and IPv4, IPv6 addressing.
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Stig Dahl</p>
-<p class="date">Created: 2017-09-15 fre 23:33</p>
+<p class="date">Created: 2017-09-18 mån 22:54</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
