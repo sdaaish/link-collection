@@ -47,6 +47,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + https://dnschecker.org/ DNS propagation test
 + http://www.dnssy.com/ DNS checker
 + https://ichidanv34wrx7m7.onion/ [[https://www.bleepingcomputer.com/news/security/ichidan-is-a-shodan-like-search-engine-for-the-dark-web/][Ichidan search engine]]
++ http://www.kitploit.com/2017/10/changeme-default-credential-scanner.html?utm_source=dlvr.it&utm_medium=twitter A default credentials scanner
 ** Info about vulnerabilities
 + https://www.cvedetails.com/
 ** Security Guides
@@ -67,6 +68,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + https://github.com/aol/moloch
 + [[http://www.qosient.com/argus/index.shtml][Argus scanner]]
 + http://ipv4info.com/
++ http://ipify.org/
 ** Crypto
 + https://keybase.io/
 + https://kryptera.se/
@@ -77,6 +79,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://malware-hunter.shodan.io/][Malwares on Shodan]]
 ** Detection Tools
 - Loki https://github.com/Neo23x0/Loki
+- [[http://www.cipherdyne.org/psad/][PSAD]]
 ** Threat Intelligence
 + Yara https://securityintelligence.com/signature-based-detection-with-yara/
 + STIX
@@ -88,12 +91,17 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + https://www.virustotal.com/
 + [[https://www.abuseipdb.com/][Abuse IP DB]]
 + [[https://www.dnsdb.info/][DNSDB or FarSight]]
+** DDOS
+- [[https://www.akamai.com/us/en/solutions/intelligent-platform/visualizing-akamai/real-time-web-monitor.jsp][Akamai]]
+- [[http://www.digitalattackmap.com/][DigitalAttackmap]]
 * Other
 ** Social
 + https://mastodon.social/about
 ** Info
 + https://www.malwaretech.com/ 
 + https://sans.org/
+** DNS
++ [[https://www.punycoder.com][Punycode converter]]
 * Dev
 ** Sharing
 + https://transfer.sh/
