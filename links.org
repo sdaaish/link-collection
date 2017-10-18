@@ -48,6 +48,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + http://www.dnssy.com/ DNS checker
 + https://ichidanv34wrx7m7.onion/ [[https://www.bleepingcomputer.com/news/security/ichidan-is-a-shodan-like-search-engine-for-the-dark-web/][Ichidan search engine]]
 + http://www.kitploit.com/2017/10/changeme-default-credential-scanner.html?utm_source=dlvr.it&utm_medium=twitter A default credentials scanner
++ https://report-uri.io/
 ** Info about vulnerabilities
 + https://www.cvedetails.com/
 ** Security Guides
@@ -56,6 +57,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 *** GnuPG (GPG/PGP)
 + https://riseup.net/ru/security/message-security/openpgp/best-practices
 + https://alexcabal.com/creating-the-perfect-gpg-keypair/
++ https://www.madboa.com/geek/gpg-quickstart/
 *** OpenSSL
 + https://www.madboa.com/geek/openssl/
 + https://letsencrypt.org/
@@ -127,6 +129,8 @@ Including LIR and IPv4, IPv6 addressing.
 * Collections
 ** Network security
 + [[https://www.wordfence.com/blog/2017/04/tools-for-security-analysts/][Wordfence sec-tools]]
+** Hacking
++ http://www.kitploit.com/
 * Reading
 ** OS
 - [[http://pages.cs.wisc.edu/~remzi/OSTEP/][Ostep.org]]
