@@ -115,6 +115,8 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[http://powershell.org][Powershell.Org]]
 + [[https://blog.netspi.com/15-ways-to-bypass-the-powershell-execution-policy/][15 ways to bypass executionpolicy]]
 + [[https://www.darkoperator.com/blog/2013/3/5/powershell-basics-execution-policy-part-1.html][Powershell Execution Policy]]
+** Python
+- [[http://pypyjs.org/][Online python environment.]]
 * Network
 + https://www.bleepingcomputer.com/
 ** Addressing stuff
