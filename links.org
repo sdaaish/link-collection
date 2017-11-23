@@ -93,7 +93,9 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + https://www.virustotal.com/
 + [[https://www.abuseipdb.com/][Abuse IP DB]]
 + [[https://www.dnsdb.info/][DNSDB or FarSight]]
++ [[https://dnstwister.report/][DNSTwister]]
 + [[https://certstream.calidog.io/][Certstream]]
++ [[https://github.com/mozilla/MozDef][MozDef]]
 ** DDOS
 - [[https://www.akamai.com/us/en/solutions/intelligent-platform/visualizing-akamai/real-time-web-monitor.jsp][Akamai]]
 - [[http://www.digitalattackmap.com/][DigitalAttackmap]]
@@ -105,6 +107,9 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + https://sans.org/
 ** DNS
 + [[https://www.punycoder.com][Punycode converter]]
+** Man
+- [[http://tldr.sh/][TLDR pages]]
+- [[http://cheat.sh/][Cheat man pages]]
 * Dev
 ** Sharing
 + https://transfer.sh/
@@ -139,3 +144,5 @@ Including LIR and IPv4, IPv6 addressing.
 * Reading
 ** OS
 - [[http://pages.cs.wisc.edu/~remzi/OSTEP/][Ostep.org]]
+** Forensics
++ [[https://www.sans.org/summit-archives/file/summit-archive-1493740486.pdf][SANS Forensics with ELK]]
