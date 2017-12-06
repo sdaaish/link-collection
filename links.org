@@ -74,6 +74,8 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 ** Crypto
 + https://keybase.io/
 + https://kryptera.se/
++ [[https://www.howsmyssl.com/][How's my SSL]]
++ [[https://badssl.com/][Bad SSL]]
 ** Incident
 + https://thehive-project.org/
 ** Malware 
