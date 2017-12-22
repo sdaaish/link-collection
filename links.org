@@ -51,6 +51,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + https://report-uri.io/
 ** Info about vulnerabilities
 + https://www.cvedetails.com/
++ [[https://github.com/future-architect/vuls][VULS Vulnerability Scanner]]
 ** Security Guides
 *** SSH
 + [[https://wiki.mozilla.org/Security/Guidelines/OpenSSH][Mozilla Wiki about SSH]]
@@ -71,6 +72,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[http://www.qosient.com/argus/index.shtml][Argus scanner]]
 + http://ipv4info.com/
 + http://ipify.org/
++ [[https://github.com/caesar0301/awesome-pcaptools][Awesome PCAP-tools]]
 ** Crypto
 + https://keybase.io/
 + https://kryptera.se/
@@ -140,6 +142,8 @@ Including LIR and IPv4, IPv6 addressing.
 ** Devices
 - [[http://www.midbittech.com/][Shark tap: midBit Technologies]]
 * Collections
+** Generic
++ [[https://github.com/sindresorhus/awesome][Awesome list]]
 ** Network security
 + [[https://www.wordfence.com/blog/2017/04/tools-for-security-analysts/][Wordfence sec-tools]]
 ** Hacking
