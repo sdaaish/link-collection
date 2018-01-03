@@ -128,6 +128,8 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://www.darkoperator.com/blog/2013/3/5/powershell-basics-execution-policy-part-1.html][Powershell Execution Policy]]
 ** Python
 - [[http://pypyjs.org/][Online python environment.]]
+** Git
++ [[https://github.com/mkchoi212/fac#readme][Fix All Conflicts]]
 * Network
 + https://www.bleepingcomputer.com/
 ** Addressing stuff
