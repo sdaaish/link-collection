@@ -105,6 +105,8 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 ** DDOS
 - [[https://www.akamai.com/us/en/solutions/intelligent-platform/visualizing-akamai/real-time-web-monitor.jsp][Akamai]]
 - [[http://www.digitalattackmap.com/][DigitalAttackmap]]
+** Information Security
+- [[https://www.scribd.com/document/346419905/Antivirus-Event-Analysis-CheatSheet-1-1][Antivirus Event Analysis]]
 * Other
 ** Social
 + https://mastodon.social/about
@@ -135,6 +137,8 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 - [[http://pypyjs.org/][Online python environment.]]
 ** Git
 + [[https://github.com/mkchoi212/fac#readme][Fix All Conflicts]]
+** Windows
+- [[https://arno0x0x.wordpress.com/2017/11/20/windows-oneliners-to-download-remote-payload-and-execute-arbitrary-code/][Windows Oneliners for remote download]]
 * Network
 + https://www.bleepingcomputer.com/
 ** Addressing stuff
@@ -148,6 +152,10 @@ Including LIR and IPv4, IPv6 addressing.
 - [[http://opennetadmin.com/][OpenNetAdmin]]
 ** Devices
 - [[http://www.midbittech.com/][Shark tap: midBit Technologies]]
+** Blogs
+- [[http://packetpushers.net/series/briefings-in-brief/][Packet Pushers]]
+- [[http://etherealmind.com/][Etherealmind]]
+- [[http://blog.ipspace.net/][IP Space]]
 * Collections
 ** Generic
 + [[https://github.com/sindresorhus/awesome][Awesome list]]
