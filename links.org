@@ -55,6 +55,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 ** Security Guides
 *** SSH
 + [[https://wiki.mozilla.org/Security/Guidelines/OpenSSH][Mozilla Wiki about SSH]]
++ [[https://bitrot.sh/cheatsheet/13-12-2017-ssh-cheatsheet/][SSH Cheat Sheet]]
 *** GnuPG (GPG/PGP)
 + https://riseup.net/ru/security/message-security/openpgp/best-practices
 + https://alexcabal.com/creating-the-perfect-gpg-keypair/
@@ -107,11 +108,13 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 * Other
 ** Social
 + https://mastodon.social/about
++ [[https://infosec.exchange/about][Infosec Exchange]]
 ** Info
 + https://www.malwaretech.com/ 
 + https://sans.org/
 ** DNS
 + [[https://www.punycoder.com][Punycode converter]]
++ [[https://github.com/aboul3la/Sublist3r][Subdomain Enumerator, Sublist3r]]
 ** Man
 - [[http://tldr.sh/][TLDR pages]]
 - [[http://cheat.sh/][Cheat man pages]]
@@ -127,6 +130,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[http://powershell.org][Powershell.Org]]
 + [[https://blog.netspi.com/15-ways-to-bypass-the-powershell-execution-policy/][15 ways to bypass executionpolicy]]
 + [[https://www.darkoperator.com/blog/2013/3/5/powershell-basics-execution-policy-part-1.html][Powershell Execution Policy]]
++ [[https://shell.azure.com/][Cloud Shell]]
 ** Python
 - [[http://pypyjs.org/][Online python environment.]]
 ** Git
@@ -156,3 +160,5 @@ Including LIR and IPv4, IPv6 addressing.
 - [[http://pages.cs.wisc.edu/~remzi/OSTEP/][Ostep.org]]
 ** Forensics
 + [[https://www.sans.org/summit-archives/file/summit-archive-1493740486.pdf][SANS Forensics with ELK]]
+** Humor
+- [[https://www.gnu.org/fun/jokes/users-lightbulb.en.html][Lightbulbs]]
