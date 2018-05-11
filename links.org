@@ -169,7 +169,11 @@ Including LIR and IPv4, IPv6 addressing.
 + http://www.kitploit.com/
 * Reading
 ** OS
-- [[http://pages.cs.wisc.edu/~remzi/OSTEP/][Ostep.org]]
++ [[http://pages.cs.wisc.edu/~remzi/OSTEP/][Ostep.org]]
+** Computerinfo
++ [[https://www.howtogeek.com/][HowTo Geek]]
++ [[http://www.tomshardware.co.uk/][Toms Hardware]]
++ [[https://www.cyberciti.biz/][nixCraft]]
 ** Forensics
 + [[https://www.sans.org/summit-archives/file/summit-archive-1493740486.pdf][SANS Forensics with ELK]]
 ** Humor
