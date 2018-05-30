@@ -160,10 +160,14 @@ Including LIR and IPv4, IPv6 addressing.
 * Collections
 ** Generic
 + [[https://github.com/sindresorhus/awesome][Awesome list]]
++ [[https://github.com/sbilly/awesome-security][Awesome Security]]
++ [[https://github.com/vitalysim/Awesome-Hacking-Resources][Awesome Hacking Resource]]
 ** Network security
 + [[https://www.wordfence.com/blog/2017/04/tools-for-security-analysts/][Wordfence sec-tools]]
 ** Hacking
 + http://www.kitploit.com/
+** Incident Response
++ [[https://github.com/meirwah/awesome-incident-response][Awesome Incident Response]]
 * Reading
 ** OS
 - [[http://pages.cs.wisc.edu/~remzi/OSTEP/][Ostep.org]]
