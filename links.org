@@ -49,6 +49,8 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + https://ichidanv34wrx7m7.onion/ [[https://www.bleepingcomputer.com/news/security/ichidan-is-a-shodan-like-search-engine-for-the-dark-web/][Ichidan search engine]]
 + http://www.kitploit.com/2017/10/changeme-default-credential-scanner.html?utm_source=dlvr.it&utm_medium=twitter A default credentials scanner
 + https://report-uri.io/
++ [[https://opendata.rapid7.com/][Project Sonar (Rapid7)]]
++ [[https://viz.greynoise.io/table][GreyNoise]]
 ** Info about vulnerabilities
 + https://www.cvedetails.com/
 + [[https://github.com/future-architect/vuls][VULS Vulnerability Scanner]]
@@ -126,6 +128,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + https://transfer.sh/
 + https://sprend.com/
 + [[https://ngrok.com/][Ngrok Secure tunnel]]
++ [[https://send.firefox.com/][Firefox Send]]
 ** Powershell
 + [[https://peter.hahndorf.eu/blog/WindowsFeatureViaCmd.html][Different ways for installing Windows features on the command line - Peter Hahndorf - peter.hahndorf.eu]]
 + [[https://ss64.com/links/pslinks.html][Windows PowerShell Books Software and Websites - SS64.com]]
@@ -134,6 +137,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://blog.netspi.com/15-ways-to-bypass-the-powershell-execution-policy/][15 ways to bypass executionpolicy]]
 + [[https://www.darkoperator.com/blog/2013/3/5/powershell-basics-execution-policy-part-1.html][Powershell Execution Policy]]
 + [[https://shell.azure.com/][Cloud Shell]]
++ [[https://sid-500.com/2017/07/12/powershell-force-gpupdate-on-all-domain-computers/][SID 500]]
 ** Python
 - [[http://pypyjs.org/][Online python environment.]]
 ** Git
@@ -170,7 +174,11 @@ Including LIR and IPv4, IPv6 addressing.
 + [[https://github.com/meirwah/awesome-incident-response][Awesome Incident Response]]
 * Reading
 ** OS
-- [[http://pages.cs.wisc.edu/~remzi/OSTEP/][Ostep.org]]
++ [[http://pages.cs.wisc.edu/~remzi/OSTEP/][Ostep.org]]
+** Computerinfo
++ [[https://www.howtogeek.com/][HowTo Geek]]
++ [[http://www.tomshardware.co.uk/][Toms Hardware]]
++ [[https://www.cyberciti.biz/][nixCraft]]
 ** Forensics
 + [[https://www.sans.org/summit-archives/file/summit-archive-1493740486.pdf][SANS Forensics with ELK]]
 ** Humor
