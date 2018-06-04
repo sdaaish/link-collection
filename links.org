@@ -110,6 +110,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 - [[http://www.digitalattackmap.com/][DigitalAttackmap]]
 ** Information Security
 - [[https://www.scribd.com/document/346419905/Antivirus-Event-Analysis-CheatSheet-1-1][Antivirus Event Analysis]]
+- [[https://github.com/PaulSec/DET][Data Exfiltration Tools]]
 * Other
 ** Social
 + https://mastodon.social/about
@@ -177,5 +178,7 @@ Including LIR and IPv4, IPv6 addressing.
 + [[https://www.cyberciti.biz/][nixCraft]]
 ** Forensics
 + [[https://www.sans.org/summit-archives/file/summit-archive-1493740486.pdf][SANS Forensics with ELK]]
+** Network 
+- [[https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/][DNS over HTTPS Cartoon Intro]]
 ** Humor
 - [[https://www.gnu.org/fun/jokes/users-lightbulb.en.html][Lightbulbs]]
