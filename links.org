@@ -90,6 +90,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 ** Detection Tools
 - Loki https://github.com/Neo23x0/Loki
 - [[http://www.cipherdyne.org/psad/][PSAD]]
+- [[http://rocknsm.io/][ROCK NSM]]
 ** Threat Intelligence
 + Yara https://securityintelligence.com/signature-based-detection-with-yara/
 + STIX
