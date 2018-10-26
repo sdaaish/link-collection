@@ -131,6 +131,8 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + https://sprend.com/
 + [[https://ngrok.com/][Ngrok Secure tunnel]]
 + [[https://send.firefox.com/][Firefox Send]]
++ [[https://hastebin.com/about.md][Hastebin]]
++ [[https://pastebin.com/][Pastebin]]
 ** Powershell
 + [[https://peter.hahndorf.eu/blog/WindowsFeatureViaCmd.html][Different ways for installing Windows features on the command line - Peter Hahndorf - peter.hahndorf.eu]]
 + [[https://ss64.com/links/pslinks.html][Windows PowerShell Books Software and Websites - SS64.com]]
