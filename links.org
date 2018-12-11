@@ -1,5 +1,5 @@
 #+TITLE: Collection of links regarding security-related info.
-#+BEGIN_OPTIONS
+* Options                                                  :ARCHIVE:noexport:
 #+STARTUP: indent
 #+OPTIONS: toc:3
 #+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
@@ -23,7 +23,7 @@
 #+INFOJS_OPT:
 #+CREATOR: <a href="https://www.gnu.org/software/emacs/">Emacs</a> 25.2.1 (<a href="https://orgmode.org">Org</a> mode 9.1)
 #+LATEX_HEADER:
-#+END_OPTIONS
+
 * Introduction
 This is my collection of links that are useful in gathering security or network information. The main purpose is just to keep track of all info I runs into when reading stuff on the net. And the sorting could be better...
 This page is created in org-mode and then exported to html with the settings from [[https://github.com/fniessen/org-html-themes][org-html-themes]].
@@ -125,6 +125,9 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 ** Man
 - [[http://tldr.sh/][TLDR pages]]
 - [[http://cheat.sh/][Cheat man pages]]
+** Emacs                                                             :Emacs:
+- [[http://emacs-bootstrap.com/][Emacs Bootstrap]]
+- [[https://github.com/rakanalh/emacs-bootstrap#shortcuts][Emacs bootstrap links]]
 * Dev
 ** Sharing
 + https://transfer.sh/
