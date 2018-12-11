@@ -1,5 +1,5 @@
 
-* Options :ARCHIVE:
+* Options :ARCHIVE:noexport:
 #+TITLE: Collection of links regarding security-related info.
 #+STARTUP: indent
 #+OPTIONS: toc:3
