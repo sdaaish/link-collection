@@ -27,6 +27,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 ** Scanning
 + http://shodan.io
 + http://censys.io
++ [[https://github.com/censys/censys-command-line][Censys Command Line]]
 + https://scans.io
 + https://urlscan.io
 + https://securityheaders.io
@@ -71,6 +72,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + http://ipv4info.com/
 + http://ipify.org/
 + [[https://github.com/caesar0301/awesome-pcaptools][Awesome PCAP-tools]]
++ [[https://termshark.io/][TermShark]]
 ** Crypto
 + https://keybase.io/
 + https://kryptera.se/
