@@ -109,6 +109,9 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 ** Information Security
 - [[https://www.scribd.com/document/346419905/Antivirus-Event-Analysis-CheatSheet-1-1][Antivirus Event Analysis]]
 - [[https://github.com/PaulSec/DET][Data Exfiltration Tools]]
+** Leak information
+- [[https://sec.hpi.uni-potsdam.de/ilc/search?lang=en][HPI Leak Database]]
+- [[https://haveibeenpwned.com/][Have I Been Pwned by Troy Hunt]]
 * Other
 ** Social
 + https://mastodon.social/about
