@@ -152,6 +152,8 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://github.com/mkchoi212/fac#readme][Fix All Conflicts]]
 ** Windows
 - [[https://arno0x0x.wordpress.com/2017/11/20/windows-oneliners-to-download-remote-payload-and-execute-arbitrary-code/][Windows Oneliners for remote download]]
+** Linux
+- [[https://github.com/dylanaraps/pure-bash-bible/blob/master/README.md][Pure Bash Bible]]
 * Network
 + https://www.bleepingcomputer.com/
 ** Addressing stuff
