@@ -89,6 +89,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 - Loki https://github.com/Neo23x0/Loki
 - [[http://www.cipherdyne.org/psad/][PSAD]]
 - [[http://rocknsm.io/][ROCK NSM]]
+- [[https://github.com/davehull/Kansa][Kansa Incident Framework]]
 ** Threat Intelligence
 + Yara https://securityintelligence.com/signature-based-detection-with-yara/
 + STIX
