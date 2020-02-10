@@ -85,6 +85,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://malware-hunter.shodan.io/][Malwares on Shodan]]
 + [[https://any.run/][Any.run, free malware sandbox]]
 + [[https://zeltser.com/malware-sample-sources/][Malware samples compilation]]
++ [[https://vxug.fakedoma.in/packs.html][Malware samples]]
 ** Detection Tools
 - Loki https://github.com/Neo23x0/Loki
 - [[http://www.cipherdyne.org/psad/][PSAD]]
