@@ -80,6 +80,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + https://kryptera.se/
 + [[https://www.howsmyssl.com/][How's my SSL]]
 + [[https://badssl.com/][Bad SSL]]
++ [[https://github.com/Ciphey/Ciphey][Ciphey decryptor]]
 ** Incident
 + https://thehive-project.org/
 ** Malware 
