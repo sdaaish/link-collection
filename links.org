@@ -91,6 +91,8 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://www.joesandbox.com/][Joe Sandbox, Community Edition]]
 + [[https://zeltser.com/malware-sample-sources/][Malware samples compilation]]
 + [[https://vxug.fakedoma.in/packs.html][Malware samples]]
++ [[https://capesandbox.com/][Cape Sandbox]]
++ [[https://cuckoosandbox.org/][Cucko Sandbox]]
 ** Detection Tools
 - Loki https://github.com/Neo23x0/Loki
 - [[http://www.cipherdyne.org/psad/][PSAD]]
