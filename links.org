@@ -119,6 +119,8 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 ** Leak information
 - [[https://sec.hpi.uni-potsdam.de/ilc/search?lang=en][HPI Leak Database]]
 - [[https://haveibeenpwned.com/][Have I Been Pwned by Troy Hunt]]
+** Pentesting
+- [[https://www.infosecmatter.com/powershell-commands-for-pentesters/][Powershell for pentesters]]
 * Other
 ** Social
 + https://mastodon.social/about
