@@ -100,7 +100,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 - [[http://rocknsm.io/][ROCK NSM]]
 - [[https://github.com/davehull/Kansa][Kansa Incident Framework]]
 ** Threat Intelligence
-+ Yara https://securityintelligence.com/signature-based-detection-with-yara/
++ [[https://securityintelligence.com/signature-based-detection-with-yara/][Yara rules]]
 + STIX
 + TAXII
 + CYBOX
