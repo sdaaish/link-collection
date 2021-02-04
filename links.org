@@ -18,7 +18,7 @@
 #+INFOJS_OPT:
 #+CREATOR: <a href="https://www.gnu.org/software/emacs/">Emacs</a> 25.2.1 (<a href="https://orgmode.org">Org</a> mode 9.1)
 #+LATEX_HEADER:
-#+SETUPFILE: https://raw.githubusercontent.com/fniessen/org-html-themes/master/org/theme-readtheorg.setup
+#+SETUPFILE: org-html-themes/org/theme-readtheorg-local.setup
 * Introduction
 This is my collection of links that are useful in gathering security or network information. The main purpose is just to keep track of all info I runs into when reading stuff on the net. And the sorting could be better...
 This page is created in org-mode and then exported to html with the settings from [[https://github.com/fniessen/org-html-themes][org-html-themes]].
@@ -43,7 +43,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + https://dnschecker.org/ DNS propagation test
 + http://www.dnssy.com/ DNS checker
 + https://ichidanv34wrx7m7.onion/ [[https://www.bleepingcomputer.com/news/security/ichidan-is-a-shodan-like-search-engine-for-the-dark-web/][Ichidan search engine]]
-+ http://www.kitploit.com/2017/10/changeme-default-credential-scanner.html?utm_source=dlvr.it&utm_medium=twitter A default credentials scanner
++ [[http://www.kitploit.com/2017/10/changeme-default-credential-scanner.html?utm_source=dlvr.it&utm_medium=twitter][A default credentials scanner]]
 + https://report-uri.io/
 + [[https://opendata.rapid7.com/][Project Sonar (Rapid7)]]
 + [[https://viz.greynoise.io/table][GreyNoise]]
@@ -212,3 +212,5 @@ Including LIR and IPv4, IPv6 addressing.
 - [[http://dns-channel.github.io/][DNS related info]]
 ** Humor
 - [[https://www.gnu.org/fun/jokes/users-lightbulb.en.html][Lightbulbs]]
+* About
+ - [[file:README.html][README]]
