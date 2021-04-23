@@ -71,6 +71,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + https://nmap.org/
 + https://www.bro.org/
 + https://github.com/aol/moloch
+- [[https://arkime.com/][Arkime]]
 + [[http://www.qosient.com/argus/index.shtml][Argus scanner]]
 + http://ipv4info.com/
 + http://ipify.org/
@@ -116,6 +117,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://github.com/lnxg33k/MHA][Mail Header Analyzer]]
 + [[https://dmarcian.com/dmarc-tools/][DMARCian detection tools]]
 + [[http://phishtank.org/][PhishTank]]
++ [[https://www.misp-project.org/features.html][MISP Project]]
 ** DDOS
 - [[https://www.akamai.com/us/en/solutions/intelligent-platform/visualizing-akamai/real-time-web-monitor.jsp][Akamai]]
 - [[http://www.digitalattackmap.com/][DigitalAttackmap]]
@@ -162,6 +164,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://www.darkoperator.com/blog/2013/3/5/powershell-basics-execution-policy-part-1.html][Powershell Execution Policy]]
 + [[https://shell.azure.com/][Cloud Shell]]
 + [[https://sid-500.com/2017/07/12/powershell-force-gpupdate-on-all-domain-computers/][SID 500]]
++ [[https://poshcode.gitbook.io/powershell-practice-and-style/][Powershell Practice and Style Guide]]
 ** Python
 - [[http://pypyjs.org/][Online python environment.]]
 ** Git
