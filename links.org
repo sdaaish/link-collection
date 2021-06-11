@@ -132,6 +132,8 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 - [[https://haveibeenpwned.com/][Have I Been Pwned by Troy Hunt]]
 ** Pentesting
 - [[https://www.infosecmatter.com/powershell-commands-for-pentesters/][Powershell for pentesters]]
+** Forensic
+- [[https://gchq.github.io/CyberChef/][CyberChef]]
 * Other
 ** Social
 + https://mastodon.social/about
@@ -216,6 +218,8 @@ Including LIR and IPv4, IPv6 addressing.
 ** Network 
 - [[https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/][DNS over HTTPS Cartoon Intro]]
 - [[http://dns-channel.github.io/][DNS related info]]
+** Security
+- [[https://kalilinuxtutorials.com/][Kali Tutorials]]
 ** Humor
 - [[https://www.gnu.org/fun/jokes/users-lightbulb.en.html][Lightbulbs]]
 * About
