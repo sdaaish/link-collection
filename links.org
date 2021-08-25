@@ -98,6 +98,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://vxug.fakedoma.in/packs.html][Malware samples]]
 + [[https://capesandbox.com/][Cape Sandbox]]
 + [[https://cuckoosandbox.org/][Cucko Sandbox]]
++ [[https://analyze.intezer.com/][Analyze @ Intezer, free sandbox]]
 ** Detection Tools
 - Loki https://github.com/Neo23x0/Loki
 - [[http://www.cipherdyne.org/psad/][PSAD]]
