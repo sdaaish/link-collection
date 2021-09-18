@@ -135,6 +135,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 - [[https://www.infosecmatter.com/powershell-commands-for-pentesters/][Powershell for pentesters]]
 ** Forensic
 - [[https://gchq.github.io/CyberChef/][CyberChef]]
+- [[https://github.com/Countercept/chainsaw][F-Secure Chainsaw]]
 * Other
 ** Social
 + https://mastodon.social/about
@@ -153,6 +154,10 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 - [[https://github.com/rakanalh/emacs-bootstrap#shortcuts][Emacs bootstrap links]]
 ** Administration
 - [[https://msportals.io/][Microsoft Portals]]
+** Messaging
++ [[https://tox.chat/][Tox]]
++ [[https://signal.org/][Signal]]
++ [[https://wire.com/en/][Wire]]
 * Dev
 ** Sharing
 + https://transfer.sh/
@@ -179,6 +184,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 - [[https://arno0x0x.wordpress.com/2017/11/20/windows-oneliners-to-download-remote-payload-and-execute-arbitrary-code/][Windows Oneliners for remote download]]
 ** Linux
 - [[https://github.com/dylanaraps/pure-bash-bible/blob/master/README.md][Pure Bash Bible]]
+- [[https://github.com/redcode-labs/easyWSL][easy WSL]] :Docker:Windows:
 * Network
 + https://www.bleepingcomputer.com/
 ** Addressing stuff
