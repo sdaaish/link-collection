@@ -9,9 +9,9 @@
 ;; Publish org-files
 (setq org-publish-project-alist
       `(("Link-collection"
-         :base-directory "./"
+         :base-directory "../"
          :base-extension "org"
-         :publishing-directory "./"
+         :publishing-directory "../"
          :publishing-function org-html-publish-to-html
          :recursive nil
          )))
