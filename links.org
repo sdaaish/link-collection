@@ -1,0 +1,233 @@
+
+* Options :ARCHIVE:noexport:
+#+TITLE: Collection of links regarding security-related info.
+#+STARTUP: indent
+#+OPTIONS: toc:3
+#+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
+#+OPTIONS: html-preamble:t html-scripts:t html-style:t
+#+HTML_DOCTYPE: xhtml-strict
+#+OPTIONS: html5-fancy:nil tex:t
+#+HTML_CONTAINER: div
+#+DESCRIPTION: A collection of security and network related links.
+#+KEYWORDS: security network hacking
+#+HTML_LINK_HOME:
+#+HTML_LINK_UP:
+#+HTML_MATHJAX:
+#+HTML_HEAD_EXTRA:
+#+SUBTITLE:
+#+INFOJS_OPT:
+#+CREATOR: <a href="https://www.gnu.org/software/emacs/">Emacs</a> 25.2.1 (<a href="https://orgmode.org">Org</a> mode 9.1)
+#+LATEX_HEADER:
+#+SETUPFILE: org-html-themes/org/theme-readtheorg-local.setup
+* Introduction
+This is my collection of links that are useful in gathering security or network information. The main purpose is just to keep track of all info I runs into when reading stuff on the net. And the sorting could be better...
+This page is created in org-mode and then exported to html with the settings from [[https://github.com/fniessen/org-html-themes][org-html-themes]].
+The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
+* Security stuff
+** Scanning
++ http://shodan.io
++ http://censys.io
++ [[https://github.com/censys/censys-command-line][Censys Command Line]]
++ https://scans.io
++ https://urlscan.io
++ https://securityheaders.io
++ https://www.zoomeye.org/
++ https://observatory.mozilla.org/
++ http://retire.insecurity.today/ Scan for outdated libraries
++ https://www.ssllabs.com/ssltest/ Test server for bad SSL
++ https://dnsdumpster.com/#section3 DNS lookups
++ http://dnscheck.iis.se/ DNS checker
++ http://dnscheck.pingdom.com/ DNS checker
++ https://dnscheck.ripe.net/ Reverse check for domain
++ https://intodns.com/ Test DNS and mail
++ https://dnschecker.org/ DNS propagation test
++ http://www.dnssy.com/ DNS checker
++ https://ichidanv34wrx7m7.onion/ [[https://www.bleepingcomputer.com/news/security/ichidan-is-a-shodan-like-search-engine-for-the-dark-web/][Ichidan search engine]]
++ [[http://www.kitploit.com/2017/10/changeme-default-credential-scanner.html?utm_source=dlvr.it&utm_medium=twitter][A default credentials scanner]]
++ https://report-uri.io/
++ [[https://opendata.rapid7.com/][Project Sonar (Rapid7)]]
++ [[https://viz.greynoise.io/table][GreyNoise]]
++ [[https://github.com/byt3bl33d3r/WitnessMe][Witness Me, screenshots of websites]]
++ [[https://www.hardenize.com/][Hardenize network detection]]
+** Info about vulnerabilities
++ https://www.cvedetails.com/
++ [[https://github.com/future-architect/vuls][VULS Vulnerability Scanner]]
++ [[https://github.com/google/tsunami-security-scanner][Google Tsunami]]
+** Security Guides
+*** SSH
++ [[https://wiki.mozilla.org/Security/Guidelines/OpenSSH][Mozilla Wiki about SSH]]
++ [[https://bitrot.sh/cheatsheet/13-12-2017-ssh-cheatsheet/][SSH Cheat Sheet]]
+*** GnuPG (GPG/PGP)
++ https://riseup.net/ru/security/message-security/openpgp/best-practices
++ https://alexcabal.com/creating-the-perfect-gpg-keypair/
++ https://www.madboa.com/geek/gpg-quickstart/
+*** OpenSSL
++ https://www.madboa.com/geek/openssl/
++ https://letsencrypt.org/
+** Logging
++ https://www.graylog.org/
++ https://www.elastic.co/products/beats/packetbeat
+** Network
++ https://nmap.org/
++ https://www.bro.org/
++ https://github.com/aol/moloch
++ [[https://arkime.com/][Arkime]]
++ [[https://www.xplico.org/][Xplico]]
++ [[https://github.com/certego/PcapMonkey][PcapMonkey]]
++ [[https://www.capanalysis.net/ca/][CapAnalysis]]
++ [[http://www.qosient.com/argus/index.shtml][Argus scanner]]
++ http://ipv4info.com/
++ http://ipify.org/
++ [[https://github.com/caesar0301/awesome-pcaptools][Awesome PCAP-tools]]
++ [[https://termshark.io/][TermShark]]
+** Crypto
++ https://keybase.io/
++ https://kryptera.se/
++ [[https://www.howsmyssl.com/][How's my SSL]]
++ [[https://badssl.com/][Bad SSL]]
++ [[https://github.com/Ciphey/Ciphey][Ciphey decryptor]]
+** Incident
++ https://thehive-project.org/
+** Malware 
++ https://www.nomoreransom.org/
++ [[https://malware-hunter.shodan.io/][Malwares on Shodan]]
++ [[https://any.run/][Any.run, free malware sandbox]]
++ [[https://www.hybrid-analysis.com/][Hybrid Analysis, free sandbox]]
++ [[https://www.joesandbox.com/][Joe Sandbox, Community Edition]]
++ [[https://zeltser.com/malware-sample-sources/][Malware samples compilation]]
++ [[https://vxug.fakedoma.in/packs.html][Malware samples]]
++ [[https://capesandbox.com/][Cape Sandbox]]
++ [[https://cuckoosandbox.org/][Cucko Sandbox]]
++ [[https://analyze.intezer.com/][Analyze @ Intezer, free sandbox]]
+** Detection Tools
+- Loki https://github.com/Neo23x0/Loki
+- [[http://www.cipherdyne.org/psad/][PSAD]]
+- [[http://rocknsm.io/][ROCK NSM]]
+- [[https://github.com/davehull/Kansa][Kansa Incident Framework]]
+** Threat Intelligence
++ [[https://securityintelligence.com/signature-based-detection-with-yara/][Yara rules]]
++ STIX
++ TAXII
++ CYBOX
++ [[https://app.cymon.io/][Cymon beta]]
++ [[https://cymon.io/][Open Threat Intelligence - cymon.io]]
++ https://ransomwaretracker.abuse.ch/
++ https://www.virustotal.com/
++ [[https://www.abuseipdb.com/][Abuse IP DB]]
++ [[https://www.dnsdb.info/][DNSDB or FarSight]]
++ [[https://dnstwister.report/][DNSTwister]]
++ [[https://certstream.calidog.io/][Certstream]]
++ [[https://github.com/mozilla/MozDef][MozDef]]
++ [[https://github.com/lnxg33k/MHA][Mail Header Analyzer]]
++ [[https://dmarcian.com/dmarc-tools/][DMARCian detection tools]]
++ [[http://phishtank.org/][PhishTank]]
++ [[https://www.misp-project.org/features.html][MISP Project]]
+** DDOS
+- [[https://www.akamai.com/us/en/solutions/intelligent-platform/visualizing-akamai/real-time-web-monitor.jsp][Akamai]]
+- [[http://www.digitalattackmap.com/][DigitalAttackmap]]
+** Information Security
+- [[https://www.scribd.com/document/346419905/Antivirus-Event-Analysis-CheatSheet-1-1][Antivirus Event Analysis]]
+- [[https://github.com/PaulSec/DET][Data Exfiltration Tools]]
+** Leak information
+- [[https://sec.hpi.uni-potsdam.de/ilc/search?lang=en][HPI Leak Database]]
+- [[https://haveibeenpwned.com/][Have I Been Pwned by Troy Hunt]]
+** Pentesting
+- [[https://www.infosecmatter.com/powershell-commands-for-pentesters/][Powershell for pentesters]]
+** Forensic
+- [[https://gchq.github.io/CyberChef/][CyberChef]]
+- [[https://github.com/Countercept/chainsaw][F-Secure Chainsaw]]
+* Other
+** Social
++ https://mastodon.social/about
++ [[https://infosec.exchange/about][Infosec Exchange]]
+** Info
++ https://www.malwaretech.com/ 
++ https://sans.org/
+** DNS
++ [[https://www.punycoder.com][Punycode converter]]
++ [[https://github.com/aboul3la/Sublist3r][Subdomain Enumerator, Sublist3r]]
+** Man
+- [[http://tldr.sh/][TLDR pages]]
+- [[http://cheat.sh/][Cheat man pages]]
+** Emacs                                                             :Emacs:
+- [[http://emacs-bootstrap.com/][Emacs Bootstrap]]
+- [[https://github.com/rakanalh/emacs-bootstrap#shortcuts][Emacs bootstrap links]]
+** Administration
+- [[https://msportals.io/][Microsoft Portals]]
+** Messaging
++ [[https://tox.chat/][Tox]]
++ [[https://signal.org/][Signal]]
++ [[https://wire.com/en/][Wire]]
+* Dev
+** Sharing
++ https://transfer.sh/
++ https://sprend.com/
++ [[https://ngrok.com/][Ngrok Secure tunnel]]
++ [[https://send.firefox.com/][Firefox Send]]
++ [[https://hastebin.com/about.md][Hastebin]]
++ [[https://pastebin.com/][Pastebin]]
+** Powershell
++ [[https://peter.hahndorf.eu/blog/WindowsFeatureViaCmd.html][Different ways for installing Windows features on the command line - Peter Hahndorf - peter.hahndorf.eu]]
++ [[https://ss64.com/links/pslinks.html][Windows PowerShell Books Software and Websites - SS64.com]]
++ [[https://www.gitbook.com/@devops-collective-inc][Gitbooks, Powershell]]
++ [[http://powershell.org][Powershell.Org]]
++ [[https://blog.netspi.com/15-ways-to-bypass-the-powershell-execution-policy/][15 ways to bypass executionpolicy]]
++ [[https://www.darkoperator.com/blog/2013/3/5/powershell-basics-execution-policy-part-1.html][Powershell Execution Policy]]
++ [[https://shell.azure.com/][Cloud Shell]]
++ [[https://sid-500.com/2017/07/12/powershell-force-gpupdate-on-all-domain-computers/][SID 500]]
++ [[https://poshcode.gitbook.io/powershell-practice-and-style/][Powershell Practice and Style Guide]]
+** Python
+- [[http://pypyjs.org/][Online python environment.]]
+** Git
++ [[https://github.com/mkchoi212/fac#readme][Fix All Conflicts]]
+** Windows
+- [[https://arno0x0x.wordpress.com/2017/11/20/windows-oneliners-to-download-remote-payload-and-execute-arbitrary-code/][Windows Oneliners for remote download]]
+** Linux
+- [[https://github.com/dylanaraps/pure-bash-bible/blob/master/README.md][Pure Bash Bible]]
+- [[https://github.com/redcode-labs/easyWSL][easy WSL]] :Docker:Windows:
+* Network
++ https://www.bleepingcomputer.com/
+** Addressing stuff
+Including LIR and IPv4, IPv6 addressing.
+[[https://www.ripe.net/support/training/material/ripe-ncc-training-material#LIR][RIPE NCC Training Course Material — RIPE Network Coordination Centre - www.ripe.net]]
+** IPAM
+- [[https://github.com/digitalocean/netbox][digitalocean/netbox: IP address management (IPAM) and data center infrastructure management (DCIM) tool. - github.com]]
+- [[https://phpipam.net/][phpIPAM IPAM IP address management software - phpipam.net]]
+- [[https://spritelink.github.io/NIPAP/][NIPAP - the best open source IP address management (IPAM) in the known universe - spritelink.github.io]]
+- [[http://www.linuxscrew.com/2012/04/04/ip-address-management-software/][Top Open Source IP Address Management Software - LinuxScrew: Linux Blog - www.linuxscrew.com]]
+- [[http://opennetadmin.com/][OpenNetAdmin]]
+** Devices
+- [[http://www.midbittech.com/][Shark tap: midBit Technologies]]
+** Blogs
+- [[http://packetpushers.net/series/briefings-in-brief/][Packet Pushers]]
+- [[http://etherealmind.com/][Etherealmind]]
+- [[http://blog.ipspace.net/][IP Space]]
+* Collections
+** Generic
++ [[https://github.com/sindresorhus/awesome][Awesome list]]
++ [[https://github.com/sbilly/awesome-security][Awesome Security]]
++ [[https://github.com/vitalysim/Awesome-Hacking-Resources][Awesome Hacking Resource]]
+** Network security
++ [[https://www.wordfence.com/blog/2017/04/tools-for-security-analysts/][Wordfence sec-tools]]
+** Hacking
++ http://www.kitploit.com/
+** Incident Response
++ [[https://github.com/meirwah/awesome-incident-response][Awesome Incident Response]]
+* Reading
+** OS
++ [[http://pages.cs.wisc.edu/~remzi/OSTEP/][Ostep.org]]
+** Computerinfo
++ [[https://www.howtogeek.com/][HowTo Geek]]
++ [[http://www.tomshardware.co.uk/][Toms Hardware]]
++ [[https://www.cyberciti.biz/][nixCraft]]
+** Forensics
++ [[https://www.sans.org/summit-archives/file/summit-archive-1493740486.pdf][SANS Forensics with ELK]]
+** Network 
+- [[https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/][DNS over HTTPS Cartoon Intro]]
+- [[http://dns-channel.github.io/][DNS related info]]
+** Security
+- [[https://kalilinuxtutorials.com/][Kali Tutorials]]
+** Humor
+- [[https://www.gnu.org/fun/jokes/users-lightbulb.en.html][Lightbulbs]]
+* About
+ - [[file:README.html][README]]
