@@ -49,6 +49,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://viz.greynoise.io/table][GreyNoise]]
 + [[https://github.com/byt3bl33d3r/WitnessMe][Witness Me, screenshots of websites]]
 + [[https://www.hardenize.com/][Hardenize network detection]]
++ [[https://github.com/ThoughtfulDev/EagleEye][Eagle Eye stalkerware...]]
 ** Info about vulnerabilities
 + https://www.cvedetails.com/
 + [[https://github.com/future-architect/vuls][VULS Vulnerability Scanner]]
@@ -128,6 +129,11 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 ** Information Security
 - [[https://www.scribd.com/document/346419905/Antivirus-Event-Analysis-CheatSheet-1-1][Antivirus Event Analysis]]
 - [[https://github.com/PaulSec/DET][Data Exfiltration Tools]]
+- [[https://csf.tools/][Cyber Security Frameworks]]
+- [[https://www.microsoft.com/en-us/download/details.aspx?id=55319][Microsoft Security Compliance Toolkit]]
+- [[https://attack.mitre.org/][Mitre Att&ck Framework]]
+- [[https://www.openrmf.io/][Open Risk Management Framework]]
+- [[https://www.cisecurity.org/][Center of Internet Security]]
 ** Leak information
 - [[https://sec.hpi.uni-potsdam.de/ilc/search?lang=en][HPI Leak Database]]
 - [[https://haveibeenpwned.com/][Have I Been Pwned by Troy Hunt]]
@@ -186,7 +192,6 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 - [[https://github.com/dylanaraps/pure-bash-bible/blob/master/README.md][Pure Bash Bible]]
 - [[https://github.com/redcode-labs/easyWSL][easy WSL]] :Docker:Windows:
 * Network
-+ https://www.bleepingcomputer.com/
 ** Addressing stuff
 Including LIR and IPv4, IPv6 addressing.
 [[https://www.ripe.net/support/training/material/ripe-ncc-training-material#LIR][RIPE NCC Training Course Material — RIPE Network Coordination Centre - www.ripe.net]]
@@ -214,6 +219,11 @@ Including LIR and IPv4, IPv6 addressing.
 ** Incident Response
 + [[https://github.com/meirwah/awesome-incident-response][Awesome Incident Response]]
 * Reading
+** News
++ https://www.bleepingcomputer.com/
++ [[https://therecord.media/][Recorded Future blog]]
++ [[https://thehackernews.com/][The Hacker News]]
++ [[https://threatpost.com/][ThreatPost]]
 ** OS
 + [[http://pages.cs.wisc.edu/~remzi/OSTEP/][Ostep.org]]
 ** Computerinfo
