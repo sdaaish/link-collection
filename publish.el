@@ -4,6 +4,7 @@
 
 (require 'ox-publish)
 (setq org-export-html-validation-link nil)
+(setq org-html-inline-images t)
 
 ;; Publish org-files
 (setq org-publish-project-alist
