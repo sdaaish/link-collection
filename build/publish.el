@@ -1,4 +1,5 @@
-;;; Publishes 
+;;; Publishes html-files from Org
+
 ;; No backups
 (setq make-backup-files nil)
 
