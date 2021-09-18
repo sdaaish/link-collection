@@ -19,10 +19,13 @@
 #+LATEX_HEADER:
 #+SETUPFILE: org-html-themes/org/theme-readtheorg-local.setup
 * A collection of useful links
-
+#+CAPTION: Buildstatus
+#+NAME: build.status
 [[https://github.com/sdaaish/link-collection/actions/workflows/main.yml/badge.svg][!]]
+
 [[https://github.com/sdaaish/link-collection/actions/workflows/main.yml][CI]]
 
+[[build.status][Build]]
 
-Mostly about networking and security.
+Mostly about networking and security but anything that I think I should remember or like ends up here.
 [[https://sdaaish.github.io/link-collection/links.html][Link-collection]]

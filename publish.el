@@ -1,4 +1,7 @@
 ;;; Publishes 
+;; No backups
+(setq make-backup-files nil)
+
 (require 'ox-publish)
 (setq org-export-html-validation-link nil)
 
