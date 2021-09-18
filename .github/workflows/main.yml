@@ -27,8 +27,12 @@ jobs:
         with:
           version: ${{ matrix.emacs_version }}
 
-      - name: Run a one-line script
+      - name: Run publish script
         run: sh publish.sh
 
-      - name: Check stuff
-        run: ls $GITHUB_WORKSPACE
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.5
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: master
+          FOLDER: .
