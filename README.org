@@ -20,5 +20,9 @@
 #+SETUPFILE: org-html-themes/org/theme-readtheorg-local.setup
 * A collection of useful links
 
+[[https://github.com/sdaaish/link-collection/actions/workflows/main.yml/badge.svg][!]]
+[[https://github.com/sdaaish/link-collection/actions/workflows/main.yml][CI]]
+
+
 Mostly about networking and security.
 [[https://sdaaish.github.io/link-collection/links.html][Link-collection]]
