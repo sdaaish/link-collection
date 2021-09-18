@@ -11,7 +11,7 @@
       `(("Link-collection"
          :base-directory "./"
          :base-extension "org"
-         :publishing-directory "./docs"
+         :publishing-directory "./"
          :publishing-function org-html-publish-to-html
          :recursive nil
          )))
