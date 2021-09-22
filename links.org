@@ -164,6 +164,8 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://tox.chat/][Tox]]
 + [[https://signal.org/][Signal]]
 + [[https://wire.com/en/][Wire]]
+** Tools
++ [[https://www.ventoy.net/en/index.html][Ventoy]]
 * Dev
 ** Sharing
 + https://transfer.sh/
