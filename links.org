@@ -54,6 +54,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + https://www.cvedetails.com/
 + [[https://github.com/future-architect/vuls][VULS Vulnerability Scanner]]
 + [[https://github.com/google/tsunami-security-scanner][Google Tsunami]]
++ [[https://ddosecrets.com/wiki/Distributed_Denial_of_Secrets][DDOS Secrets]]
 ** Security Guides
 *** SSH
 + [[https://wiki.mozilla.org/Security/Guidelines/OpenSSH][Mozilla Wiki about SSH]]
@@ -76,11 +77,13 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://www.xplico.org/][Xplico]]
 + [[https://github.com/certego/PcapMonkey][PcapMonkey]]
 + [[https://www.capanalysis.net/ca/][CapAnalysis]]
++ [[https://github.com/brimdata/brim][BRIM desktop network analysis tool]]
 + [[http://www.qosient.com/argus/index.shtml][Argus scanner]]
 + http://ipv4info.com/
 + http://ipify.org/
 + [[https://github.com/caesar0301/awesome-pcaptools][Awesome PCAP-tools]]
 + [[https://termshark.io/][TermShark]]
++ [[https://github.com/H21lab/tsharkVM][T-shark VM]]
 ** Crypto
 + https://keybase.io/
 + https://kryptera.se/
@@ -224,6 +227,7 @@ Including LIR and IPv4, IPv6 addressing.
 + [[https://therecord.media/][Recorded Future blog]]
 + [[https://thehackernews.com/][The Hacker News]]
 + [[https://threatpost.com/][ThreatPost]]
++ [[https://ddosecrets.substack.com/][Substack]]
 ** OS
 + [[http://pages.cs.wisc.edu/~remzi/OSTEP/][Ostep.org]]
 ** Computerinfo
