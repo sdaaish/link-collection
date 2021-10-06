@@ -84,6 +84,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://github.com/caesar0301/awesome-pcaptools][Awesome PCAP-tools]]
 + [[https://termshark.io/][TermShark]]
 + [[https://github.com/H21lab/tsharkVM][T-shark VM]]
++ [[https://www.netresec.com/?page=NetworkMiner][NetworkMiner]]
 ** Crypto
 + https://keybase.io/
 + https://kryptera.se/
@@ -197,6 +198,9 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 - [[https://github.com/dylanaraps/pure-bash-bible/blob/master/README.md][Pure Bash Bible]]
 - [[https://github.com/redcode-labs/easyWSL][easy WSL]] :Docker:Windows:
 * Network
+** Tools
+- [[https://www.wireshark.org/][Wireshark]]
+- [[https://www.cellstream.com/resources/wireshark-profiles-repository][Wireshark profiles repository]]
 ** Addressing stuff
 Including LIR and IPv4, IPv6 addressing.
 [[https://www.ripe.net/support/training/material/ripe-ncc-training-material#LIR][RIPE NCC Training Course Material — RIPE Network Coordination Centre - www.ripe.net]]
