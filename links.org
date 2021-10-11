@@ -67,8 +67,9 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + https://www.madboa.com/geek/openssl/
 + https://letsencrypt.org/
 ** Logging
-+ https://www.graylog.org/
-+ https://www.elastic.co/products/beats/packetbeat
++ [[https://www.graylog.org/][GrayLog]]
++ [[https://www.elastic.co/products/beats/packetbeat][Elastic PacketBeat]]
++ [[https://www.malwarearchaeology.com/cheat-sheets/][Malware Archaeology]]
 ** Network
 + https://nmap.org/
 + https://www.bro.org/
