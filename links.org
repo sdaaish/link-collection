@@ -222,6 +222,7 @@ Including LIR and IPv4, IPv6 addressing.
 + [[https://github.com/sindresorhus/awesome][Awesome list]]
 + [[https://github.com/sbilly/awesome-security][Awesome Security]]
 + [[https://github.com/vitalysim/Awesome-Hacking-Resources][Awesome Hacking Resource]]
++ [[https://cipher387.github.io/osint_stuff_tool_collection/][OSINT Stuff Collection]]
 ** Network security
 + [[https://www.wordfence.com/blog/2017/04/tools-for-security-analysts/][Wordfence sec-tools]]
 ** Hacking
