@@ -253,6 +253,7 @@ Including LIR and IPv4, IPv6 addressing.
 - [[http://dns-channel.github.io/][DNS related info]]
 ** Security
 - [[https://kalilinuxtutorials.com/][Kali Tutorials]]
+- [[https://github.com/trimstray/the-practical-linux-hardening-guide#okay-lets-start-3-2-1-stop][Practical Linux Hardening Guide]]
 ** Humor
 - [[https://www.gnu.org/fun/jokes/users-lightbulb.en.html][Lightbulbs]]
 * About
