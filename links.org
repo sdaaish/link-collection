@@ -1,6 +1,7 @@
 
 * Options :ARCHIVE:noexport:
-#+TITLE: Collection of links regarding security-related info.
+#+TITLE: Collection of security and network related info.
+#+SUBTITLE: A personal collection of links.
 #+STARTUP: show2levels indent
 #+OPTIONS: toc:3
 #+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
@@ -14,7 +15,6 @@
 #+HTML_LINK_UP:
 #+HTML_MATHJAX:
 #+HTML_HEAD_EXTRA:
-#+SUBTITLE:
 #+INFOJS_OPT:
 #+CREATOR: <a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.2 (<a href="https://orgmode.org">Org</a> mode 9.4.6)
 #+LATEX_HEADER:
@@ -51,6 +51,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://github.com/byt3bl33d3r/WitnessMe][Witness Me, screenshots of websites]]
 + [[https://www.hardenize.com/][Hardenize network detection]]
 + [[https://github.com/ThoughtfulDev/EagleEye][Eagle Eye stalkerware...]]
++ [[https://internet.nl/]]
 ** Info about vulnerabilities
 + https://www.cvedetails.com/
 + [[https://github.com/future-architect/vuls][VULS Vulnerability Scanner]]
@@ -87,6 +88,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://termshark.io/][TermShark]]
 + [[https://github.com/H21lab/tsharkVM][T-shark VM]]
 + [[https://www.netresec.com/?page=NetworkMiner][NetworkMiner]]
++ [[https://bgpview.io/][BGP View]]
 ** Crypto
 + https://keybase.io/
 + https://kryptera.se/
@@ -148,6 +150,8 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 ** Forensic
 - [[https://gchq.github.io/CyberChef/][CyberChef]]
 - [[https://github.com/Countercept/chainsaw][F-Secure Chainsaw]]
+** Offensive
++ [[https://github.com/fatedier/frp][Fast Reverse Proxy]]
 * Other
 ** Social
 + https://mastodon.social/about
@@ -155,6 +159,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 ** Info
 + https://www.malwaretech.com/ 
 + https://sans.org/
++ [[https://thedfirreport.com/][The DFIR Report]]
 ** DNS
 + [[https://www.punycoder.com][Punycode converter]]
 + [[https://github.com/aboul3la/Sublist3r][Subdomain Enumerator, Sublist3r]]
