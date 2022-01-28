@@ -132,6 +132,8 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://dmarcian.com/dmarc-tools/][DMARCian detection tools]]
 + [[http://phishtank.org/][PhishTank]]
 + [[https://www.misp-project.org/features.html][MISP Project]]
++ [[https://canarytokens.org/generate][Canary Tokens]]
++ [[http://dnslog.cn/][DNS Log]]
 ** DDOS
 - [[https://www.akamai.com/us/en/solutions/intelligent-platform/visualizing-akamai/real-time-web-monitor.jsp][Akamai]]
 - [[http://www.digitalattackmap.com/][DigitalAttackmap]]
@@ -262,5 +264,8 @@ Including LIR and IPv4, IPv6 addressing.
 - [[https://github.com/trimstray/the-practical-linux-hardening-guide#okay-lets-start-3-2-1-stop][Practical Linux Hardening Guide]]
 ** Humor
 - [[https://www.gnu.org/fun/jokes/users-lightbulb.en.html][Lightbulbs]]
+* Training
+** Dev
++ [[https://learnxinyminutes.com/][Learn X in Y minutes]]
 * About
  - [[file:README.html][README]]
