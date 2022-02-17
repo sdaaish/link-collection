@@ -57,6 +57,8 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://github.com/future-architect/vuls][VULS Vulnerability Scanner]]
 + [[https://github.com/google/tsunami-security-scanner][Google Tsunami]]
 + [[https://ddosecrets.com/wiki/Distributed_Denial_of_Secrets][DDOS Secrets]]
++ [[https://github.com/trickest/cve][Trickest list of CVE´s and PoC]]
++ [[https://github.com/CVEProject][The CVE Project]]
 ** Security Guides
 *** SSH
 + [[https://wiki.mozilla.org/Security/Guidelines/OpenSSH][Mozilla Wiki about SSH]]
@@ -74,9 +76,9 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://www.malwarearchaeology.com/cheat-sheets/][Malware Archaeology]]
 ** Network
 + https://nmap.org/
-+ https://www.bro.org/
-+ https://github.com/aol/moloch
++ [[https://zeek.org/][Zeek]]
 + [[https://arkime.com/][Arkime]]
++ [[https://github.com/arkime/arkime][Arkime GitHub]]
 + [[https://www.xplico.org/][Xplico]]
 + [[https://github.com/certego/PcapMonkey][PcapMonkey]]
 + [[https://www.capanalysis.net/ca/][CapAnalysis]]
