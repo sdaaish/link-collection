@@ -209,6 +209,8 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 ** Linux
 - [[https://github.com/dylanaraps/pure-bash-bible/blob/master/README.md][Pure Bash Bible]]
 - [[https://github.com/redcode-labs/easyWSL][easy WSL]] :Docker:Windows:
+** Web
+- [[https://jwt.io/][JSON Web Token converter]]
 * Network
 ** Tools
 - [[https://www.wireshark.org/][Wireshark]]
