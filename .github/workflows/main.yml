@@ -31,7 +31,7 @@ jobs:
         run: sh build/publish.sh
 
       - name: Deploy to github pages
-        uses: JamesIves/github-pages-deploy-action@4.2.5
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
         with:
           branch: html
           folder: .
