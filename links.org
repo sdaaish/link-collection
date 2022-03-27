@@ -186,6 +186,8 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://wire.com/en/][Wire]]
 ** Tools
 + [[https://www.ventoy.net/en/index.html][Ventoy]]
++ [[https://starship.rs][Starship prompt]]
++ [[https://ohmyposh.dev/][Oh My PoSH]] prompt
 * Dev
 ** Sharing
 + https://transfer.sh/
@@ -215,6 +217,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 - [[https://github.com/redcode-labs/easyWSL][easy WSL]] :Docker:Windows:
 ** Web
 - [[https://jwt.io/][JSON Web Token converter]]
+- [[https://shields.io/][Shields IO]]
 * Network
 ** Tools
 - [[https://www.wireshark.org/][Wireshark]]
