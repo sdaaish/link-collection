@@ -111,6 +111,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://cuckoosandbox.org/][Cucko Sandbox]]
 + [[https://analyze.intezer.com/][Analyze @ Intezer, free sandbox]]
 + [[https://www.malware-traffic-analysis.net/][Malware Traffic Analysis]]
+- [[https://www.browserling.com/][Browser Web Test Sandbox]]
 ** Detection Tools
 - Loki https://github.com/Neo23x0/Loki
 - [[http://www.cipherdyne.org/psad/][PSAD]]
