@@ -117,6 +117,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 - [[http://www.cipherdyne.org/psad/][PSAD]]
 - [[http://rocknsm.io/][ROCK NSM]]
 - [[https://github.com/davehull/Kansa][Kansa Incident Framework]]
+- [[https://ericzimmerman.github.io/#!index.md][Eric Zimmerman's tools]]
 ** Threat Intelligence
 + [[https://securityintelligence.com/signature-based-detection-with-yara/][Yara rules]]
 + STIX
