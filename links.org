@@ -202,12 +202,15 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://peter.hahndorf.eu/blog/WindowsFeatureViaCmd.html][Different ways for installing Windows features on the command line - Peter Hahndorf - peter.hahndorf.eu]]
 + [[https://ss64.com/links/pslinks.html][Windows PowerShell Books Software and Websites - SS64.com]]
 + [[https://www.gitbook.com/@devops-collective-inc][Gitbooks, Powershell]]
-+ [[http://powershell.org][Powershell.Org]]
++ [[http://powershell.org][PowerShell.Org]]
++ [[https://powershell.one/][PowerShell One]]
++ [[https://www.planetpowershell.com/preview][Planet PowerShell]]
 + [[https://blog.netspi.com/15-ways-to-bypass-the-powershell-execution-policy/][15 ways to bypass executionpolicy]]
 + [[https://www.darkoperator.com/blog/2013/3/5/powershell-basics-execution-policy-part-1.html][Powershell Execution Policy]]
 + [[https://shell.azure.com/][Cloud Shell]]
 + [[https://sid-500.com/2017/07/12/powershell-force-gpupdate-on-all-domain-computers/][SID 500]]
 + [[https://poshcode.gitbook.io/powershell-practice-and-style/][Powershell Practice and Style Guide]]
++ [[https://www.youtube.com/c/AdamDriscoll][Video tutorials with Powershell]]
 ** Python
 - [[http://pypyjs.org/][Online python environment.]]
 ** Git
