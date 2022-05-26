@@ -281,5 +281,6 @@ Including LIR and IPv4, IPv6 addressing.
 * Training
 ** Dev
 + [[https://learnxinyminutes.com/][Learn X in Y minutes]]
++ [[https://goalkicker.com/][Notes for Professionals]]
 * About
  - [[file:README.html][README]]
