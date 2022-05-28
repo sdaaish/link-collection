@@ -247,6 +247,11 @@ Including LIR and IPv4, IPv6 addressing.
 + [[https://github.com/sindresorhus/awesome][Awesome list]]
 + [[https://github.com/sbilly/awesome-security][Awesome Security]]
 + [[https://github.com/vitalysim/Awesome-Hacking-Resources][Awesome Hacking Resource]]
++ [[https://github.com/janikvonrotz/awesome-powershell/][Awesome PowerShell]]
++ [[https://github.com/shadawck/awesome-anti-forensic][Awesome Anti Forensic]]
++ [[https://github.com/topics/awesome?l=powershell][Awesome lists related to Powershell on GitHub]]
++ [[https://github.com/topics/awesome?q=awesome+security][Awesome lists related to Security on GitHub]]
++ [[https://github.com/topics/awesome?q=awesome+forensic][Awesome lists related to Forensics on GitHub]]
 + [[https://cipher387.github.io/osint_stuff_tool_collection/][OSINT Stuff Collection]]
 + [[https://github.com/cipher387/Dorks-collections-list][Dorks Collection]]
 ** Network security
@@ -282,5 +287,6 @@ Including LIR and IPv4, IPv6 addressing.
 ** Dev
 + [[https://learnxinyminutes.com/][Learn X in Y minutes]]
 + [[https://goalkicker.com/][Notes for Professionals]]
++ [[https://leanpub.com/u/devopscollective][DevOps Collective on LeanPub]]
 * About
  - [[file:README.html][README]]
