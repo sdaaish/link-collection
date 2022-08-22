@@ -138,6 +138,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://www.misp-project.org/features.html][MISP Project]]
 + [[https://canarytokens.org/generate][Canary Tokens]]
 + [[http://dnslog.cn/][DNS Log]]
++ [[https://uncoder.io/][Uncoder]]
 ** DDOS
 - [[https://www.akamai.com/us/en/solutions/intelligent-platform/visualizing-akamai/real-time-web-monitor.jsp][Akamai]]
 - [[http://www.digitalattackmap.com/][DigitalAttackmap]]
@@ -173,6 +174,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 ** Man
 - [[http://tldr.sh/][TLDR pages]]
 - [[http://cheat.sh/][Cheat man pages]]
+- [[https://www.explainshell.com/][Explaining shell]]
 ** Emacs                                                             :Emacs:
 - [[http://emacs-bootstrap.com/][Emacs Bootstrap]]
 - [[https://github.com/rakanalh/emacs-bootstrap#shortcuts][Emacs bootstrap links]]
@@ -223,6 +225,9 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 ** Web
 - [[https://jwt.io/][JSON Web Token converter]]
 - [[https://shields.io/][Shields IO]]
+** Regex
+- [[https://regexr.com/][RegExr]]
+- [[https://regex101.com/][RegEx 101]]
 * Network
 ** Tools
 - [[https://www.wireshark.org/][Wireshark]]
