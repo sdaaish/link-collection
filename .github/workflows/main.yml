@@ -1,3 +1,4 @@
+# Build and export the org-files to GitHub Pages.
 
 name: CI
 
@@ -31,7 +32,7 @@ jobs:
         run: sh build/publish.sh
 
       - name: Deploy to github pages
-        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: html
           folder: .
