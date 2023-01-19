@@ -74,7 +74,8 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://www.elastic.co/products/beats/packetbeat][Elastic PacketBeat]]
 + [[https://www.malwarearchaeology.com/cheat-sheets/][Malware Archaeology]]
 ** Network
-+ https://nmap.org/
++ [[https://nmap.org/][NMAP]]
++ [[https://npcap.com/][NPCAP]]
 + [[https://zeek.org/][Zeek]]
 + [[https://arkime.com/][Arkime]]
 + [[https://github.com/arkime/arkime][Arkime GitHub]]
@@ -296,6 +297,9 @@ Including LIR and IPv4, IPv6 addressing.
 - [[https://github.com/trimstray/the-practical-linux-hardening-guide#okay-lets-start-3-2-1-stop][Practical Linux Hardening Guide]]
 ** Humor
 - [[https://www.gnu.org/fun/jokes/users-lightbulb.en.html][Lightbulbs]]
+- [[https://www.littlebobbycomic.com/][Little Bobby Tables]]
+- [[https://xkcd.com/][XKCD]]
+- [[https://pcweenies.com/][PC Weenies]]
 * Training
 ** Dev
 + [[https://learnxinyminutes.com/][Learn X in Y minutes]]

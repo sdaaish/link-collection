@@ -22,7 +22,7 @@
 * A collection of useful links
 #+CAPTION: Buildstatus
 #+NAME: build.status
-[[https://github.com/sdaaish/link-collection/actions/workflows/main.yml][https://github.com/sdaaish/link-collection/actions/workflows/main.yml/badge.svg]]
+[[./actions/workflows/main.yml]]
 
 Mostly links to pages about networking and security but anything that I think I should remember or like ends up here.
 
