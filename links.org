@@ -92,6 +92,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://github.com/H21lab/tsharkVM][T-shark VM]]
 + [[https://www.netresec.com/?page=NetworkMiner][NetworkMiner]]
 + [[https://bgpview.io/][BGP View]]
++ [[https://github.com/Security-Onion-Solutions/securityonion][Security Onion]]
 ** Crypto
 + https://keybase.io/
 + https://kryptera.se/
@@ -100,6 +101,8 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://github.com/Ciphey/Ciphey][Ciphey decryptor]]
 ** Incident
 + https://thehive-project.org/
++ [[https://docs.velociraptor.app/docs/overview/][Velicoraptor]]
++ [[https://wazuh.com/][Wazuh]]
 ** Malware 
 + https://www.nomoreransom.org/
 + [[https://malware-hunter.shodan.io/][Malwares on Shodan]]
@@ -112,21 +115,26 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://cuckoosandbox.org/][Cucko Sandbox]]
 + [[https://analyze.intezer.com/][Analyze @ Intezer, free sandbox]]
 + [[https://www.malware-traffic-analysis.net/][Malware Traffic Analysis]]
-- [[https://www.browserling.com/][Browser Web Test Sandbox]]
++ [[https://www.browserling.com/][Browser Web Test Sandbox]]
++ [[https://github.com/microsoft/MSLab][WSL Lab|MS Lab, Rapid Lab deployment scripts]]
 ** Detection Tools
-- Loki https://github.com/Neo23x0/Loki
+- [[https://github.com/Neo23x0/Loki][Loki]]
 - [[http://www.cipherdyne.org/psad/][PSAD]]
 - [[http://rocknsm.io/][ROCK NSM]]
 - [[https://github.com/davehull/Kansa][Kansa Incident Framework]]
 - [[https://ericzimmerman.github.io/#!index.md][Eric Zimmerman's tools]]
 ** Threat Intelligence
 + [[https://securityintelligence.com/signature-based-detection-with-yara/][Yara rules]]
-+ STIX
-+ TAXII
-+ CYBOX
++ [[https://oasis-open.github.io/cti-documentation/taxii/intro.html][STIX]]
++ [[https://oasis-open.github.io/cti-documentation/taxii/intro.html][TAXII]]
++ [[https://cybox.mitre.org/about/][CYBOX]]
 + [[https://app.cymon.io/][Cymon beta]]
 + [[https://cymon.io/][Open Threat Intelligence - cymon.io]]
-+ https://ransomwaretracker.abuse.ch/
++ [[https://feodotracker.abuse.ch/][Feodo tracker (Abuse.ch)]]
++ [[https://bazaar.abuse.ch/][Malware Bazaar (Abuse.ch)]]
++ [[https://urlhaus.abuse.ch/][URL Haus (Abuse.ch)]]
++ [[https://threatfox.abuse.ch/][ThreatFox (Abuse.ch)]]
++ [[https://yaraify.abuse.ch/][YARAify (Abuse.ch)]]
 + https://www.virustotal.com/
 + [[https://www.abuseipdb.com/][Abuse IP DB]]
 + [[https://www.dnsdb.info/][DNSDB or FarSight]]
@@ -140,6 +148,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://canarytokens.org/generate][Canary Tokens]]
 + [[http://dnslog.cn/][DNS Log]]
 + [[https://uncoder.io/][Uncoder]]
++ [[https://dnstwist.it/][DNS Twist]]
 ** DDOS
 - [[https://www.akamai.com/us/en/solutions/intelligent-platform/visualizing-akamai/real-time-web-monitor.jsp][Akamai]]
 - [[http://www.digitalattackmap.com/][DigitalAttackmap]]
@@ -148,17 +157,20 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 - [[https://github.com/PaulSec/DET][Data Exfiltration Tools]]
 - [[https://csf.tools/][Cyber Security Frameworks]]
 - [[https://www.microsoft.com/en-us/download/details.aspx?id=55319][Microsoft Security Compliance Toolkit]]
-- [[https://attack.mitre.org/][Mitre Att&ck Framework]]
+- [[https://attack.mitre.org/][Mitre ATT&CK Framework]]
+- [[https://car.mitre.org/analytics/][Cyber Analytics Repositorey (CAR)]]
 - [[https://www.openrmf.io/][Open Risk Management Framework]]
 - [[https://www.cisecurity.org/][Center of Internet Security]]
 ** Leak information
 - [[https://sec.hpi.uni-potsdam.de/ilc/search?lang=en][HPI Leak Database]]
 - [[https://haveibeenpwned.com/][Have I Been Pwned by Troy Hunt]]
+- [[https://ransomware.live/#/][Ransomware Live]]
 ** Pentesting
 - [[https://www.infosecmatter.com/powershell-commands-for-pentesters/][Powershell for pentesters]]
 ** Forensic
 - [[https://gchq.github.io/CyberChef/][CyberChef]]
 - [[https://github.com/Countercept/chainsaw][F-Secure Chainsaw]]
+- [[https://www.maltego.com/][Maltego]]
 ** Offensive
 + [[https://github.com/fatedier/frp][Fast Reverse Proxy]]
 * Other
@@ -172,6 +184,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 ** DNS
 + [[https://www.punycoder.com][Punycode converter]]
 + [[https://github.com/aboul3la/Sublist3r][Subdomain Enumerator, Sublist3r]]
++ [[https://digger.tools/][Digger tools]]
 ** Man
 - [[http://tldr.sh/][TLDR pages]]
 - [[http://cheat.sh/][Cheat man pages]]
@@ -193,6 +206,8 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://www.ventoy.net/en/index.html][Ventoy]]
 + [[https://starship.rs][Starship prompt]]
 + [[https://ohmyposh.dev/][Oh My PoSH]] prompt
++ [[https://github.com/drakkan/sftpgo][SftpGO]]
++ [[https://github.com/go-gitea/gitea][Gitea]]
 * Dev
 ** Sharing
 + https://transfer.sh/
@@ -226,6 +241,20 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 - [[https://github.com/redcode-labs/easyWSL][easy WSL]] :Docker:Windows:
 - [[https://pkgs.org/][Package finder]]
 - [[https://repology.org/][Repology, package hub]]
+- [[https://distrobox.it/][Distrobox]]
+- [[https://en.opensuse.org/Portal:Aeon][SuSE Aeon]]
+- [[https://documentation.ubuntu.com/lxd/en/latest/][Ubuntu LXD/LXC]]
+- [[https://linuxcontainers.org/][Linux containers (LXC)]]
+- [[https://linuxcontainers.org/incus/][Incus, LXC]]
+*** Kubernetes
+- [[https://k3s.io/][K3S]]
+- [[https://kubernetes.io/][K8S]]
+- [[https://rke.docs.rancher.com/][RKE]]
+- [[https://www.cncf.io/projects/][CNCF, Cloud Native Computing Foundation]]
+  - [[https://landscape.cncf.io/guide#introduction][CNCF Landscape]]
+- [[https://www.rancher.com/][Rancher]]
+- [[https://docs.harvesterhci.io/v1.2][Harvester]]
+- [[https://longhorn.io/][Longhorn]]
 ** Web
 - [[https://jwt.io/][JSON Web Token converter]]
 - [[https://shields.io/][Shields IO]]
@@ -236,6 +265,9 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 - [[https://github.com/anchore/grype][Grype, vulnerability scanner]]
 - [[https://github.com/anchore/syft][Syft, SBOM]]
 - [[https://snyk.io/][Snyk, vulnerability scanner]]
+** Search
+- [[https://grep.app/][Grep APP]]
+- [[https://searchcode.com/api/][Search code]]
 * Network
 ** Tools
 - [[https://www.wireshark.org/][Wireshark]]
@@ -308,5 +340,7 @@ Including LIR and IPv4, IPv6 addressing.
 + [[https://learnxinyminutes.com/][Learn X in Y minutes]]
 + [[https://goalkicker.com/][Notes for Professionals]]
 + [[https://leanpub.com/u/devopscollective][DevOps Collective on LeanPub]]
++ [[https://devdocs.io/][Dev Docs]]
++ [[https://cheat.sh/][Cheat.sh]]
 * About
  - [[file:README.html][README]]

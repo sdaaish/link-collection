@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-01-26 Fri 08:40 -->
+<!-- 2024-01-26 Fri 23:54 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Collection of security and network related info.</title>
@@ -50,98 +50,103 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org4757697">1. Introduction</a></li>
-<li><a href="#orgc768912">2. Security stuff</a>
+<li><a href="#org9cdfe59">1. Introduction</a></li>
+<li><a href="#org5ac7717">2. Security stuff</a>
 <ul>
-<li><a href="#org00b611e">2.1. Scanning</a></li>
-<li><a href="#org3d405cf">2.2. Info about vulnerabilities</a></li>
-<li><a href="#orge022c97">2.3. Security Guides</a>
+<li><a href="#org78314bd">2.1. Scanning</a></li>
+<li><a href="#org7f7f40b">2.2. Info about vulnerabilities</a></li>
+<li><a href="#org24d76f0">2.3. Security Guides</a>
 <ul>
-<li><a href="#orgb723c2b">2.3.1. SSH</a></li>
-<li><a href="#org7c11c2e">2.3.2. GnuPG (GPG/PGP)</a></li>
-<li><a href="#org56cad0c">2.3.3. OpenSSL</a></li>
+<li><a href="#org269c1ae">2.3.1. SSH</a></li>
+<li><a href="#org5a60be5">2.3.2. GnuPG (GPG/PGP)</a></li>
+<li><a href="#org2559605">2.3.3. OpenSSL</a></li>
 </ul>
 </li>
-<li><a href="#org2f0fa78">2.4. Logging</a></li>
-<li><a href="#org4337884">2.5. Network</a></li>
-<li><a href="#org52a7b78">2.6. Crypto</a></li>
-<li><a href="#org3a8c59e">2.7. Incident</a></li>
-<li><a href="#orgff1da64">2.8. Malware</a></li>
-<li><a href="#org517a944">2.9. Detection Tools</a></li>
-<li><a href="#org3ccb383">2.10. Threat Intelligence</a></li>
-<li><a href="#orgb6f8722">2.11. DDOS</a></li>
-<li><a href="#org88e44e7">2.12. Information Security</a></li>
-<li><a href="#org39d0371">2.13. Leak information</a></li>
-<li><a href="#org137fa33">2.14. Pentesting</a></li>
-<li><a href="#org03d49fa">2.15. Forensic</a></li>
-<li><a href="#orgfa23416">2.16. Offensive</a></li>
+<li><a href="#org72f28d6">2.4. Logging</a></li>
+<li><a href="#org2e1044c">2.5. Network</a></li>
+<li><a href="#orgf95bcc7">2.6. Crypto</a></li>
+<li><a href="#org0c3047e">2.7. Incident</a></li>
+<li><a href="#orgbe03fb4">2.8. Malware</a></li>
+<li><a href="#org9448421">2.9. Detection Tools</a></li>
+<li><a href="#org41db089">2.10. Threat Intelligence</a></li>
+<li><a href="#org390cad6">2.11. DDOS</a></li>
+<li><a href="#orgdc5f99a">2.12. Information Security</a></li>
+<li><a href="#orgce3c7fc">2.13. Leak information</a></li>
+<li><a href="#orgfb6c231">2.14. Pentesting</a></li>
+<li><a href="#org52fe92d">2.15. Forensic</a></li>
+<li><a href="#org3dab5c7">2.16. Offensive</a></li>
 </ul>
 </li>
-<li><a href="#org005a340">3. Other</a>
+<li><a href="#org53cb8cd">3. Other</a>
 <ul>
-<li><a href="#org51b0602">3.1. Social</a></li>
-<li><a href="#org3a7ff32">3.2. Info</a></li>
-<li><a href="#org91089e6">3.3. DNS</a></li>
-<li><a href="#orgb2f78bd">3.4. Man</a></li>
-<li><a href="#org9b5cb97">3.5. Emacs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Emacs">Emacs</span></span></a></li>
-<li><a href="#org93fe370">3.6. Administration</a></li>
-<li><a href="#org5ef274a">3.7. Messaging</a></li>
-<li><a href="#org0ae7866">3.8. Tools</a></li>
+<li><a href="#orgd9ad054">3.1. Social</a></li>
+<li><a href="#org6d1d3d1">3.2. Info</a></li>
+<li><a href="#org1807572">3.3. DNS</a></li>
+<li><a href="#orgfe86047">3.4. Man</a></li>
+<li><a href="#orgb5945df">3.5. Emacs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Emacs">Emacs</span></span></a></li>
+<li><a href="#orgeca7fa0">3.6. Administration</a></li>
+<li><a href="#org2b2ef37">3.7. Messaging</a></li>
+<li><a href="#orgc3222fb">3.8. Tools</a></li>
 </ul>
 </li>
-<li><a href="#orgdc2b54c">4. Dev</a>
+<li><a href="#org4e56d62">4. Dev</a>
 <ul>
-<li><a href="#orgabc54a0">4.1. Sharing</a></li>
-<li><a href="#org34450f2">4.2. Powershell</a></li>
-<li><a href="#org102d909">4.3. Python</a></li>
-<li><a href="#org62a5707">4.4. Git</a></li>
-<li><a href="#orga5763bf">4.5. Windows</a></li>
-<li><a href="#orgf09e40a">4.6. Linux</a></li>
-<li><a href="#org856321b">4.7. Web</a></li>
-<li><a href="#org80c0e7f">4.8. Regex</a></li>
-<li><a href="#orgd89cfcd">4.9. LCM</a></li>
-</ul>
-</li>
-<li><a href="#org17229db">5. Network</a>
+<li><a href="#org346a407">4.1. Sharing</a></li>
+<li><a href="#org27e12dd">4.2. Powershell</a></li>
+<li><a href="#org00e557f">4.3. Python</a></li>
+<li><a href="#orgeb442a8">4.4. Git</a></li>
+<li><a href="#orga563a68">4.5. Windows</a></li>
+<li><a href="#org3541512">4.6. Linux</a>
 <ul>
-<li><a href="#orgff777f6">5.1. Tools</a></li>
-<li><a href="#orga23baca">5.2. Addressing stuff</a></li>
-<li><a href="#orgd88a813">5.3. IPAM</a></li>
-<li><a href="#orgc9f359d">5.4. Devices</a></li>
-<li><a href="#org354ffc7">5.5. Blogs</a></li>
+<li><a href="#org89560ea">4.6.1. Kubernetes</a></li>
 </ul>
 </li>
-<li><a href="#org9e05888">6. Collections</a>
+<li><a href="#orgfd6be36">4.7. Web</a></li>
+<li><a href="#org830aac1">4.8. Regex</a></li>
+<li><a href="#orgf93db8b">4.9. LCM</a></li>
+<li><a href="#orgc4740d6">4.10. Search</a></li>
+</ul>
+</li>
+<li><a href="#orgfd8ae59">5. Network</a>
 <ul>
-<li><a href="#orgc327e64">6.1. Generic</a></li>
-<li><a href="#org939fe0d">6.2. Network security</a></li>
-<li><a href="#org0cd65d8">6.3. Hacking</a></li>
-<li><a href="#orge750938">6.4. Incident Response</a></li>
-<li><a href="#orgae77c77">6.5. Cheat Sheets</a></li>
+<li><a href="#orga8428ab">5.1. Tools</a></li>
+<li><a href="#orgb09715f">5.2. Addressing stuff</a></li>
+<li><a href="#org56ded8f">5.3. IPAM</a></li>
+<li><a href="#org2302d72">5.4. Devices</a></li>
+<li><a href="#org56ce826">5.5. Blogs</a></li>
 </ul>
 </li>
-<li><a href="#org7023b00">7. Reading</a>
+<li><a href="#orga0257ad">6. Collections</a>
 <ul>
-<li><a href="#org13a45fe">7.1. News</a></li>
-<li><a href="#orgaa1f970">7.2. OS</a></li>
-<li><a href="#org0e8d42f">7.3. Computerinfo</a></li>
-<li><a href="#org7b13e44">7.4. Forensics</a></li>
-<li><a href="#orgcb96f0d">7.5. Network</a></li>
-<li><a href="#orgfe5f068">7.6. Security</a></li>
-<li><a href="#org7d77c86">7.7. Humor</a></li>
+<li><a href="#org7665194">6.1. Generic</a></li>
+<li><a href="#orge1b79f4">6.2. Network security</a></li>
+<li><a href="#org64ac9e5">6.3. Hacking</a></li>
+<li><a href="#orga19a951">6.4. Incident Response</a></li>
+<li><a href="#org46b1b35">6.5. Cheat Sheets</a></li>
 </ul>
 </li>
-<li><a href="#org3c025fb">8. Training</a>
+<li><a href="#orgfdeff19">7. Reading</a>
 <ul>
-<li><a href="#orge34cd96">8.1. Dev</a></li>
+<li><a href="#org256180b">7.1. News</a></li>
+<li><a href="#org513ad50">7.2. OS</a></li>
+<li><a href="#org47d45c5">7.3. Computerinfo</a></li>
+<li><a href="#org412f233">7.4. Forensics</a></li>
+<li><a href="#orgf262801">7.5. Network</a></li>
+<li><a href="#orgdf35a14">7.6. Security</a></li>
+<li><a href="#org9342b8a">7.7. Humor</a></li>
 </ul>
 </li>
-<li><a href="#org73ab5a1">9. About</a></li>
+<li><a href="#org12a9bb7">8. Training</a>
+<ul>
+<li><a href="#org505128c">8.1. Dev</a></li>
+</ul>
+</li>
+<li><a href="#orgd921f32">9. About</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org4757697" class="outline-2">
-<h2 id="org4757697"><span class="section-number-2">1</span> Introduction</h2>
+<div id="outline-container-org9cdfe59" class="outline-2">
+<h2 id="org9cdfe59"><span class="section-number-2">1</span> Introduction</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 This is my collection of links that are useful in gathering security or network information. The main purpose is just to keep track of all info I runs into when reading stuff on the net. And the sorting could be better&#x2026;
@@ -150,12 +155,12 @@ The repo is obviously on <a href="https://github.com/sdaaish/link-collection">Gi
 </p>
 </div>
 </div>
-<div id="outline-container-orgc768912" class="outline-2">
-<h2 id="orgc768912"><span class="section-number-2">2</span> Security stuff</h2>
+<div id="outline-container-org5ac7717" class="outline-2">
+<h2 id="org5ac7717"><span class="section-number-2">2</span> Security stuff</h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-org00b611e" class="outline-3">
-<h3 id="org00b611e"><span class="section-number-3">2.1</span> Scanning</h3>
+<div id="outline-container-org78314bd" class="outline-3">
+<h3 id="org78314bd"><span class="section-number-3">2.1</span> Scanning</h3>
 <div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
 <li><a href="http://shodan.io">http://shodan.io</a></li>
@@ -189,8 +194,8 @@ The repo is obviously on <a href="https://github.com/sdaaish/link-collection">Gi
 </ul>
 </div>
 </div>
-<div id="outline-container-org3d405cf" class="outline-3">
-<h3 id="org3d405cf"><span class="section-number-3">2.2</span> Info about vulnerabilities</h3>
+<div id="outline-container-org7f7f40b" class="outline-3">
+<h3 id="org7f7f40b"><span class="section-number-3">2.2</span> Info about vulnerabilities</h3>
 <div class="outline-text-3" id="text-2-2">
 <ul class="org-ul">
 <li><a href="https://www.cvedetails.com/">https://www.cvedetails.com/</a></li>
@@ -202,12 +207,12 @@ The repo is obviously on <a href="https://github.com/sdaaish/link-collection">Gi
 </ul>
 </div>
 </div>
-<div id="outline-container-orge022c97" class="outline-3">
-<h3 id="orge022c97"><span class="section-number-3">2.3</span> Security Guides</h3>
+<div id="outline-container-org24d76f0" class="outline-3">
+<h3 id="org24d76f0"><span class="section-number-3">2.3</span> Security Guides</h3>
 <div class="outline-text-3" id="text-2-3">
 </div>
-<div id="outline-container-orgb723c2b" class="outline-4">
-<h4 id="orgb723c2b"><span class="section-number-4">2.3.1</span> SSH</h4>
+<div id="outline-container-org269c1ae" class="outline-4">
+<h4 id="org269c1ae"><span class="section-number-4">2.3.1</span> SSH</h4>
 <div class="outline-text-4" id="text-2-3-1">
 <ul class="org-ul">
 <li><a href="https://wiki.mozilla.org/Security/Guidelines/OpenSSH">Mozilla Wiki about SSH</a></li>
@@ -215,8 +220,8 @@ The repo is obviously on <a href="https://github.com/sdaaish/link-collection">Gi
 </ul>
 </div>
 </div>
-<div id="outline-container-org7c11c2e" class="outline-4">
-<h4 id="org7c11c2e"><span class="section-number-4">2.3.2</span> GnuPG (GPG/PGP)</h4>
+<div id="outline-container-org5a60be5" class="outline-4">
+<h4 id="org5a60be5"><span class="section-number-4">2.3.2</span> GnuPG (GPG/PGP)</h4>
 <div class="outline-text-4" id="text-2-3-2">
 <ul class="org-ul">
 <li><a href="https://riseup.net/ru/security/message-security/openpgp/best-practices">https://riseup.net/ru/security/message-security/openpgp/best-practices</a></li>
@@ -225,8 +230,8 @@ The repo is obviously on <a href="https://github.com/sdaaish/link-collection">Gi
 </ul>
 </div>
 </div>
-<div id="outline-container-org56cad0c" class="outline-4">
-<h4 id="org56cad0c"><span class="section-number-4">2.3.3</span> OpenSSL</h4>
+<div id="outline-container-org2559605" class="outline-4">
+<h4 id="org2559605"><span class="section-number-4">2.3.3</span> OpenSSL</h4>
 <div class="outline-text-4" id="text-2-3-3">
 <ul class="org-ul">
 <li><a href="https://www.madboa.com/geek/openssl/">https://www.madboa.com/geek/openssl/</a></li>
@@ -235,8 +240,8 @@ The repo is obviously on <a href="https://github.com/sdaaish/link-collection">Gi
 </div>
 </div>
 </div>
-<div id="outline-container-org2f0fa78" class="outline-3">
-<h3 id="org2f0fa78"><span class="section-number-3">2.4</span> Logging</h3>
+<div id="outline-container-org72f28d6" class="outline-3">
+<h3 id="org72f28d6"><span class="section-number-3">2.4</span> Logging</h3>
 <div class="outline-text-3" id="text-2-4">
 <ul class="org-ul">
 <li><a href="https://www.graylog.org/">GrayLog</a></li>
@@ -245,8 +250,8 @@ The repo is obviously on <a href="https://github.com/sdaaish/link-collection">Gi
 </ul>
 </div>
 </div>
-<div id="outline-container-org4337884" class="outline-3">
-<h3 id="org4337884"><span class="section-number-3">2.5</span> Network</h3>
+<div id="outline-container-org2e1044c" class="outline-3">
+<h3 id="org2e1044c"><span class="section-number-3">2.5</span> Network</h3>
 <div class="outline-text-3" id="text-2-5">
 <ul class="org-ul">
 <li><a href="https://nmap.org/">NMAP</a></li>
@@ -266,11 +271,12 @@ The repo is obviously on <a href="https://github.com/sdaaish/link-collection">Gi
 <li><a href="https://github.com/H21lab/tsharkVM">T-shark VM</a></li>
 <li><a href="https://www.netresec.com/?page=NetworkMiner">NetworkMiner</a></li>
 <li><a href="https://bgpview.io/">BGP View</a></li>
+<li><a href="https://github.com/Security-Onion-Solutions/securityonion">Security Onion</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org52a7b78" class="outline-3">
-<h3 id="org52a7b78"><span class="section-number-3">2.6</span> Crypto</h3>
+<div id="outline-container-orgf95bcc7" class="outline-3">
+<h3 id="orgf95bcc7"><span class="section-number-3">2.6</span> Crypto</h3>
 <div class="outline-text-3" id="text-2-6">
 <ul class="org-ul">
 <li><a href="https://keybase.io/">https://keybase.io/</a></li>
@@ -281,16 +287,18 @@ The repo is obviously on <a href="https://github.com/sdaaish/link-collection">Gi
 </ul>
 </div>
 </div>
-<div id="outline-container-org3a8c59e" class="outline-3">
-<h3 id="org3a8c59e"><span class="section-number-3">2.7</span> Incident</h3>
+<div id="outline-container-org0c3047e" class="outline-3">
+<h3 id="org0c3047e"><span class="section-number-3">2.7</span> Incident</h3>
 <div class="outline-text-3" id="text-2-7">
 <ul class="org-ul">
 <li><a href="https://thehive-project.org/">https://thehive-project.org/</a></li>
+<li><a href="https://docs.velociraptor.app/docs/overview/">Velicoraptor</a></li>
+<li><a href="https://wazuh.com/">Wazuh</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgff1da64" class="outline-3">
-<h3 id="orgff1da64"><span class="section-number-3">2.8</span> Malware</h3>
+<div id="outline-container-orgbe03fb4" class="outline-3">
+<h3 id="orgbe03fb4"><span class="section-number-3">2.8</span> Malware</h3>
 <div class="outline-text-3" id="text-2-8">
 <ul class="org-ul">
 <li><a href="https://www.nomoreransom.org/">https://www.nomoreransom.org/</a></li>
@@ -305,14 +313,15 @@ The repo is obviously on <a href="https://github.com/sdaaish/link-collection">Gi
 <li><a href="https://analyze.intezer.com/">Analyze @ Intezer, free sandbox</a></li>
 <li><a href="https://www.malware-traffic-analysis.net/">Malware Traffic Analysis</a></li>
 <li><a href="https://www.browserling.com/">Browser Web Test Sandbox</a></li>
+<li><a href="https://github.com/microsoft/MSLab">WSL Lab|MS Lab, Rapid Lab deployment scripts</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org517a944" class="outline-3">
-<h3 id="org517a944"><span class="section-number-3">2.9</span> Detection Tools</h3>
+<div id="outline-container-org9448421" class="outline-3">
+<h3 id="org9448421"><span class="section-number-3">2.9</span> Detection Tools</h3>
 <div class="outline-text-3" id="text-2-9">
 <ul class="org-ul">
-<li>Loki <a href="https://github.com/Neo23x0/Loki">https://github.com/Neo23x0/Loki</a></li>
+<li><a href="https://github.com/Neo23x0/Loki">Loki</a></li>
 <li><a href="http://www.cipherdyne.org/psad/">PSAD</a></li>
 <li><a href="http://rocknsm.io/">ROCK NSM</a></li>
 <li><a href="https://github.com/davehull/Kansa">Kansa Incident Framework</a></li>
@@ -320,17 +329,21 @@ The repo is obviously on <a href="https://github.com/sdaaish/link-collection">Gi
 </ul>
 </div>
 </div>
-<div id="outline-container-org3ccb383" class="outline-3">
-<h3 id="org3ccb383"><span class="section-number-3">2.10</span> Threat Intelligence</h3>
+<div id="outline-container-org41db089" class="outline-3">
+<h3 id="org41db089"><span class="section-number-3">2.10</span> Threat Intelligence</h3>
 <div class="outline-text-3" id="text-2-10">
 <ul class="org-ul">
 <li><a href="https://securityintelligence.com/signature-based-detection-with-yara/">Yara rules</a></li>
-<li>STIX</li>
-<li>TAXII</li>
-<li>CYBOX</li>
+<li><a href="https://oasis-open.github.io/cti-documentation/taxii/intro.html">STIX</a></li>
+<li><a href="https://oasis-open.github.io/cti-documentation/taxii/intro.html">TAXII</a></li>
+<li><a href="https://cybox.mitre.org/about/">CYBOX</a></li>
 <li><a href="https://app.cymon.io/">Cymon beta</a></li>
 <li><a href="https://cymon.io/">Open Threat Intelligence - cymon.io</a></li>
-<li><a href="https://ransomwaretracker.abuse.ch/">https://ransomwaretracker.abuse.ch/</a></li>
+<li><a href="https://feodotracker.abuse.ch/">Feodo tracker (Abuse.ch)</a></li>
+<li><a href="https://bazaar.abuse.ch/">Malware Bazaar (Abuse.ch)</a></li>
+<li><a href="https://urlhaus.abuse.ch/">URL Haus (Abuse.ch)</a></li>
+<li><a href="https://threatfox.abuse.ch/">ThreatFox (Abuse.ch)</a></li>
+<li><a href="https://yaraify.abuse.ch/">YARAify (Abuse.ch)</a></li>
 <li><a href="https://www.virustotal.com/">https://www.virustotal.com/</a></li>
 <li><a href="https://www.abuseipdb.com/">Abuse IP DB</a></li>
 <li><a href="https://www.dnsdb.info/">DNSDB or FarSight</a></li>
@@ -344,11 +357,12 @@ The repo is obviously on <a href="https://github.com/sdaaish/link-collection">Gi
 <li><a href="https://canarytokens.org/generate">Canary Tokens</a></li>
 <li><a href="http://dnslog.cn/">DNS Log</a></li>
 <li><a href="https://uncoder.io/">Uncoder</a></li>
+<li><a href="https://dnstwist.it/">DNS Twist</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb6f8722" class="outline-3">
-<h3 id="orgb6f8722"><span class="section-number-3">2.11</span> DDOS</h3>
+<div id="outline-container-org390cad6" class="outline-3">
+<h3 id="org390cad6"><span class="section-number-3">2.11</span> DDOS</h3>
 <div class="outline-text-3" id="text-2-11">
 <ul class="org-ul">
 <li><a href="https://www.akamai.com/us/en/solutions/intelligent-platform/visualizing-akamai/real-time-web-monitor.jsp">Akamai</a></li>
@@ -356,48 +370,51 @@ The repo is obviously on <a href="https://github.com/sdaaish/link-collection">Gi
 </ul>
 </div>
 </div>
-<div id="outline-container-org88e44e7" class="outline-3">
-<h3 id="org88e44e7"><span class="section-number-3">2.12</span> Information Security</h3>
+<div id="outline-container-orgdc5f99a" class="outline-3">
+<h3 id="orgdc5f99a"><span class="section-number-3">2.12</span> Information Security</h3>
 <div class="outline-text-3" id="text-2-12">
 <ul class="org-ul">
 <li><a href="https://www.scribd.com/document/346419905/Antivirus-Event-Analysis-CheatSheet-1-1">Antivirus Event Analysis</a></li>
 <li><a href="https://github.com/PaulSec/DET">Data Exfiltration Tools</a></li>
 <li><a href="https://csf.tools/">Cyber Security Frameworks</a></li>
 <li><a href="https://www.microsoft.com/en-us/download/details.aspx?id=55319">Microsoft Security Compliance Toolkit</a></li>
-<li><a href="https://attack.mitre.org/">Mitre Att&amp;ck Framework</a></li>
+<li><a href="https://attack.mitre.org/">Mitre ATT&amp;CK Framework</a></li>
+<li><a href="https://car.mitre.org/analytics/">Cyber Analytics Repositorey (CAR)</a></li>
 <li><a href="https://www.openrmf.io/">Open Risk Management Framework</a></li>
 <li><a href="https://www.cisecurity.org/">Center of Internet Security</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org39d0371" class="outline-3">
-<h3 id="org39d0371"><span class="section-number-3">2.13</span> Leak information</h3>
+<div id="outline-container-orgce3c7fc" class="outline-3">
+<h3 id="orgce3c7fc"><span class="section-number-3">2.13</span> Leak information</h3>
 <div class="outline-text-3" id="text-2-13">
 <ul class="org-ul">
 <li><a href="https://sec.hpi.uni-potsdam.de/ilc/search?lang=en">HPI Leak Database</a></li>
 <li><a href="https://haveibeenpwned.com/">Have I Been Pwned by Troy Hunt</a></li>
+<li><a href="https://ransomware.live/#/">Ransomware Live</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org137fa33" class="outline-3">
-<h3 id="org137fa33"><span class="section-number-3">2.14</span> Pentesting</h3>
+<div id="outline-container-orgfb6c231" class="outline-3">
+<h3 id="orgfb6c231"><span class="section-number-3">2.14</span> Pentesting</h3>
 <div class="outline-text-3" id="text-2-14">
 <ul class="org-ul">
 <li><a href="https://www.infosecmatter.com/powershell-commands-for-pentesters/">Powershell for pentesters</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org03d49fa" class="outline-3">
-<h3 id="org03d49fa"><span class="section-number-3">2.15</span> Forensic</h3>
+<div id="outline-container-org52fe92d" class="outline-3">
+<h3 id="org52fe92d"><span class="section-number-3">2.15</span> Forensic</h3>
 <div class="outline-text-3" id="text-2-15">
 <ul class="org-ul">
 <li><a href="https://gchq.github.io/CyberChef/">CyberChef</a></li>
 <li><a href="https://github.com/Countercept/chainsaw">F-Secure Chainsaw</a></li>
+<li><a href="https://www.maltego.com/">Maltego</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgfa23416" class="outline-3">
-<h3 id="orgfa23416"><span class="section-number-3">2.16</span> Offensive</h3>
+<div id="outline-container-org3dab5c7" class="outline-3">
+<h3 id="org3dab5c7"><span class="section-number-3">2.16</span> Offensive</h3>
 <div class="outline-text-3" id="text-2-16">
 <ul class="org-ul">
 <li><a href="https://github.com/fatedier/frp">Fast Reverse Proxy</a></li>
@@ -405,12 +422,12 @@ The repo is obviously on <a href="https://github.com/sdaaish/link-collection">Gi
 </div>
 </div>
 </div>
-<div id="outline-container-org005a340" class="outline-2">
-<h2 id="org005a340"><span class="section-number-2">3</span> Other</h2>
+<div id="outline-container-org53cb8cd" class="outline-2">
+<h2 id="org53cb8cd"><span class="section-number-2">3</span> Other</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-org51b0602" class="outline-3">
-<h3 id="org51b0602"><span class="section-number-3">3.1</span> Social</h3>
+<div id="outline-container-orgd9ad054" class="outline-3">
+<h3 id="orgd9ad054"><span class="section-number-3">3.1</span> Social</h3>
 <div class="outline-text-3" id="text-3-1">
 <ul class="org-ul">
 <li><a href="https://mastodon.social/about">https://mastodon.social/about</a></li>
@@ -418,8 +435,8 @@ The repo is obviously on <a href="https://github.com/sdaaish/link-collection">Gi
 </ul>
 </div>
 </div>
-<div id="outline-container-org3a7ff32" class="outline-3">
-<h3 id="org3a7ff32"><span class="section-number-3">3.2</span> Info</h3>
+<div id="outline-container-org6d1d3d1" class="outline-3">
+<h3 id="org6d1d3d1"><span class="section-number-3">3.2</span> Info</h3>
 <div class="outline-text-3" id="text-3-2">
 <ul class="org-ul">
 <li><a href="https://www.malwaretech.com/">https://www.malwaretech.com/</a></li>
@@ -428,17 +445,18 @@ The repo is obviously on <a href="https://github.com/sdaaish/link-collection">Gi
 </ul>
 </div>
 </div>
-<div id="outline-container-org91089e6" class="outline-3">
-<h3 id="org91089e6"><span class="section-number-3">3.3</span> DNS</h3>
+<div id="outline-container-org1807572" class="outline-3">
+<h3 id="org1807572"><span class="section-number-3">3.3</span> DNS</h3>
 <div class="outline-text-3" id="text-3-3">
 <ul class="org-ul">
 <li><a href="https://www.punycoder.com">Punycode converter</a></li>
 <li><a href="https://github.com/aboul3la/Sublist3r">Subdomain Enumerator, Sublist3r</a></li>
+<li><a href="https://digger.tools/">Digger tools</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb2f78bd" class="outline-3">
-<h3 id="orgb2f78bd"><span class="section-number-3">3.4</span> Man</h3>
+<div id="outline-container-orgfe86047" class="outline-3">
+<h3 id="orgfe86047"><span class="section-number-3">3.4</span> Man</h3>
 <div class="outline-text-3" id="text-3-4">
 <ul class="org-ul">
 <li><a href="http://tldr.sh/">TLDR pages</a></li>
@@ -447,8 +465,8 @@ The repo is obviously on <a href="https://github.com/sdaaish/link-collection">Gi
 </ul>
 </div>
 </div>
-<div id="outline-container-org9b5cb97" class="outline-3">
-<h3 id="org9b5cb97"><span class="section-number-3">3.5</span> Emacs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Emacs">Emacs</span></span></h3>
+<div id="outline-container-orgb5945df" class="outline-3">
+<h3 id="orgb5945df"><span class="section-number-3">3.5</span> Emacs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="Emacs">Emacs</span></span></h3>
 <div class="outline-text-3" id="text-3-5">
 <ul class="org-ul">
 <li><a href="http://emacs-bootstrap.com/">Emacs Bootstrap</a></li>
@@ -460,16 +478,16 @@ The repo is obviously on <a href="https://github.com/sdaaish/link-collection">Gi
 </ul>
 </div>
 </div>
-<div id="outline-container-org93fe370" class="outline-3">
-<h3 id="org93fe370"><span class="section-number-3">3.6</span> Administration</h3>
+<div id="outline-container-orgeca7fa0" class="outline-3">
+<h3 id="orgeca7fa0"><span class="section-number-3">3.6</span> Administration</h3>
 <div class="outline-text-3" id="text-3-6">
 <ul class="org-ul">
 <li><a href="https://msportals.io/">Microsoft Portals</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org5ef274a" class="outline-3">
-<h3 id="org5ef274a"><span class="section-number-3">3.7</span> Messaging</h3>
+<div id="outline-container-org2b2ef37" class="outline-3">
+<h3 id="org2b2ef37"><span class="section-number-3">3.7</span> Messaging</h3>
 <div class="outline-text-3" id="text-3-7">
 <ul class="org-ul">
 <li><a href="https://tox.chat/">Tox</a></li>
@@ -478,23 +496,25 @@ The repo is obviously on <a href="https://github.com/sdaaish/link-collection">Gi
 </ul>
 </div>
 </div>
-<div id="outline-container-org0ae7866" class="outline-3">
-<h3 id="org0ae7866"><span class="section-number-3">3.8</span> Tools</h3>
+<div id="outline-container-orgc3222fb" class="outline-3">
+<h3 id="orgc3222fb"><span class="section-number-3">3.8</span> Tools</h3>
 <div class="outline-text-3" id="text-3-8">
 <ul class="org-ul">
 <li><a href="https://www.ventoy.net/en/index.html">Ventoy</a></li>
 <li><a href="https://starship.rs">Starship prompt</a></li>
 <li><a href="https://ohmyposh.dev/">Oh My PoSH</a> prompt</li>
+<li><a href="https://github.com/drakkan/sftpgo">SftpGO</a></li>
+<li><a href="https://github.com/go-gitea/gitea">Gitea</a></li>
 </ul>
 </div>
 </div>
 </div>
-<div id="outline-container-orgdc2b54c" class="outline-2">
-<h2 id="orgdc2b54c"><span class="section-number-2">4</span> Dev</h2>
+<div id="outline-container-org4e56d62" class="outline-2">
+<h2 id="org4e56d62"><span class="section-number-2">4</span> Dev</h2>
 <div class="outline-text-2" id="text-4">
 </div>
-<div id="outline-container-orgabc54a0" class="outline-3">
-<h3 id="orgabc54a0"><span class="section-number-3">4.1</span> Sharing</h3>
+<div id="outline-container-org346a407" class="outline-3">
+<h3 id="org346a407"><span class="section-number-3">4.1</span> Sharing</h3>
 <div class="outline-text-3" id="text-4-1">
 <ul class="org-ul">
 <li><a href="https://transfer.sh/">https://transfer.sh/</a></li>
@@ -506,8 +526,8 @@ The repo is obviously on <a href="https://github.com/sdaaish/link-collection">Gi
 </ul>
 </div>
 </div>
-<div id="outline-container-org34450f2" class="outline-3">
-<h3 id="org34450f2"><span class="section-number-3">4.2</span> Powershell</h3>
+<div id="outline-container-org27e12dd" class="outline-3">
+<h3 id="org27e12dd"><span class="section-number-3">4.2</span> Powershell</h3>
 <div class="outline-text-3" id="text-4-2">
 <ul class="org-ul">
 <li><a href="https://peter.hahndorf.eu/blog/WindowsFeatureViaCmd.html">Different ways for installing Windows features on the command line - Peter Hahndorf - peter.hahndorf.eu</a></li>
@@ -526,43 +546,65 @@ The repo is obviously on <a href="https://github.com/sdaaish/link-collection">Gi
 </ul>
 </div>
 </div>
-<div id="outline-container-org102d909" class="outline-3">
-<h3 id="org102d909"><span class="section-number-3">4.3</span> Python</h3>
+<div id="outline-container-org00e557f" class="outline-3">
+<h3 id="org00e557f"><span class="section-number-3">4.3</span> Python</h3>
 <div class="outline-text-3" id="text-4-3">
 <ul class="org-ul">
 <li><a href="http://pypyjs.org/">Online python environment.</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org62a5707" class="outline-3">
-<h3 id="org62a5707"><span class="section-number-3">4.4</span> Git</h3>
+<div id="outline-container-orgeb442a8" class="outline-3">
+<h3 id="orgeb442a8"><span class="section-number-3">4.4</span> Git</h3>
 <div class="outline-text-3" id="text-4-4">
 <ul class="org-ul">
 <li><a href="https://github.com/mkchoi212/fac#readme">Fix All Conflicts</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orga5763bf" class="outline-3">
-<h3 id="orga5763bf"><span class="section-number-3">4.5</span> Windows</h3>
+<div id="outline-container-orga563a68" class="outline-3">
+<h3 id="orga563a68"><span class="section-number-3">4.5</span> Windows</h3>
 <div class="outline-text-3" id="text-4-5">
 <ul class="org-ul">
 <li><a href="https://arno0x0x.wordpress.com/2017/11/20/windows-oneliners-to-download-remote-payload-and-execute-arbitrary-code/">Windows Oneliners for remote download</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf09e40a" class="outline-3">
-<h3 id="orgf09e40a"><span class="section-number-3">4.6</span> Linux</h3>
+<div id="outline-container-org3541512" class="outline-3">
+<h3 id="org3541512"><span class="section-number-3">4.6</span> Linux</h3>
 <div class="outline-text-3" id="text-4-6">
 <ul class="org-ul">
 <li><a href="https://github.com/dylanaraps/pure-bash-bible/blob/master/README.md">Pure Bash Bible</a></li>
 <li><a href="https://github.com/redcode-labs/easyWSL">easy WSL</a> :Docker:Windows:</li>
 <li><a href="https://pkgs.org/">Package finder</a></li>
 <li><a href="https://repology.org/">Repology, package hub</a></li>
+<li><a href="https://distrobox.it/">Distrobox</a></li>
+<li><a href="https://en.opensuse.org/Portal:Aeon">SuSE Aeon</a></li>
+<li><a href="https://documentation.ubuntu.com/lxd/en/latest/">Ubuntu LXD/LXC</a></li>
+<li><a href="https://linuxcontainers.org/">Linux containers (LXC)</a></li>
+<li><a href="https://linuxcontainers.org/incus/">Incus, LXC</a></li>
+</ul>
+</div>
+<div id="outline-container-org89560ea" class="outline-4">
+<h4 id="org89560ea"><span class="section-number-4">4.6.1</span> Kubernetes</h4>
+<div class="outline-text-4" id="text-4-6-1">
+<ul class="org-ul">
+<li><a href="https://k3s.io/">K3S</a></li>
+<li><a href="https://kubernetes.io/">K8S</a></li>
+<li><a href="https://rke.docs.rancher.com/">RKE</a></li>
+<li><a href="https://www.cncf.io/projects/">CNCF, Cloud Native Computing Foundation</a>
+<ul class="org-ul">
+<li><a href="https://landscape.cncf.io/guide#introduction">CNCF Landscape</a></li>
+</ul></li>
+<li><a href="https://www.rancher.com/">Rancher</a></li>
+<li><a href="https://docs.harvesterhci.io/v1.2">Harvester</a></li>
+<li><a href="https://longhorn.io/">Longhorn</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org856321b" class="outline-3">
-<h3 id="org856321b"><span class="section-number-3">4.7</span> Web</h3>
+</div>
+<div id="outline-container-orgfd6be36" class="outline-3">
+<h3 id="orgfd6be36"><span class="section-number-3">4.7</span> Web</h3>
 <div class="outline-text-3" id="text-4-7">
 <ul class="org-ul">
 <li><a href="https://jwt.io/">JSON Web Token converter</a></li>
@@ -570,8 +612,8 @@ The repo is obviously on <a href="https://github.com/sdaaish/link-collection">Gi
 </ul>
 </div>
 </div>
-<div id="outline-container-org80c0e7f" class="outline-3">
-<h3 id="org80c0e7f"><span class="section-number-3">4.8</span> Regex</h3>
+<div id="outline-container-org830aac1" class="outline-3">
+<h3 id="org830aac1"><span class="section-number-3">4.8</span> Regex</h3>
 <div class="outline-text-3" id="text-4-8">
 <ul class="org-ul">
 <li><a href="https://regexr.com/">RegExr</a></li>
@@ -579,8 +621,8 @@ The repo is obviously on <a href="https://github.com/sdaaish/link-collection">Gi
 </ul>
 </div>
 </div>
-<div id="outline-container-orgd89cfcd" class="outline-3">
-<h3 id="orgd89cfcd"><span class="section-number-3">4.9</span> LCM</h3>
+<div id="outline-container-orgf93db8b" class="outline-3">
+<h3 id="orgf93db8b"><span class="section-number-3">4.9</span> LCM</h3>
 <div class="outline-text-3" id="text-4-9">
 <ul class="org-ul">
 <li><a href="https://github.com/anchore/grype">Grype, vulnerability scanner</a></li>
@@ -589,13 +631,22 @@ The repo is obviously on <a href="https://github.com/sdaaish/link-collection">Gi
 </ul>
 </div>
 </div>
+<div id="outline-container-orgc4740d6" class="outline-3">
+<h3 id="orgc4740d6"><span class="section-number-3">4.10</span> Search</h3>
+<div class="outline-text-3" id="text-4-10">
+<ul class="org-ul">
+<li><a href="https://grep.app/">Grep APP</a></li>
+<li><a href="https://searchcode.com/api/">Search code</a></li>
+</ul>
 </div>
-<div id="outline-container-org17229db" class="outline-2">
-<h2 id="org17229db"><span class="section-number-2">5</span> Network</h2>
+</div>
+</div>
+<div id="outline-container-orgfd8ae59" class="outline-2">
+<h2 id="orgfd8ae59"><span class="section-number-2">5</span> Network</h2>
 <div class="outline-text-2" id="text-5">
 </div>
-<div id="outline-container-orgff777f6" class="outline-3">
-<h3 id="orgff777f6"><span class="section-number-3">5.1</span> Tools</h3>
+<div id="outline-container-orga8428ab" class="outline-3">
+<h3 id="orga8428ab"><span class="section-number-3">5.1</span> Tools</h3>
 <div class="outline-text-3" id="text-5-1">
 <ul class="org-ul">
 <li><a href="https://www.wireshark.org/">Wireshark</a></li>
@@ -603,8 +654,8 @@ The repo is obviously on <a href="https://github.com/sdaaish/link-collection">Gi
 </ul>
 </div>
 </div>
-<div id="outline-container-orga23baca" class="outline-3">
-<h3 id="orga23baca"><span class="section-number-3">5.2</span> Addressing stuff</h3>
+<div id="outline-container-orgb09715f" class="outline-3">
+<h3 id="orgb09715f"><span class="section-number-3">5.2</span> Addressing stuff</h3>
 <div class="outline-text-3" id="text-5-2">
 <p>
 Including LIR and IPv4, IPv6 addressing.
@@ -614,8 +665,8 @@ Including LIR and IPv4, IPv6 addressing.
 </ul>
 </div>
 </div>
-<div id="outline-container-orgd88a813" class="outline-3">
-<h3 id="orgd88a813"><span class="section-number-3">5.3</span> IPAM</h3>
+<div id="outline-container-org56ded8f" class="outline-3">
+<h3 id="org56ded8f"><span class="section-number-3">5.3</span> IPAM</h3>
 <div class="outline-text-3" id="text-5-3">
 <ul class="org-ul">
 <li><a href="https://github.com/digitalocean/netbox">digitalocean/netbox: IP address management (IPAM) and data center infrastructure management (DCIM) tool. - github.com</a></li>
@@ -626,16 +677,16 @@ Including LIR and IPv4, IPv6 addressing.
 </ul>
 </div>
 </div>
-<div id="outline-container-orgc9f359d" class="outline-3">
-<h3 id="orgc9f359d"><span class="section-number-3">5.4</span> Devices</h3>
+<div id="outline-container-org2302d72" class="outline-3">
+<h3 id="org2302d72"><span class="section-number-3">5.4</span> Devices</h3>
 <div class="outline-text-3" id="text-5-4">
 <ul class="org-ul">
 <li><a href="http://www.midbittech.com/">Shark tap: midBit Technologies</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org354ffc7" class="outline-3">
-<h3 id="org354ffc7"><span class="section-number-3">5.5</span> Blogs</h3>
+<div id="outline-container-org56ce826" class="outline-3">
+<h3 id="org56ce826"><span class="section-number-3">5.5</span> Blogs</h3>
 <div class="outline-text-3" id="text-5-5">
 <ul class="org-ul">
 <li><a href="http://packetpushers.net/series/briefings-in-brief/">Packet Pushers</a></li>
@@ -645,12 +696,12 @@ Including LIR and IPv4, IPv6 addressing.
 </div>
 </div>
 </div>
-<div id="outline-container-org9e05888" class="outline-2">
-<h2 id="org9e05888"><span class="section-number-2">6</span> Collections</h2>
+<div id="outline-container-orga0257ad" class="outline-2">
+<h2 id="orga0257ad"><span class="section-number-2">6</span> Collections</h2>
 <div class="outline-text-2" id="text-6">
 </div>
-<div id="outline-container-orgc327e64" class="outline-3">
-<h3 id="orgc327e64"><span class="section-number-3">6.1</span> Generic</h3>
+<div id="outline-container-org7665194" class="outline-3">
+<h3 id="org7665194"><span class="section-number-3">6.1</span> Generic</h3>
 <div class="outline-text-3" id="text-6-1">
 <ul class="org-ul">
 <li><a href="https://github.com/sindresorhus/awesome">Awesome list of lists</a></li>
@@ -668,32 +719,32 @@ Including LIR and IPv4, IPv6 addressing.
 </ul>
 </div>
 </div>
-<div id="outline-container-org939fe0d" class="outline-3">
-<h3 id="org939fe0d"><span class="section-number-3">6.2</span> Network security</h3>
+<div id="outline-container-orge1b79f4" class="outline-3">
+<h3 id="orge1b79f4"><span class="section-number-3">6.2</span> Network security</h3>
 <div class="outline-text-3" id="text-6-2">
 <ul class="org-ul">
 <li><a href="https://www.wordfence.com/blog/2017/04/tools-for-security-analysts/">Wordfence sec-tools</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org0cd65d8" class="outline-3">
-<h3 id="org0cd65d8"><span class="section-number-3">6.3</span> Hacking</h3>
+<div id="outline-container-org64ac9e5" class="outline-3">
+<h3 id="org64ac9e5"><span class="section-number-3">6.3</span> Hacking</h3>
 <div class="outline-text-3" id="text-6-3">
 <ul class="org-ul">
 <li><a href="http://www.kitploit.com/">http://www.kitploit.com/</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orge750938" class="outline-3">
-<h3 id="orge750938"><span class="section-number-3">6.4</span> Incident Response</h3>
+<div id="outline-container-orga19a951" class="outline-3">
+<h3 id="orga19a951"><span class="section-number-3">6.4</span> Incident Response</h3>
 <div class="outline-text-3" id="text-6-4">
 <ul class="org-ul">
 <li><a href="https://github.com/meirwah/awesome-incident-response">Awesome Incident Response</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgae77c77" class="outline-3">
-<h3 id="orgae77c77"><span class="section-number-3">6.5</span> Cheat Sheets</h3>
+<div id="outline-container-org46b1b35" class="outline-3">
+<h3 id="org46b1b35"><span class="section-number-3">6.5</span> Cheat Sheets</h3>
 <div class="outline-text-3" id="text-6-5">
 <ul class="org-ul">
 <li><a href="https://github.com/r1cksec/cheatsheets">https://github.com/r1cksec/cheatsheets</a></li>
@@ -701,12 +752,12 @@ Including LIR and IPv4, IPv6 addressing.
 </div>
 </div>
 </div>
-<div id="outline-container-org7023b00" class="outline-2">
-<h2 id="org7023b00"><span class="section-number-2">7</span> Reading</h2>
+<div id="outline-container-orgfdeff19" class="outline-2">
+<h2 id="orgfdeff19"><span class="section-number-2">7</span> Reading</h2>
 <div class="outline-text-2" id="text-7">
 </div>
-<div id="outline-container-org13a45fe" class="outline-3">
-<h3 id="org13a45fe"><span class="section-number-3">7.1</span> News</h3>
+<div id="outline-container-org256180b" class="outline-3">
+<h3 id="org256180b"><span class="section-number-3">7.1</span> News</h3>
 <div class="outline-text-3" id="text-7-1">
 <ul class="org-ul">
 <li><a href="https://www.bleepingcomputer.com/">https://www.bleepingcomputer.com/</a></li>
@@ -717,16 +768,16 @@ Including LIR and IPv4, IPv6 addressing.
 </ul>
 </div>
 </div>
-<div id="outline-container-orgaa1f970" class="outline-3">
-<h3 id="orgaa1f970"><span class="section-number-3">7.2</span> OS</h3>
+<div id="outline-container-org513ad50" class="outline-3">
+<h3 id="org513ad50"><span class="section-number-3">7.2</span> OS</h3>
 <div class="outline-text-3" id="text-7-2">
 <ul class="org-ul">
 <li><a href="http://pages.cs.wisc.edu/~remzi/OSTEP/">Ostep.org</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org0e8d42f" class="outline-3">
-<h3 id="org0e8d42f"><span class="section-number-3">7.3</span> Computerinfo</h3>
+<div id="outline-container-org47d45c5" class="outline-3">
+<h3 id="org47d45c5"><span class="section-number-3">7.3</span> Computerinfo</h3>
 <div class="outline-text-3" id="text-7-3">
 <ul class="org-ul">
 <li><a href="https://www.howtogeek.com/">HowTo Geek</a></li>
@@ -735,16 +786,16 @@ Including LIR and IPv4, IPv6 addressing.
 </ul>
 </div>
 </div>
-<div id="outline-container-org7b13e44" class="outline-3">
-<h3 id="org7b13e44"><span class="section-number-3">7.4</span> Forensics</h3>
+<div id="outline-container-org412f233" class="outline-3">
+<h3 id="org412f233"><span class="section-number-3">7.4</span> Forensics</h3>
 <div class="outline-text-3" id="text-7-4">
 <ul class="org-ul">
 <li><a href="https://www.sans.org/summit-archives/file/summit-archive-1493740486.pdf">SANS Forensics with ELK</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgcb96f0d" class="outline-3">
-<h3 id="orgcb96f0d"><span class="section-number-3">7.5</span> Network</h3>
+<div id="outline-container-orgf262801" class="outline-3">
+<h3 id="orgf262801"><span class="section-number-3">7.5</span> Network</h3>
 <div class="outline-text-3" id="text-7-5">
 <ul class="org-ul">
 <li><a href="https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/">DNS over HTTPS Cartoon Intro</a></li>
@@ -752,8 +803,8 @@ Including LIR and IPv4, IPv6 addressing.
 </ul>
 </div>
 </div>
-<div id="outline-container-orgfe5f068" class="outline-3">
-<h3 id="orgfe5f068"><span class="section-number-3">7.6</span> Security</h3>
+<div id="outline-container-orgdf35a14" class="outline-3">
+<h3 id="orgdf35a14"><span class="section-number-3">7.6</span> Security</h3>
 <div class="outline-text-3" id="text-7-6">
 <ul class="org-ul">
 <li><a href="https://kalilinuxtutorials.com/">Kali Tutorials</a></li>
@@ -761,8 +812,8 @@ Including LIR and IPv4, IPv6 addressing.
 </ul>
 </div>
 </div>
-<div id="outline-container-org7d77c86" class="outline-3">
-<h3 id="org7d77c86"><span class="section-number-3">7.7</span> Humor</h3>
+<div id="outline-container-org9342b8a" class="outline-3">
+<h3 id="org9342b8a"><span class="section-number-3">7.7</span> Humor</h3>
 <div class="outline-text-3" id="text-7-7">
 <ul class="org-ul">
 <li><a href="https://www.gnu.org/fun/jokes/users-lightbulb.en.html">Lightbulbs</a></li>
@@ -773,23 +824,25 @@ Including LIR and IPv4, IPv6 addressing.
 </div>
 </div>
 </div>
-<div id="outline-container-org3c025fb" class="outline-2">
-<h2 id="org3c025fb"><span class="section-number-2">8</span> Training</h2>
+<div id="outline-container-org12a9bb7" class="outline-2">
+<h2 id="org12a9bb7"><span class="section-number-2">8</span> Training</h2>
 <div class="outline-text-2" id="text-8">
 </div>
-<div id="outline-container-orge34cd96" class="outline-3">
-<h3 id="orge34cd96"><span class="section-number-3">8.1</span> Dev</h3>
+<div id="outline-container-org505128c" class="outline-3">
+<h3 id="org505128c"><span class="section-number-3">8.1</span> Dev</h3>
 <div class="outline-text-3" id="text-8-1">
 <ul class="org-ul">
 <li><a href="https://learnxinyminutes.com/">Learn X in Y minutes</a></li>
 <li><a href="https://goalkicker.com/">Notes for Professionals</a></li>
 <li><a href="https://leanpub.com/u/devopscollective">DevOps Collective on LeanPub</a></li>
+<li><a href="https://devdocs.io/">Dev Docs</a></li>
+<li><a href="https://cheat.sh/">Cheat.sh</a></li>
 </ul>
 </div>
 </div>
 </div>
-<div id="outline-container-org73ab5a1" class="outline-2">
-<h2 id="org73ab5a1"><span class="section-number-2">9</span> About</h2>
+<div id="outline-container-orgd921f32" class="outline-2">
+<h2 id="orgd921f32"><span class="section-number-2">9</span> About</h2>
 <div class="outline-text-2" id="text-9">
 <ul class="org-ul">
 <li><a href="README.html">README</a></li>
@@ -798,7 +851,7 @@ Including LIR and IPv4, IPv6 addressing.
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2024-01-26 Fri 08:40</p>
+<p class="date">Created: 2024-01-26 Fri 23:54</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
