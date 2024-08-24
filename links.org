@@ -173,6 +173,11 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 - [[https://www.maltego.com/][Maltego]]
 ** Offensive
 + [[https://github.com/fatedier/frp][Fast Reverse Proxy]]
+** Automation
+- [[https://ludus.cloud/][Ludus automated tests]]
+- [[https://automatedlab.org/en/latest/][Automated Lab]]
+- [[https://github.com/Orange-Cyberdefense/GOAD][Game of Active Directory]]
+- [[https://www.netsecfocus.com/infosec/walkthrough/2024/08/21/Setting_up_and_Installing_GOAD_or_GOAD-Light_on_VMware_ESXI.html][GOAD on ESXi]]
 * Other
 ** Social
 + https://mastodon.social/about
@@ -196,6 +201,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 - [[https://www.emacswiki.org/emacs/StarterKits][Emacs Starter Kits]]
 - [[https://www.masteringemacs.org/][Mastering Emacs]]
 - [[http://xahlee.info/emacs/emacs/emacs.html][Xah Lee Emacs Tutorial]]
+- [[https://emacsdocs.org/docs/emacs/The-Emacs-Editor][Emacs docmentation]]
 ** Administration
 - [[https://msportals.io/][Microsoft Portals]]
 ** Messaging
@@ -208,6 +214,8 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://ohmyposh.dev/][Oh My PoSH]] prompt
 + [[https://github.com/drakkan/sftpgo][SftpGO]]
 + [[https://github.com/go-gitea/gitea][Gitea]]
++ [[https://www.chezmoi.io/][Chezmoi, dotfiles manager]]
++ [[https://dinopass.com/][Dino password generator]]
 * Dev
 ** Sharing
 + https://transfer.sh/
@@ -300,7 +308,6 @@ Including LIR and IPv4, IPv6 addressing.
 + [[https://github.com/webpro/awesome-dotfiles][Awesome dotfiles]]
 + [[https://cipher387.github.io/osint_stuff_tool_collection/][OSINT Stuff Collection]]
 + [[https://github.com/cipher387/Dorks-collections-list][Dorks Collection]]
-+ [[https://www.chezmoi.io/][Chezmoi, dotfiles manager]]
 ** Network security
 + [[https://www.wordfence.com/blog/2017/04/tools-for-security-analysts/][Wordfence sec-tools]]
 ** Hacking
