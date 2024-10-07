@@ -167,6 +167,9 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 - [[https://sec.hpi.uni-potsdam.de/ilc/search?lang=en][HPI Leak Database]]
 - [[https://haveibeenpwned.com/][Have I Been Pwned by Troy Hunt]]
 - [[https://ransomware.live/#/][Ransomware Live]]
+** Secrets
+- [[http://www.nitrxgen.net/md5db/][MD5 hash database]]
+- [[https://crackstation.net/][Crackstation, brute force passwords]]
 ** Pentesting
 - [[https://www.infosecmatter.com/powershell-commands-for-pentesters/][Powershell for pentesters]]
 ** Forensic
