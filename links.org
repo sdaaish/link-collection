@@ -74,6 +74,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://www.graylog.org/][GrayLog]]
 + [[https://www.elastic.co/products/beats/packetbeat][Elastic PacketBeat]]
 + [[https://www.malwarearchaeology.com/cheat-sheets/][Malware Archaeology]]
++ [[https://timesketch.org/][TimeSketch]]
 ** Network
 + [[https://nmap.org/][NMAP]]
 + [[https://npcap.com/][NPCAP]]
@@ -103,7 +104,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + https://thehive-project.org/
 + [[https://docs.velociraptor.app/docs/overview/][Velicoraptor]]
 + [[https://wazuh.com/][Wazuh]]
-** Malware 
+** Malware
 + https://www.nomoreransom.org/
 + [[https://malware-hunter.shodan.io/][Malwares on Shodan]]
 + [[https://any.run/][Any.run, free malware sandbox]]
@@ -125,6 +126,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 - [[http://rocknsm.io/][ROCK NSM]]
 - [[https://github.com/davehull/Kansa][Kansa Incident Framework]]
 - [[https://ericzimmerman.github.io/#!index.md][Eric Zimmerman's tools]]
+- [[https://github.com/A-poc/BlueTeam-Tools][Blue Team Tools]]
 ** Threat Intelligence
 + [[https://securityintelligence.com/signature-based-detection-with-yara/][Yara rules]]
 + [[https://oasis-open.github.io/cti-documentation/taxii/intro.html][STIX]]
@@ -151,6 +153,10 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[http://dnslog.cn/][DNS Log]]
 + [[https://uncoder.io/][Uncoder]]
 + [[https://dnstwist.it/][DNS Twist]]
++ [[https://docs.opencti.io/latest/][OpenCTI]]
++ [[https://github.com/stanfrbd/cyberbro][CyberBro]]
++ [[https://github.com/intelowlproject/IntelOwl][IntelOwl]]
++ [[https://yeti-platform.io/][YETI]]
 ** DDOS
 - [[https://www.akamai.com/us/en/solutions/intelligent-platform/visualizing-akamai/real-time-web-monitor.jsp][Akamai]]
 - [[http://www.digitalattackmap.com/][DigitalAttackmap]]
@@ -160,6 +166,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 - [[https://csf.tools/][Cyber Security Frameworks]]
 - [[https://www.microsoft.com/en-us/download/details.aspx?id=55319][Microsoft Security Compliance Toolkit]]
 - [[https://attack.mitre.org/][Mitre ATT&CK Framework]]
+- [[https://www.unifiedkillchain.com/][Unified Killchain]]
 - [[https://car.mitre.org/analytics/][Cyber Analytics Repositorey (CAR)]]
 - [[https://www.openrmf.io/][Open Risk Management Framework]]
 - [[https://www.cisecurity.org/][Center of Internet Security]]
@@ -176,8 +183,10 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 - [[https://gchq.github.io/CyberChef/][CyberChef]]
 - [[https://github.com/Countercept/chainsaw][F-Secure Chainsaw]]
 - [[https://www.maltego.com/][Maltego]]
+- [[https://github.com/google/osdfir-infrastructure][OSDFIR infrastructure]]
 ** Offensive
 + [[https://github.com/fatedier/frp][Fast Reverse Proxy]]
++ [[https://github.com/A-poc/RedTeam-Tools][Red Team Tools]]
 ** Automation
 - [[https://ludus.cloud/][Ludus automated tests]]
 - [[https://automatedlab.org/en/latest/][Automated Lab]]
@@ -188,7 +197,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + https://mastodon.social/about
 + [[https://infosec.exchange/about][Infosec Exchange]]
 ** Info
-+ https://www.malwaretech.com/ 
++ https://www.malwaretech.com/
 + https://sans.org/
 + [[https://thedfirreport.com/][The DFIR Report]]
 ** DNS
@@ -221,6 +230,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://github.com/go-gitea/gitea][Gitea]]
 + [[https://www.chezmoi.io/][Chezmoi, dotfiles manager]]
 + [[https://dinopass.com/][Dino password generator]]
++ [[https://it-tools.tech/][IT-Tools]]
 * Dev
 ** Sharing
 + https://transfer.sh/
@@ -245,6 +255,7 @@ The repo is obviously on [[https://github.com/sdaaish/link-collection][GitHub]].
 + [[https://www.powershellgallery.com/][PowerShell Gallery]]
 ** Python
 - [[http://pypyjs.org/][Online python environment.]]
+- [[https://docs.astral.sh/uv/][UV, python package manager]]
 ** Git
 + [[https://github.com/mkchoi212/fac#readme][Fix All Conflicts]]
 ** Windows
@@ -336,7 +347,7 @@ Including LIR and IPv4, IPv6 addressing.
 + [[https://www.cyberciti.biz/][nixCraft]]
 ** Forensics
 + [[https://www.sans.org/summit-archives/file/summit-archive-1493740486.pdf][SANS Forensics with ELK]]
-** Network 
+** Network
 - [[https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/][DNS over HTTPS Cartoon Intro]]
 - [[http://dns-channel.github.io/][DNS related info]]
 ** Security
